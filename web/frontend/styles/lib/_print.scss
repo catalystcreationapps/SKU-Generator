@@ -1,0 +1,94 @@
+.print-preview {
+  width: 170mm;
+}
+
+.pos-preview {
+  .print-preview {
+    width: 80mm;
+    margin: auto;
+  }
+}
+// Global
+@media print {
+  @page {
+    margin: 0;
+  }
+}
+
+.printer-page {
+  @media print {
+    .printer-page * {
+      visibility: hidden !important;
+    }
+
+    .hide-on-print {
+      display: none !important;
+    }
+
+    // .print-preview__wrapper:first-child .print-preview,
+    // .print-preview--single {
+    //   break-before: avoid-page !important;
+    //   page-break-before: avoid !important;
+    // }
+
+    .print-preview {
+      margin: 0 0.6cm;
+      margin-left: 0.3cm;
+      padding: 0 0.6cm;
+      // break-before: page;
+      // page-break-before: always;
+      // break-after: avoid-page;
+      // page-break-after: avoid;
+      overflow: hidden;
+      clear: both;
+      -webkit-print-color-adjust: exact;
+      break-inside: avoid-page;
+      break-before: always !important;
+      break-after: always;
+      width: 100%;
+      zoom: 1 !important;
+
+      .header {
+        margin-top: 1.5cm;
+        break-inside: avoid;
+      }
+    }
+
+    .print-preview,
+    .print-preview * {
+      visibility: visible !important;
+    }
+
+    [contenteditable="true"]:active,
+    [contenteditable="true"]:focus {
+      border: none;
+      outline: none;
+      border-radius: 0;
+    }
+
+    .Polaris-Frame__TopBar,
+    .Polaris-Frame__Navigation,
+    .Polaris-Page-Header,
+    .Polaris-Box,
+    .print-preview__wrapper .Polaris-Card__Section:first-child // print preview header
+    {
+      display: none;
+    }
+
+    .Polaris-Frame__Main,
+    .Polaris-Page,
+    .Polaris-Page--fullWidth,
+    .Polaris-Page__Content,
+    .Polaris-Layout__Section,
+    .print-preview__box {
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+  }
+}
+// Bug fix joyride
+@media print {
+  #react-joyride-portal {
+    display: none;
+  }
+}

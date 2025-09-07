@@ -1,0 +1,462 @@
+{
+  "Dashboard": {
+    "heading": "Bảng điều khiển",
+    "askReviewBanner": {
+      "heading": "Xin chào, Chào mừng bạn đến với F: SKU Code Generator 👋",
+      "content": {
+        "line1": "Để lại đánh giá và truyền cảm hứng cho chúng tôi để đạt đến tầm cao mới!",
+        "line2": "Kinh nghiệm của bạn với F: SKU Code Generator như thế nào?",
+        "line3": "✨ Giọng nói của bạn quan trọng — Giúp chúng tôi đổi mới và phát triển cùng nhau!",
+        "button": "Viết nhận xét"
+      },
+      "modal": {
+        "heading": "Đánh giá trải nghiệm của bạn",
+        "subHeading": "Bạn đánh giá trải nghiệm của mình với ứng dụng của chúng tôi như thế nào?",
+        "content": {
+          "line1": "Phản hồi của bạn rất có giá trị đối với chúng tôi!",
+          "line2": "Cảm ơn bạn đã dành thời gian để chia sẻ suy nghĩ của bạn. Đánh giá của bạn giúp chúng tôi cải thiện và cung cấp dịch vụ tốt hơn."
+        },
+        "cancel": "Đóng"
+      }
+    },
+    "blackFridayBanner": {
+      "heading": "Ưu đãi đặc biệt Thứ Sáu Đen",
+      "subHeading": "Trong một thời gian giới hạn, hãy nhận tháng đầu tiên của gói Pro Monthly chỉ với $1! Đừng bỏ lỡ cơ hội này để tăng cường quản lý SKU của bạn với mức giá cạnh tranh nhất",
+      "list": {
+        "first": "Tạo SKU không giới hạn",
+        "second": "Tùy chọn tùy chỉnh nâng cao",
+        "third": "Hỗ trợ ưu tiên",
+        "fourth": "Bộ phân tích đầy đủ"
+      },
+      "offerTimer": {
+        "label": "Ưu đãi kết thúc vào",
+        "offerEnds": "Thời gian đã hết",
+        "content": "Giá thông thường: $39/tháng",
+        "button": "Yêu cầu ưu đãi $1 của bạn ngay bây giờ",
+        "modal": {
+          "heading": "Bạn có muốn thay đổi kế hoạch hiện tại?",
+          "continue": "Tiếp tục",
+          "cancel": "Hủy"
+        }
+      }
+    },
+    "infoCards": {
+      "card1": {
+        "label": "SKU đã tạo",
+        "value": "SKU"
+      },
+      "card2": {
+        "label": "Sản phẩm mới được thêm",
+        "value": "Sản phẩm"
+      },
+      "card3": {
+        "label": "Tín dụng còn lại",
+        "value": "Không giới hạn"
+      },
+      "card4": {
+        "label": "Kế hoạch hiện tại"
+      }
+    },
+    "historyOrProgressCard": {
+      "heading": "Tiến độ tạo SKU/Lịch sử",
+      "link": " Xem lịch sử đầy đủ",
+      "table": {
+        "emptyData": {
+          "heading": "Không có việc làm",
+          "content": "Có vẻ như không có công việc nào để hiển thị tại thời điểm này. Vui lòng kiểm tra lại sau hoặc liên hệ với bộ phận hỗ trợ nếu bạn nghĩ đây là lỗi.",
+          "contact": "Liên hệ với chúng tôi",
+          "generate": "Tạo SKU"
+        },
+        "column1": "ID công việc",
+        "column2": "Ngày tạo",
+        "column3": "Số lượng sản phẩm",
+        "column4": "Trạng thái",
+        "column5": "Tiến độ",
+        "column6": "Thời gian còn lại"
+      }
+    },
+    "recommendedApps": {
+      "heading": "Ứng dụng được đề xuất",
+      "subHeading": "Nâng cao cửa hàng của bạn với các ứng dụng được xếp hạng hàng đầu này",
+      "button": "Cài đặt",
+      "app1": {
+        "category": "Hóa đơn và biên lai",
+        "content": "Tạo hóa đơn tùy chỉnh, phiếu đóng gói và bản in đơn đặt hàng một cách dễ dàng. Gửi hóa đơn chuyên nghiệp qua email và hợp lý hóa việc xử lý đơn hàng."
+      },
+      "app2": {
+        "category": "Vận chuyển, SKU và mã vạch",
+        "content": "Trình tạo mã vạch bán lẻ dễ dàng. In nhãn mã vạch bán lẻ cho sản phẩm. UPC và GTIN được hỗ trợ."
+      },
+      "app3": {
+        "category": "Thuế, Giá cả - Khác",
+        "content": "Ứng dụng B2B để hiển thị giá đã bao gồm VAT và chưa bao gồm VAT cùng nhau. Xác thực ID VAT của EU bằng VIES."
+      },
+      "app4": {
+        "category": "Gói sản phẩm, Giảm giá",
+        "content": "Ứng dụng này cho phép bạn tạo các gói sản phẩm hấp dẫn, tăng AOV và doanh thu với Mix and Match."
+      }
+    }
+  },
+  "SkuGenerate": {
+    "heading": "Tạo SKU cho sản phẩm của bạn",
+    "helpUrl": {
+      "line1": "Gặp vấn đề?",
+      "line2": "Gửi vé"
+    },
+    "basicRules": {
+      "heading": "Quy tắc cơ bản",
+      "column1": {
+        "label": "Tiền tố",
+        "helpText": "Giá trị bắt đầu của SKU"
+      },
+      "column2": {
+        "label": "Cơ thể",
+        "helpText": "Bắt đầu số được tạo"
+      },
+      "column3": {
+        "label": "Hậu tố",
+        "helpText": "Giá trị kết thúc của SKU"
+      },
+      "radioButtons": {
+        "option1": {
+          "label": "Số liên tiếp",
+          "helpText": "Tạo SKU với các số tuần tự như 1, 2, 3, 4, v.v."
+        },
+        "option2": {
+          "label": "Tiếp tục từ thế hệ SKU cuối cùng",
+          "helpText": "Tiếp tục đánh số từ SKU được tạo cuối cùng trong lô trước.",
+          "tooltipContent": "Chỉ có thể truy cập cho người dùng có gói trả phí"
+        },
+        "option3": {
+          "label": "Vô hiệu hóa số cơ thể",
+          "helpText": "SKU sẽ không bao gồm một thành phần số trong phần thân."
+        },
+        "option4": {
+          "label": "Sử dụng ID sản phẩm làm số",
+          "helpText": "Kết hợp mã định danh duy nhất của sản phẩm vào SKU."
+        },
+        "option5": {
+          "label": "Sử dụng ID biến thể làm số",
+          "helpText": "Sử dụng mã định danh duy nhất của mẫu mã cho các sản phẩm có nhiều tùy chọn."
+        },
+        "option6": {
+          "label": "Sử dụng số ngẫu nhiên",
+          "helpText": "Tạo một số ngẫu nhiên cho mỗi SKU.",
+          "numberField": "Độ dài số ngẫu nhiên"
+        }
+      },
+      "layout": {
+        "heading": "Đặt bố cục SKU:",
+        "helpText": "Kkéo và thả để sắp xếp lại các thành phần như bạn muốn"
+      }
+    },
+    "separator": {
+      "heading": "Dấu tách",
+      "label": "Giá trị",
+      "helpText": "Giá trị sẽ chèn giữa tiền tố, nội dung và hậu tố",
+      "delimeters": {
+        "heading": "Sử dụng Dấu phân cách:",
+        "radioButton": "Không sử dụng",
+        "checkBox": "Dấu phân cách tiền tố"
+      },
+      "productVendor": {
+        "heading": "Nhà cung cấp sản phẩm:",
+        "line1": "Không được sử dụng",
+        "line2": "Nhân vật đầu tiên",
+        "line3": "2 ký tự đầu tiên",
+        "line4": "3 ký tự đầu tiên",
+        "line5": "4 ký tự đầu tiên"
+      },
+      "productType": {
+        "heading": "Loại sản phẩm:",
+        "line1": "Không được sử dụng",
+        "line2": "Nhân vật đầu tiên",
+        "line3": "2 ký tự đầu tiên",
+        "line4": "3 ký tự đầu tiên",
+        "line5": "4 ký tự đầu tiên"
+      }
+    },
+    "conditionConfiguration": {
+      "heading": "Cấu hình If-Then",
+      "content": "Đặt điều kiện dựa trên thuộc tính sản phẩm và chỉ định các hành động sẽ được thực hiện khi các điều kiện này được đáp ứng.",
+      "tooltipContent": "Ví dụ: Nếu bạn muốn thêm “NK” vào SKU cho một sản phẩm có tiêu đề “Nike Hoodie”, hãy nhập “Nike Hoodie” vào trường “Match with” và “NK” trong trường “Giá trị để thêm”. Điều này sẽ tự động thêm “NK” vào SKU bất cứ khi nào tiêu đề sản phẩm khớp với “Nike Hoodie”.",
+      "column1": {
+        "label": "Lĩnh vực sản phẩm",
+        "option1": "Không",
+        "option2": "Tiêu đề sản phẩm",
+        "option3": "Nhà cung cấp sản phẩm",
+        "option4": "Loại sản phẩm",
+        "option5": "Thẻ sản phẩm",
+        "helpText": "Chọn trường để áp dụng điều kiện."
+      },
+      "column2": {
+        "label": "Phù hợp với",
+        "prefix": "Bằng",
+        "helpText": "Nhập giá trị mà trường đã chọn sẽ khớp."
+      },
+      "column3": {
+        "label": "Giá trị cần thêm",
+        "prefix": "Sau đó",
+        "helpText": "Nhập giá trị để thêm khi điều kiện được đáp ứng."
+      },
+      "action": "Thêm điều kiện mới",
+      "modal": {
+        "heading": "Kế hoạch nâng cấp",
+        "content": "Nâng cấp gói lên 'Pro Monthly' để truy cập tính năng này.",
+        "upgrade": "Nâng cấp"
+      }
+    },
+    "products": {
+      "heading": "Sản phẩm",
+      "subHeading": "Tổng số sản phẩm",
+      "freePlan": {
+        "line1": "Chỉ có 20 sản phẩm cho gói miễn phí",
+        "line2": "Gói nâng cấp lên thế hệ không giới hạn"
+      },
+      "radioButton1": "Tất cả sản phẩm",
+      "radioButton2": "Chọn sản phẩm",
+      "radioButton3": "Chọn bộ sưu tập",
+      "radioButton4": {
+        "heading": "Dựa trên thẻ",
+        "line1": "Thẻ đã chọn",
+        "button": "Thêm"
+      },
+      "label1": {
+        "heading": "Trong trường hợp SKU trùng lặp:",
+        "option1": "Ghi đè bằng SKU mới",
+        "option2": "Giữ SKU hiện có"
+      },
+      "label2": {
+        "heading": "Các tùy chọn khác:",
+        "option1": "Chỉ áp dụng cho các sản phẩm có SKU trống",
+        "option2": "Bao gồm tên biến thể sản phẩm",
+        "option3": "Xóa khoảng trắng",
+        "option4": "Bao gồm tiêu đề sản phẩm",
+        "option5": "Viết hoa tất cả các chữ cái",
+        "option6": "Đánh số biến thể cá nhân"
+      }
+    },
+    "buttons": {
+      "button1": "Đặt lại",
+      "button2": "Xem Xem Xem trước",
+      "button3": "Tạo ra",
+      "modal": {
+        "processing": {
+          "heading": "Thêm dữ liệu vào hàng đợi...",
+          "content": "Dữ liệu sản phẩm hiện đang được thêm vào hàng đợi công việc để tạo SKU. Vui lòng đợi trong khi chúng tôi xử lý dữ liệu của bạn..."
+        },
+        "error": {
+          "heading": "Thất bại!",
+          "content": "Lỗi khi tạo SKU, Vui lòng thử lại"
+        },
+        "success": {
+          "heading": "Tuyệt vời!",
+          "content": "Dữ liệu sản phẩm đã được thêm vào hàng đợi tạo SKU. Quá trình sẽ bắt đầu trong thời gian ngắn. Theo dõi tiến trình trên trang tiến trình."
+        },
+        "redirect": "Xem trang tiến độ",
+        "closes": "Tự động đóng cửa ",
+        "time": " giây",
+        "helpUrl": {
+          "line1": "Gặp vấn đề?",
+          "line2": "Nâng vé",
+          "line3": "để báo cáo các vấn đề. Đội ngũ hỗ trợ của chúng tôi sẽ nhanh chóng hỗ trợ bạn"
+        }
+      }
+    },
+    "skuPreview": {
+      "heading": "Xem trước SKU",
+      "label1": "Sản phẩm",
+      "label2": "Tiêu đề",
+      "label3": "Kiểu",
+      "label4": "Nhà cung cấp",
+      "label5": "SKU",
+      "label6": "Xem trước SKU",
+      "helpUrl": {
+        "line1": "Gặp vấn đề?",
+        "line2": "Gửi vé"
+      }
+    }
+  },
+  "AutomatedSku": {
+    "heading": "Cấu hình để tạo SKU dựa trên API",
+    "automatedSKU": {
+      "heading": "SKU tự động",
+      "subHeading": "Cho phép tạo SKU tự động cho các sản phẩm mới",
+      "content": "Sau khi đăng ký tính năng này, bạn có thể tạo nhiều tùy chọn SKU. Khi bạn tạo một sản phẩm mới, SKU sẽ tự động được tạo và lưu dựa trên sở thích của bạn.",
+      "label": "Để bắt đầu",
+      "list": {
+        "first": "Tạo tùy chọn SKU của bạn",
+        "second": "Kích hoạt SKU tự động bằng cách sử dụng công tắc ở trên",
+        "third": "SKU sẽ được tạo dễ dàng cho các sản phẩm mới được thêm vào"
+      }
+    },
+    "preference": {
+      "heading": "Ưu tiên SKU",
+      "empty": {
+        "heading": "Không thể tìm thấy Preference? Không phải lo lắng",
+        "line1": "Thực hiện theo bước này: Bấm",
+        "line2": "Thêm tùy chọn mới",
+        "line3": " → Đặt giá trị thuộc tính theo ý muốn → Bấm",
+        "line4": "Tiết kiệm",
+        "button": "Thêm tùy chọn mới",
+        "modal": {
+          "heading": "Kế hoạch nâng cấp",
+          "content": "Nâng cấp gói lên 'Pro Monthly' để truy cập tính năng này.",
+          "upgrade": "Nâng cấp"
+        }
+      },
+      "accordion": {
+        "hideOrView": {
+          "content1": "Ẩn",
+          "content2": "Xem"
+        },
+        "apply": {
+          "content1": "Áp dụng",
+          "content2": "Áp dụng",
+          "tooltipContent1": "Ưu tiên áp dụng",
+          "tooltipContent2": "Áp dụng ưu tiên này"
+        },
+        "delete": {
+          "content1": "Tiết kiệm",
+          "content2": "Xóa"
+        },
+        "modal": {
+          "heading": "Xóa tùy chọn SKU này?",
+          "content": "Bạn có thực sự muốn xóa bản ghi này? Quá trình này không thể hoàn tác.",
+          "delete": "Xóa",
+          "cancel": "Hủy"
+        }
+      },
+      "createNewPreference": {
+        "heading": "Tạo tùy chọn mới",
+        "button1": "Hủy",
+        "button2": "Tiết kiệm"
+      }
+    }
+  },
+  "DuplicatedSku": {
+    "heading": "Trình kiểm tra trùng lặp SKU",
+    "duplicateChecker": {
+      "heading": "Giới thiệu về Trình kiểm tra trùng lặp",
+      "content1": " SKU Duplicate Checker quét toàn bộ hàng tồn kho của bạn để tìm các sản phẩm có SKU trùng lặp. Quá trình này có thể mất vài phút tùy thuộc vào kích thước hàng tồn kho của bạn.",
+      "content2": "Sử dụng công cụ này thường xuyên để đảm bảo tính toàn vẹn của hệ thống quản lý hàng tồn kho của bạn.",
+      "button": {
+        "content1": "Kiểm tra các bản sao...",
+        "content2": "Bắt đầu kiểm tra trùng lặp"
+      }
+    },
+    "empty": {
+      "heading": "Không tìm thấy bản sao",
+      "content": "Đừng lo lắng! Không có SKU trùng lặp trong sản phẩm của bạn. Tất cả các SKU là duy nhất. Nếu bạn có bất kỳ câu hỏi nào hoặc cần hỗ trợ, vui lòng liên hệ với bộ phận hỗ trợ.",
+      "button": "Liên hệ với chúng tôi"
+    },
+    "duplicateData": {
+      "heading": "Tìm thấy SKU trùng lặp",
+      "button": {
+        "content1": "Kiểm tra lại...",
+        "content2": "Kiểm tra lại"
+      },
+      "infoCards": {
+        "label1": "Tổng số bản sao",
+        "label2": "Sản phẩm bị ảnh hưởng",
+        "label3": "SKU trùng lặp nhiều nhất",
+        "miniLabel": "lần"
+      },
+      "editedSku": {
+        "button1": "Hủy",
+        "button2": "Lưu tất cả SKU"
+      },
+      "table": {
+        "column1": "Hình ảnh sản phẩm",
+        "column2": "Tiêu đề sản phẩm",
+        "column3": "Tiêu đề biến thể",
+        "column4": "Mã hàng hiện tại"
+      }
+    }
+  },
+  "ProgressOrHistory": {
+    "heading": "Tiến độ tạo SKU",
+    "subHeading": "Theo dõi trạng thái hiện tại của các công việc tạo SKU của bạn",
+    "content": "Dưới đây là tiến trình chi tiết của các quy trình tạo SKU đang diễn ra:",
+    "button": "Làm mới",
+    "limitedBackupBanner": {
+      "heading": "Thời gian giới hạn để khôi phục SKU",
+      "content": "Xin lưu ý: Bạn chỉ có thể quay lại các SKU gần đây nhất. Sau 5 ngày, dữ liệu này sẽ bị xóa vĩnh viễn và bạn sẽ không thể khôi phục SKU trước đó nữa."
+    },
+    "table": {
+      "column1": "ID công việc",
+      "column2": "Ngày tạo",
+      "column3": "Số lượng sản phẩm",
+      "column4": "Trạng thái",
+      "column5": "Tiến độ",
+      "column6": "Thời gian còn lại",
+      "column7": "Hành động",
+      "empty": {
+        "heading": "Không có việc làm",
+        "content": "Có vẻ như không có công việc nào để hiển thị tại thời điểm này. Vui lòng kiểm tra lại sau hoặc liên hệ với bộ phận hỗ trợ nếu bạn nghĩ đây là lỗi.",
+        "generate": "Tạo SKU",
+        "contact": "Liên hệ với chúng tôi"
+      }
+    },
+    "oldVsNewSku": {
+      "heading": "Lịch sử SKU: Cũ vs Mới",
+      "subHeading": "So sánh SKU trước đó và cập nhật cho các biến thể sản phẩm",
+      "button": "Quay lại SKU cũ",
+      "empty": {
+        "heading": "Không tìm thấy lịch sử",
+        "content": "Có vẻ như không có lịch sử để hiển thị tại thời điểm này. Vui lòng kiểm tra lại sau hoặc liên hệ với bộ phận hỗ trợ nếu bạn nghĩ đây là lỗi.",
+        "contact": "Liên hệ với chúng tôi",
+        "generate": "Tạo SKU"
+      },
+      "table": {
+        "column1": "Hình ảnh sản phẩm",
+        "column2": "Tiêu đề sản phẩm",
+        "column3": "Tiêu đề biến thể",
+        "column4": "Mã hàng cũ",
+        "column5": "Mã hàng mới"
+      }
+    }
+  },
+  "PlansAndPricing": {
+    "heading": "Tìm kế hoạch của bạn",
+    "getFreeCreditsBanner": {
+      "heading": "Kiếm 50 Tín Dụng Miễn Phí",
+      "content": "Viết nhận xét và nhận 50 tín dụng dưới dạng tiền thưởng miễn phí! Chúng tôi đánh giá cao phản hồi của bạn. Chia sẻ suy nghĩ của bạn và tận hưởng 50 tín chỉ như lời cảm ơn của chúng tôi!",
+      "button": "Trò chuyện với chúng tôi"
+    },
+    "tabs": {
+      "value1": "Đăng ký",
+      "value2": "Tín dụng"
+    },
+    "RemainingCreditsBanner": {
+      "usedCredits": "Tín dụng đã qua sử dụng",
+      "remainingCredits": "Tín dụng còn lại",
+      "totalCredits": "Tổng số tín dụng"
+    },
+    "lowCreditBanner": {
+      "heading": "Cảnh báo tín dụng thấp",
+      "content": "Các khoản tín dụng còn lại của bạn đang cạn kiệt. Cân nhắc nạp tiền sớm để tránh gián đoạn dịch vụ."
+    }
+  },
+  "Settings": {
+    "heading": "Cài đặt chung",
+    "row1": {
+      "title": "Ngôn ngữ ứng dụng",
+      "subTitle": "Chọn ngôn ngữ của bạn để dịch ứng dụng bằng bản địa hóa",
+      "label": "Chọn ngôn ngữ ứng dụng",
+      "helpText": "Liên hệ với bộ phận hỗ trợ nếu ngôn ngữ ưa thích của bạn không có sẵn."
+    },
+    "row2": {
+      "title": "Khởi động lại Onboarding",
+      "subTitle": "Khởi động lại quá trình giới thiệu nếu cần",
+      "label": "Khởi động lại Onboarding",
+      "helpText": "Bạn có thể khởi động lại quá trình giới thiệu bất cứ lúc nào nếu bạn cần bắt đầu lại hoặc thực hiện thay đổi thiết lập ban đầu của mình."
+    },
+    "row3": {
+      "title": "Hướng dẫn tạo SKU",
+      "subTitle": "Truy cập các bài viết liên quan đến tạo SKU để hiểu rõ hơn",
+      "label": "Cách sử dụng",
+      "helpText": "Tìm hiểu cách tạo SKU và quản lý hàng tồn kho sản phẩm của bạn hiệu quả hơn với Hướng dẫn tạo SKU của chúng tôi."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+@mixin font-size($font-size, $line-height) {
+  font-size: $font-size;
+  line-height: $line-height;
+}
+
+@mixin font-family--primary() {
+  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-weight: normal;
+}
+
+@mixin font-family--secondary() {
+  font-family: Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-weight: normal;
+}
+
+%primary {
+  @include font-family--primary;
+}
+%secondary {
+  @include font-family--secondary;
+}

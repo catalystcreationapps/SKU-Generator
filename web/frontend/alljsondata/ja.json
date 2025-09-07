@@ -1,0 +1,462 @@
+{
+  "Dashboard": {
+    "heading": "ダッシュボード",
+    "askReviewBanner": {
+      "heading": "こんにちは、Fへようこそ:SKUコードジェネレーター 👋",
+      "content": {
+        "line1": "レビューを残して、私たちを新たな高みへと導いてください！",
+        "line2": "F: SKUコードジェネレーターの使用経験はどうですか？",
+        "line3": "✨ あなたの意見は重要です。私たちが革新し、共に成長するのを手伝ってください！",
+        "button": "レビューを書く"
+      },
+      "modal": {
+        "heading": "あなたの経験を評価してください",
+        "subHeading": "私たちのアプリでの体験をどのように評価しますか？",
+        "content": {
+          "line1": "あなたのフィードバックは私たちにとって貴重です！",
+          "line2": "時間を割いてあなたの考えを共有してくれてありがとう。あなたの評価は、私たちが改善し、より良いサービスを提供するのに役立ちます。"
+        },
+        "cancel": "閉じる"
+      }
+    },
+    "blackFridayBanner": {
+      "heading": "ブラックフライデー特別オファー",
+      "subHeading": "期間限定で、プロマンスリープランの最初の月をたったの1ドルで手に入れましょう！他に類を見ない価格でSKU管理を強化するこの機会をお見逃しなく",
+      "list": {
+        "first": "無制限のSKU生成",
+        "second": "高度なカスタマイズオプション",
+        "third": "優先サポート",
+        "fourth": "完全な分析スイート"
+      },
+      "offerTimer": {
+        "label": "オファーはで終了します",
+        "offerEnds": "時間切れです",
+        "content": "通常価格:$39/月",
+        "button": "今すぐ1ドルのオファーを申請してください",
+        "modal": {
+          "heading": "現在のプランを変更しますか？",
+          "continue": "続けてください",
+          "cancel": "キャンセルします"
+        }
+      }
+    },
+    "infoCards": {
+      "card1": {
+        "label": "SKUが生成されました",
+        "value": "SKU"
+      },
+      "card2": {
+        "label": "新製品が追加されました",
+        "value": "製品"
+      },
+      "card3": {
+        "label": "クレジット残り",
+        "value": "無制限"
+      },
+      "card4": {
+        "label": "現在の計画"
+      }
+    },
+    "historyOrProgressCard": {
+      "heading": "SKU生成の進捗状況/歴史",
+      "link": " 全履歴を見る",
+      "table": {
+        "emptyData": {
+          "heading": "募集中の仕事はありません",
+          "content": "現在、表示する求人がないようです。これがエラーだと思われる場合は、後でもう一度確認するか、サポートに連絡してください。",
+          "contact": "私達に連絡してください",
+          "generate": "SKUを生成してください"
+        },
+        "column1": "ジョブ ID",
+        "column2": "作成日",
+        "column3": "製品数",
+        "column4": "ステータス",
+        "column5": "進捗状況",
+        "column6": "残り時間"
+      }
+    },
+    "recommendedApps": {
+      "heading": "おすすめアプリ",
+      "subHeading": "これらの一流アプリでお店を充実させましょう",
+      "button": "インストールします",
+      "app1": {
+        "category": "請求書と領収書",
+        "content": "カスタムの請求書、納品書、注文書の印刷を簡単に生成できます。プロ仕様の請求書をEメールで送って、注文処理を効率化しましょう。"
+      },
+      "app2": {
+        "category": "配送、SKU、バーコード",
+        "content": "簡単な小売バーコードジェネレーター。製品の小売バーコードラベルを印刷してください。UPCとGTINがサポートされています。"
+      },
+      "app3": {
+        "category": "税金、価格設定-その他",
+        "content": "VAT込み価格とVAT抜き価格をまとめて表示するB2Bアプリ。VIES を使用して欧州の付加価値税番号を確認してください。"
+      },
+      "app4": {
+        "category": "製品バンドル、割引",
+        "content": "このアプリでは、魅力的な商品バンドルを作成し、Mix and MatchでAOVと収益を増やすことができます。"
+      }
+    }
+  },
+  "SkuGenerate": {
+    "heading": "商品のSKUを生成してください",
+    "helpUrl": {
+      "line1": "問題がありますか？",
+      "line2": "チケットを送ってください"
+    },
+    "basicRules": {
+      "heading": "基本ルール",
+      "column1": {
+        "label": "プレフィックス",
+        "helpText": "SKUの開始値"
+      },
+      "column2": {
+        "label": "ボディ",
+        "helpText": "生成中の番号の開始"
+      },
+      "column3": {
+        "label": "サフィックス",
+        "helpText": "SKUの最終価値"
+      },
+      "radioButtons": {
+        "option1": {
+          "label": "連続番号",
+          "helpText": "1、2、3、4などの連番でSKUを生成します。"
+        },
+        "option2": {
+          "label": "最後のSKU世代から続く",
+          "helpText": "前のバッチで最後に生成されたSKUから番号付けを再開します。",
+          "tooltipContent": "有料プランのユーザーのみがアクセスできます"
+        },
+        "option3": {
+          "label": "ボディナンバーを無効にしてください",
+          "helpText": "SKUの本文には数字の要素は含まれません。"
+        },
+        "option4": {
+          "label": "製品IDを番号として使用してください",
+          "helpText": "商品固有の識別子をSKUに組み込んでください。"
+        },
+        "option5": {
+          "label": "バリアントIDを番号として使用してください",
+          "helpText": "複数のオプションがある商品には、バリエーションの固有の識別子を使用してください。"
+        },
+        "option6": {
+          "label": "乱数を使う",
+          "helpText": "SKUごとに乱数を生成します。",
+          "numberField": "乱数の長さ"
+        }
+      },
+      "layout": {
+        "heading": "SKUレイアウトを設定：",
+        "helpText": "ドラッグアンドドロップでコンポーネントを好きなように再配置できます"
+      }
+    },
+    "separator": {
+      "heading": "セパレーター",
+      "label": "価値",
+      "helpText": "プレフィックス、ボディ、サフィックスの間に挿入される値",
+      "delimeters": {
+        "heading": "区切り文字を使う:",
+        "radioButton": "使用していません",
+        "checkBox": "プレフィックス区切り文字"
+      },
+      "productVendor": {
+        "heading": "製品ベンダー:",
+        "line1": "使用されていません",
+        "line2": "最初の文字",
+        "line3": "最初の 2 文字",
+        "line4": "最初の 3 文字",
+        "line5": "最初の 4 文字"
+      },
+      "productType": {
+        "heading": "製品タイプ:",
+        "line1": "使用されていません",
+        "line2": "最初の文字",
+        "line3": "最初の 2 文字",
+        "line4": "最初の 3 文字",
+        "line5": "最初の 4 文字"
+      }
+    },
+    "conditionConfiguration": {
+      "heading": "もしそうなら、設定",
+      "content": "製品の属性に基づいて条件を設定し、これらの条件が満たされたときに実行するアクションを指定します。",
+      "tooltipContent": "例：「ナイキパーカー」というタイトルの商品のSKUに「NK」を追加する場合は、「マッチする商品」フィールドに「Nike Hoodie」、「追加する値」フィールドに「NK」と入力します。これにより、商品タイトルが「Nike Hoodie」と一致するたびに、SKUに「NK」が自動的に追加されます。",
+      "column1": {
+        "label": "製品分野",
+        "option1": "なし",
+        "option2": "商品タイトル",
+        "option3": "製品ベンダー",
+        "option4": "製品タイプ",
+        "option5": "製品タグ",
+        "helpText": "条件を適用するフィールドを選択してください。"
+      },
+      "column2": {
+        "label": "と一致します",
+        "prefix": "等しい",
+        "helpText": "選択したフィールドと一致する値を入力してください。"
+      },
+      "column3": {
+        "label": "追加する値",
+        "prefix": "それから",
+        "helpText": "条件が満たされたときに追加する値を入力してください。"
+      },
+      "action": "新しい条件を追加してください",
+      "modal": {
+        "heading": "アップグレードプラン",
+        "content": "この機能にアクセスするには、プランを「Pro Monthly」にアップグレードしてください。",
+        "upgrade": "アップグレードしてください"
+      }
+    },
+    "products": {
+      "heading": "製品",
+      "subHeading": "製品総数",
+      "freePlan": {
+        "line1": "無料プランの製品は20種類のみです",
+        "line2": "無制限発電プランにアップグレードしてください"
+      },
+      "radioButton1": "すべての製品",
+      "radioButton2": "製品を選んでください",
+      "radioButton3": "コレクションを選んでください",
+      "radioButton4": {
+        "heading": "タグに基づく",
+        "line1": "選択したタグ",
+        "button": "追加"
+      },
+      "label1": {
+        "heading": "SKUが重複している場合：",
+        "option1": "新しいSKUで上書き",
+        "option2": "既存のSKUをそのまま使用してください"
+      },
+      "label2": {
+        "heading": "その他のオプション:",
+        "option1": "SKUが空の商品にのみ適用されます",
+        "option2": "製品のバリエーション名を含めてください",
+        "option3": "スペースを削除してください",
+        "option4": "商品タイトルを含めてください",
+        "option5": "すべての文字を大文字にしてください",
+        "option6": "個別のバリアント番号"
+      }
+    },
+    "buttons": {
+      "button1": "リセット",
+      "button2": "プレビューを参照してください",
+      "button3": "生成します",
+      "modal": {
+        "processing": {
+          "heading": "キューにデータを追加しています...",
+          "content": "商品データは現在、SKU生成のジョブキューに追加されています。データが処理されるまでしばらくお待ちください..."
+        },
+        "error": {
+          "heading": "失敗しました！",
+          "content": "SKUの生成中にエラーが発生しました。もう一度試してください"
+        },
+        "success": {
+          "heading": "素晴らしい!",
+          "content": "商品データがSKU生成キューに追加されました。プロセスはまもなく開始されます。進捗ページで進捗状況を追跡できます。"
+        },
+        "redirect": "進捗ページを見てください",
+        "closes": "自動的に閉じます ",
+        "time": " 秒",
+        "helpUrl": {
+          "line1": "問題がありますか？",
+          "line2": "チケットを上げてください",
+          "line3": "問題を報告してください。私たちのサポートチームがすぐにお手伝いします"
+        }
+      }
+    },
+    "skuPreview": {
+      "heading": "SKU プレビュー",
+      "label1": "製品",
+      "label2": "タイトル",
+      "label3": "タイプ",
+      "label4": "ベンダー",
+      "label5": "SKU",
+      "label6": "SKU プレビュー",
+      "helpUrl": {
+        "line1": "問題がありますか？",
+        "line2": "チケットを送ってください"
+      }
+    }
+  },
+  "AutomatedSku": {
+    "heading": "APIベースのSKU生成の設定",
+    "automatedSKU": {
+      "heading": "自動SKU",
+      "subHeading": "新商品のSKU自動作成を有効にする",
+      "content": "この機能を購読すると、複数のSKU設定を作成できます。新製品を作成すると、SKUはあなたの好みに基づいて自動的に生成され、保存されます。",
+      "label": "始めるには",
+      "list": {
+        "first": "SKU設定を作成してください",
+        "second": "上のトグルを使って自動SKUを有効にしてください",
+        "third": "新しく追加された商品のSKUは簡単に作成されます"
+      }
+    },
+    "preference": {
+      "heading": "SKUプリファレンス",
+      "empty": {
+        "heading": "好みが見つかりませんか？心配ありません",
+        "line1": "このステップに従ってください：クリック",
+        "line2": "新しい設定を追加",
+        "line3": " → 属性値を希望どおりに設定 → クリック",
+        "line4": "保存する",
+        "button": "新しい設定を追加",
+        "modal": {
+          "heading": "アップグレードプラン",
+          "content": "この機能にアクセスするには、プランを「Pro Monthly」にアップグレードしてください。",
+          "upgrade": "アップグレードしてください"
+        }
+      },
+      "accordion": {
+        "hideOrView": {
+          "content1": "隠す",
+          "content2": "見る"
+        },
+        "apply": {
+          "content1": "適用済み",
+          "content2": "申し込む",
+          "tooltipContent1": "適用された優先順位",
+          "tooltipContent2": "この設定を適用"
+        },
+        "delete": {
+          "content1": "保存する",
+          "content2": "削除します"
+        },
+        "modal": {
+          "heading": "このSKU設定を削除しますか？",
+          "content": "本当にこのレコードを削除してもよろしいですか？このプロセスは元に戻せません。",
+          "delete": "削除します",
+          "cancel": "キャンセルします"
+        }
+      },
+      "createNewPreference": {
+        "heading": "新しい設定を作成する",
+        "button1": "キャンセルします",
+        "button2": "保存する"
+      }
+    }
+  },
+  "DuplicatedSku": {
+    "heading": "SKU 重複チェッカー",
+    "duplicateChecker": {
+      "heading": "重複チェッカーについて",
+      "content1": " SKU重複チェッカーは、在庫全体をスキャンして、SKUが重複している商品を探します。在庫の大きさによっては、このプロセスに数分かかる場合があります。",
+      "content2": "このツールを定期的に使用して、在庫管理システムの整合性を確保してください。",
+      "button": {
+        "content1": "重複をチェックしています...",
+        "content2": "重複チェックを開始してください"
+      }
+    },
+    "empty": {
+      "heading": "重複は見つかりませんでした",
+      "content": "心配しないで!商品に重複するSKUはありません。すべてのSKUはユニークです。質問がある場合やサポートが必要な場合は、サポートまでお気軽にお問い合わせください。",
+      "button": "私達に連絡してください"
+    },
+    "duplicateData": {
+      "heading": "重複するSKUが見つかりました",
+      "button": {
+        "content1": "再チェックしています...",
+        "content2": "もう一度チェックしてください"
+      },
+      "infoCards": {
+        "label1": "重複の合計数",
+        "label2": "影響を受ける製品",
+        "label3": "最も重複しているSKU",
+        "miniLabel": "回"
+      },
+      "editedSku": {
+        "button1": "キャンセルします",
+        "button2": "すべてのSKUを保存してください"
+      },
+      "table": {
+        "column1": "製品画像",
+        "column2": "商品タイトル",
+        "column3": "バリエーションタイトル",
+        "column4": "現在の SKU"
+      }
+    }
+  },
+  "ProgressOrHistory": {
+    "heading": "SKU生成の進捗状況",
+    "subHeading": "SKU生成ジョブの現在の状態を追跡します",
+    "content": "以下は、進行中のSKU生成プロセスの詳細な進捗状況です。",
+    "button": "リフレッシュ",
+    "limitedBackupBanner": {
+      "heading": "SKUを元に戻すには期間限定です",
+      "content": "注意：戻せるのは最新のSKUだけです。5日後、このデータは完全に削除され、以前のSKUを復元することはできなくなります。"
+    },
+    "table": {
+      "column1": "ジョブ ID",
+      "column2": "作成日",
+      "column3": "製品数",
+      "column4": "ステータス",
+      "column5": "進捗状況",
+      "column6": "残り時間",
+      "column7": "アクション",
+      "empty": {
+        "heading": "募集中の仕事はありません",
+        "content": "現在、表示する求人がないようです。これがエラーだと思われる場合は、後でもう一度確認するか、サポートに連絡してください。",
+        "generate": "SKUを生成してください",
+        "contact": "私達に連絡してください"
+      }
+    },
+    "oldVsNewSku": {
+      "heading": "SKUの歴史：古いものと新しいもの",
+      "subHeading": "製品バリエーションの以前のSKUと更新したSKUを比較してください",
+      "button": "古いSKUに戻す",
+      "empty": {
+        "heading": "履歴が見つかりませんでした",
+        "content": "現在、表示できる履歴がないようです。これがエラーだと思われる場合は、後でもう一度確認するか、サポートに連絡してください。",
+        "contact": "私達に連絡してください",
+        "generate": "SKUを生成してください"
+      },
+      "table": {
+        "column1": "製品画像",
+        "column2": "商品タイトル",
+        "column3": "バリエーションタイトル",
+        "column4": "古いSKU",
+        "column5": "新しいSKU"
+      }
+    }
+  },
+  "PlansAndPricing": {
+    "heading": "あなたのプランを見つけてください",
+    "getFreeCreditsBanner": {
+      "heading": "50クレジットを無料で獲得できます",
+      "content": "レビューを書いて、無料ボーナスとして50クレジットを獲得してください！私たちはあなたのフィードバックを大切にしています。ご意見をシェアして、感謝の気持ちを込めて50クレジットを獲得してください！",
+      "button": "私たちとチャットしてください"
+    },
+    "tabs": {
+      "value1": "定期購読",
+      "value2": "クレジット"
+    },
+    "RemainingCreditsBanner": {
+      "usedCredits": "使用済みクレジット",
+      "remainingCredits": "残りのクレジット",
+      "totalCredits": "合計クレジット"
+    },
+    "lowCreditBanner": {
+      "heading": "低クレジット警告",
+      "content": "残りのクレジットが少なくなっています。サービスの中断を避けるため、すぐにチャージすることを検討してください。"
+    }
+  },
+  "Settings": {
+    "heading": "一般設定",
+    "row1": {
+      "title": "アプリ言語",
+      "subTitle": "ローカリゼーションを使用してアプリを翻訳する言語を選択してください",
+      "label": "アプリの言語を選択してください",
+      "helpText": "希望する言語がない場合は、サポートに連絡してください。"
+    },
+    "row2": {
+      "title": "オンボーディングを再開してください",
+      "subTitle": "必要に応じてオンボーディングプロセスを再開してください",
+      "label": "オンボーディングを再開してください",
+      "helpText": "最初からやり直したり、初期設定を変更したりする必要がある場合は、いつでもオンボーディングプロセスを再開できます。"
+    },
+    "row3": {
+      "title": "SKU生成ガイド",
+      "subTitle": "理解を深めるために、SKU生成に関連する記事にアクセスしてください",
+      "label": "使用方法",
+      "helpText": "SKU生成ガイドで、SKUを生成し、商品在庫をより効果的に管理する方法を学んでください。"
+    }
+  }
+}

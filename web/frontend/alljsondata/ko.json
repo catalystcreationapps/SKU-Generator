@@ -1,0 +1,462 @@
+{
+  "Dashboard": {
+    "heading": "대시보드",
+    "askReviewBanner": {
+      "heading": "안녕하세요, F: SKU 코드 생성기에 오신 걸 환영합니다 👋",
+      "content": {
+        "line1": "리뷰 남기고 저희가 새로운 경지에 도달할 수 있도록 영감을 주세요!",
+        "line2": "F: SKU 코드 생성기 사용 경험은 어땠어요?",
+        "line3": "✨ 당신의 목소리가 중요해요. 함께 혁신하고 성장할 수 있도록 도와주세요!",
+        "button": "리뷰 써요"
+      },
+      "modal": {
+        "heading": "당신의 경험을 평가해 주세요",
+        "subHeading": "저희 앱 사용 경험을 어떻게 평가하세요?",
+        "content": {
+          "line1": "당신의 피드백은 우리에게 소중해요!",
+          "line2": "시간 내어 생각을 나눠줘서 고마워요.당신의 평점은 우리가 개선하고 더 나은 서비스를 제공하는 데 도움이 돼요."
+        },
+        "cancel": "닫기"
+      }
+    },
+    "blackFridayBanner": {
+      "heading": "블랙 프라이데이 스페셜 오퍼",
+      "subHeading": "한시적으로, 프로 월간 플랜 첫 달을 단돈 1달러에 이용하세요!저렴한 가격으로 SKU 관리를 강화할 수 있는 이 기회를 놓치지 마세요.",
+      "list": {
+        "first": "무제한 SKU 생성",
+        "second": "고급 사용자 지정 옵션",
+        "third": "우선 지원",
+        "fourth": "전체 분석 제품군"
+      },
+      "offerTimer": {
+        "label": "제안 종료일",
+        "offerEnds": "시간이 다 됐어요",
+        "content": "정상가: 한 달에 39달러",
+        "button": "지금 1달러 오퍼 신청하세요",
+        "modal": {
+          "heading": "현재 요금제를 바꾸고 싶으세요?",
+          "continue": "계속하세요",
+          "cancel": "취소"
+        }
+      }
+    },
+    "infoCards": {
+      "card1": {
+        "label": "SKU 생성됨",
+        "value": "SKU"
+      },
+      "card2": {
+        "label": "새 제품 추가됐어요.",
+        "value": "제품들"
+      },
+      "card3": {
+        "label": "크레딧이 남았대용",
+        "value": "무제한"
+      },
+      "card4": {
+        "label": "현재 요금제"
+      }
+    },
+    "historyOrProgressCard": {
+      "heading": "SKU 세대 발전/역사",
+      "link": " 전체 역사 보기",
+      "table": {
+        "emptyData": {
+          "heading": "구직 가능한 일자리가 없어요.",
+          "content": "지금은 표시할 일자리가 없는 것 같아요.오류라고 생각되면 나중에 다시 확인하거나 지원팀에 문의하세요.",
+          "contact": "저희에게 연락하세요",
+          "generate": "SKU 생성하세요"
+        },
+        "column1": "직업 ID",
+        "column2": "만든 날짜",
+        "column3": "제품 번호",
+        "column4": "상태",
+        "column5": "진행 상황이에요",
+        "column6": "남은 시간이에요"
+      }
+    },
+    "recommendedApps": {
+      "heading": "추천 앱들",
+      "subHeading": "최고 등급의 앱으로 스토어를 향상시키세요.",
+      "button": "설치하세요",
+      "app1": {
+        "category": "청구서랑 영수증",
+        "content": "맞춤 송장, 포장 명세서, 주문 출력물을 쉽게 생성하세요.전문 청구서를 이메일로 보내고 주문 처리를 간소화하세요."
+      },
+      "app2": {
+        "category": "배송, SKU 및 바코드",
+        "content": "간편한 리테일 바코드 생성기.제품의 소매용 바코드 라벨을 인쇄하세요.UPC하고 GTIN 지원돼요."
+      },
+      "app3": {
+        "category": "세금, 가격 - 기타",
+        "content": "VAT 포함 가격과 VAT 불포함 가격을 함께 표시하는 B2B 앱이에요.VIES를 사용하여 EU VAT ID 유효성을 검사하세요."
+      },
+      "app4": {
+        "category": "제품 번들, 할인",
+        "content": "이 앱을 사용하면 매력적인 제품 번들을 만들고 믹스 앤 매치로 AOV와 수익을 높일 수 있어요."
+      }
+    }
+  },
+  "SkuGenerate": {
+    "heading": "제품에 대한 SKU 생성하기",
+    "helpUrl": {
+      "line1": "문제 있어요?",
+      "line2": "티켓 제출해"
+    },
+    "basicRules": {
+      "heading": "기본 규칙",
+      "column1": {
+        "label": "접두사",
+        "helpText": "SKU의 시작 가치요"
+      },
+      "column2": {
+        "label": "바디",
+        "helpText": "번호 생성 시작 단계죠"
+      },
+      "column3": {
+        "label": "접미사",
+        "helpText": "SKU의 최종 가치요"
+      },
+      "radioButtons": {
+        "option1": {
+          "label": "연속 넘버",
+          "helpText": "1, 2, 3, 4 등 순차적인 번호로 SKU를 생성하세요."
+        },
+        "option2": {
+          "label": "지난 SKU 세대에서 이어져요.",
+          "helpText": "이전 배치에서 마지막으로 생성된 SKU에서 넘버링 재개.",
+          "tooltipContent": "유료 플랜 사용자만 이용할 수 있죠."
+        },
+        "option3": {
+          "label": "바디 넘버 비활성화",
+          "helpText": "SKU에는 본문의 숫자 구성 요소가 포함되지 않아요."
+        },
+        "option4": {
+          "label": "제품 ID를 숫자로 사용하세요.",
+          "helpText": "제품 고유 식별자를 SKU에 통합하세요."
+        },
+        "option5": {
+          "label": "변형 ID를 숫자로 사용하세요",
+          "helpText": "여러 옵션이 있는 제품에 이형 상품의 고유 식별자를 사용하세요."
+        },
+        "option6": {
+          "label": "난수 사용",
+          "helpText": "각 SKU에 대해 난수를 생성하세요.",
+          "numberField": "무작위 숫자 길이요"
+        }
+      },
+      "layout": {
+        "heading": "SKU 레이아웃 설정:",
+        "helpText": "드래그 앤 드롭으로 원하는 대로 컴포넌트 재배치"
+      }
+    },
+    "separator": {
+      "heading": "분리기",
+      "label": "가치",
+      "helpText": "접두사, 본문, 접미사 사이에 삽입할 값이에요",
+      "delimeters": {
+        "heading": "구분자 사용:",
+        "radioButton": "사용하지 않았대용",
+        "checkBox": "접두사 구분자"
+      },
+      "productVendor": {
+        "heading": "제품 공급 업체:",
+        "line1": "사용하지 않았대용",
+        "line2": "첫 캐릭터",
+        "line3": "처음 2글자",
+        "line4": "처음 3글자",
+        "line5": "처음 4글자"
+      },
+      "productType": {
+        "heading": "제품 유형:",
+        "line1": "사용하지 않았대용",
+        "line2": "첫 캐릭터",
+        "line3": "처음 2글자",
+        "line4": "처음 3글자",
+        "line5": "처음 4글자"
+      }
+    },
+    "conditionConfiguration": {
+      "heading": "If-Then 구성",
+      "content": "제품 속성을 기준으로 조건을 설정하고 조건 충족 시 취해야 할 조치를 지정하세요.",
+      "tooltipContent": "예: “나이키 후디”라는 제목의 제품 SKU에 “NK”를 추가하려면 “매칭 대상” 필드에 “나이키 후디”를 입력하고 “추가할 가치” 필드에 “NK”를 입력하세요.상품 이름이 “나이키 후디”와 일치할 때마다 SKU에 “NK”가 자동으로 추가돼요.",
+      "column1": {
+        "label": "제품 필드",
+        "option1": "없대요",
+        "option2": "제품 제목",
+        "option3": "제품 벤더",
+        "option4": "제품 유형",
+        "option5": "제품 태그",
+        "helpText": "조건을 적용할 필드를 선택해요."
+      },
+      "column2": {
+        "label": "와 매치하세요",
+        "prefix": "같대용",
+        "helpText": "선택한 필드와 일치해야 하는 값을 입력하세요."
+      },
+      "column3": {
+        "label": "추가할 가치",
+        "prefix": "그러면요.",
+        "helpText": "조건 충족될 때 추가할 값을 입력하세요."
+      },
+      "action": "새 조건 추가",
+      "modal": {
+        "heading": "업그레이드 플랜",
+        "content": "이 기능을 이용하려면 플랜을 '프로 먼슬리'로 업그레이드하세요.",
+        "upgrade": "업그레이드하세요"
+      }
+    },
+    "products": {
+      "heading": "제품들",
+      "subHeading": "전체 제품",
+      "freePlan": {
+        "line1": "무료 플랜으로 제품이 20개밖에 안 돼요.",
+        "line2": "무제한 세대로 업그레이드 플랜"
+      },
+      "radioButton1": "모든 제품들",
+      "radioButton2": "제품을 선택해 주세요.",
+      "radioButton3": "컬렉션 선택",
+      "radioButton4": {
+        "heading": "태그 기준",
+        "line1": "선택된 태그들",
+        "button": "추가하세요"
+      },
+      "label1": {
+        "heading": "SKU가 중복되는 경우:",
+        "option1": "새 SKU로 덮어쓰세요",
+        "option2": "기존 SKU 유지"
+      },
+      "label2": {
+        "heading": "기타 옵션:",
+        "option1": "SKU가 비어 있는 제품에만 적용하세요.",
+        "option2": "제품 이형 이름 포함하세요",
+        "option3": "공백 제거",
+        "option4": "제품 제목 포함",
+        "option5": "모든 글자를 대문자로 써요",
+        "option6": "개별 변형 넘버링"
+      }
+    },
+    "buttons": {
+      "button1": "초기화하세요",
+      "button2": "프리뷰 보세요",
+      "button3": "생성하세요",
+      "modal": {
+        "processing": {
+          "heading": "대기열에 데이터 추가 중...",
+          "content": "제품 데이터가 현재 SKU 생성 작업 대기열에 추가되고 있어요.데이터를 처리하는 동안 잠시만 기다려 주세요..."
+        },
+        "error": {
+          "heading": "실패했어요!",
+          "content": "SKU를 생성하는 중 오류가 났어요. 다시 시도하세요"
+        },
+        "success": {
+          "heading": "좋아요!",
+          "content": "제품 데이터가 SKU 생성 대기열에 추가됐어요.절차가 곧 시작돼요.진행 페이지에서 진행 상황을 추적하세요."
+        },
+        "redirect": "진행 페이지 참조",
+        "closes": "자동으로 닫히네요 ",
+        "time": " 몇 초요",
+        "helpUrl": {
+          "line1": "문제 있어요?",
+          "line2": "티켓 올려요",
+          "line3": "문제 신고하기 위해서요.저희 지원팀이 즉시 도와줄게요"
+        }
+      }
+    },
+    "skuPreview": {
+      "heading": "SKU 미리보기",
+      "label1": "제품",
+      "label2": "제목",
+      "label3": "타입",
+      "label4": "벤더",
+      "label5": "SKU",
+      "label6": "SKU 미리보기",
+      "helpUrl": {
+        "line1": "문제 있어요?",
+        "line2": "티켓 제출해"
+      }
+    }
+  },
+  "AutomatedSku": {
+    "heading": "API 기반 SKU 생성을 위한 구성",
+    "automatedSKU": {
+      "heading": "자동 SKU",
+      "subHeading": "새 제품에 대한 자동 SKU 생성 활성화해",
+      "content": "이 기능을 구독하면 여러 SKU 기본 설정을 만들 수 있어요.새 제품을 만들면 선호도에 따라 SKU가 자동으로 생성되고 저장돼요.",
+      "label": "시작하려면요.",
+      "list": {
+        "first": "SKU를 선호해 주세요.",
+        "second": "위 토글을 사용하여 자동 SKU를 활성화하세요.",
+        "third": "새로 추가된 제품에 대한 SKU는 쉽게 생성될 거예요."
+      }
+    },
+    "preference": {
+      "heading": "SKU 선호도",
+      "empty": {
+        "heading": "프리퍼런스를 찾을 수 없나요?걱정 마세요.",
+        "line1": "다음 단계 따르세요: 클릭해요",
+        "line2": "새 환경설정 추가",
+        "line3": " → 속성값을 Wish로 설정하세요. → 클릭",
+        "line4": "살려줘야지",
+        "button": "새 환경설정 추가",
+        "modal": {
+          "heading": "업그레이드 플랜",
+          "content": "이 기능을 이용하려면 플랜을 '프로 먼슬리'로 업그레이드하세요.",
+          "upgrade": "업그레이드하세요"
+        }
+      },
+      "accordion": {
+        "hideOrView": {
+          "content1": "숨겨",
+          "content2": "보기"
+        },
+        "apply": {
+          "content1": "적용됐대용",
+          "content2": "적용하세요",
+          "tooltipContent1": "적용된 선호도",
+          "tooltipContent2": "이 선호 적용"
+        },
+        "delete": {
+          "content1": "살려줘야지",
+          "content2": "삭제하세요"
+        },
+        "modal": {
+          "heading": "이 SKU 기본 설정을 삭제하세요?",
+          "content": "정말 이 레코드 삭제하시겠습니까?이 프로세스는 되돌릴 수 없어요.",
+          "delete": "삭제하세요",
+          "cancel": "취소"
+        }
+      },
+      "createNewPreference": {
+        "heading": "새 환경설정 만들기",
+        "button1": "취소",
+        "button2": "살려줘야지"
+      }
+    }
+  },
+  "DuplicatedSku": {
+    "heading": "SKU 중복 검사기",
+    "duplicateChecker": {
+      "heading": "리플리케이트 체커에 대해서",
+      "content1": " SKU 중복 검사기가 전체 재고를 스캔하여 SKU가 중복된 상품을 찾아요.재고 크기에 따라 이 과정은 몇 분 정도 걸릴 수 있어요.",
+      "content2": "재고 관리 시스템의 무결성을 보장하려면 이 도구를 정기적으로 사용하세요.",
+      "button": {
+        "content1": "중복 여부 확인 중...",
+        "content2": "중복 검사 시작해요"
+      }
+    },
+    "empty": {
+      "heading": "중복 발견 안 돼요",
+      "content": "걱정 마세요!제품에 중복된 SKU가 없어요.모든 SKU는 고유해요.질문이 있거나 도움이 필요하면 언제든지 지원팀에 문의하세요.",
+      "button": "저희에게 연락하세요"
+    },
+    "duplicateData": {
+      "heading": "중복된 SKU 발견됨",
+      "button": {
+        "content1": "재확인 중...",
+        "content2": "다시 확인해."
+      },
+      "infoCards": {
+        "label1": "총 중복 건수",
+        "label2": "영향을 받는 제품들",
+        "label3": "가장 많이 중복된 SKU",
+        "miniLabel": "타임스"
+      },
+      "editedSku": {
+        "button1": "취소",
+        "button2": "모든 SKU 저장하기"
+      },
+      "table": {
+        "column1": "제품 이미지",
+        "column2": "제품 제목",
+        "column3": "배리언트 타이틀",
+        "column4": "현재 SKU"
+      }
+    }
+  },
+  "ProgressOrHistory": {
+    "heading": "SKU 세대 진행 상황",
+    "subHeading": "SKU 생성 작업의 현재 상태 추적하기",
+    "content": "아래는 진행 중인 SKU 생성 프로세스의 자세한 진행 상황이에요.",
+    "button": "새로고침",
+    "limitedBackupBanner": {
+      "heading": "SKU 되돌리는 시간이 제한돼요",
+      "content": "참고: 가장 최근 SKU로만 되돌릴 수 있어요.5일이 지나면 이 데이터가 영구적으로 제거되고 이전 SKU를 더 이상 복원할 수 없어요."
+    },
+    "table": {
+      "column1": "직업 ID",
+      "column2": "만든 날짜",
+      "column3": "제품 번호",
+      "column4": "상태",
+      "column5": "진행 상황이에요",
+      "column6": "남은 시간이에요",
+      "column7": "행동들",
+      "empty": {
+        "heading": "구직 가능한 일자리가 없어요.",
+        "content": "지금은 표시할 일자리가 없는 것 같아요.오류라고 생각되면 나중에 다시 확인하거나 지원팀에 문의하세요.",
+        "generate": "SKU 생성하세요",
+        "contact": "저희에게 연락하세요"
+      }
+    },
+    "oldVsNewSku": {
+      "heading": "SKU 내역: 구형 vs 신형",
+      "subHeading": "제품 이형의 이전 SKU와 업데이트된 SKU를 비교하세요.",
+      "button": "이전 SKU로 되돌려요.",
+      "empty": {
+        "heading": "기록을 찾을 수 없어요.",
+        "content": "지금은 표시할 이력이 없는 것 같아요.오류라고 생각되면 나중에 다시 확인하거나 지원팀에 문의하세요.",
+        "contact": "저희에게 연락하세요",
+        "generate": "SKU 생성하세요"
+      },
+      "table": {
+        "column1": "제품 이미지",
+        "column2": "제품 제목",
+        "column3": "배리언트 타이틀",
+        "column4": "구형 SKU",
+        "column5": "새 SKU"
+      }
+    }
+  },
+  "PlansAndPricing": {
+    "heading": "플랜 찾기",
+    "getFreeCreditsBanner": {
+      "heading": "50 무료 크레딧 적립",
+      "content": "리뷰 쓰고 50 크레딧을 무료 보너스로 받아요!우리는 당신의 피드백을 소중하게 생각해요.의견을 공유하고 50 크레딧을 즐기세요. 고마워요!",
+      "button": "저희랑 채팅해요"
+    },
+    "tabs": {
+      "value1": "구독은",
+      "value2": "크레딧이"
+    },
+    "RemainingCreditsBanner": {
+      "usedCredits": "중고 크레딧",
+      "remainingCredits": "남은 크레딧",
+      "totalCredits": "총 크레딧"
+    },
+    "lowCreditBanner": {
+      "heading": "저크레딧 경고",
+      "content": "당신의 잔여 크레딧이 거의 없어요.서비스 중단을 피하려면 빨리 충전하는 걸 고려해 보세요."
+    }
+  },
+  "Settings": {
+    "heading": "일반 설정",
+    "row1": {
+      "title": "앱 언어",
+      "subTitle": "현지화를 사용하여 앱을 번역할 언어를 선택하세요.",
+      "label": "앱 언어 선택",
+      "helpText": "선호 언어를 사용할 수 없는 경우 지원팀에 문의하세요."
+    },
+    "row2": {
+      "title": "온보딩 다시 시작하세요",
+      "subTitle": "필요하면 온보딩 프로세스 다시 시작해요",
+      "label": "온보딩 다시 시작하세요",
+      "helpText": "처음부터 다시 시작하거나 초기 설정을 변경해야 하는 경우 언제든지 온보딩 프로세스를 다시 시작할 수 있어요."
+    },
+    "row3": {
+      "title": "SKU 생성 가이드",
+      "subTitle": "이해를 돕기 위해 SKU 생성 관련 기사를 참고하세요.",
+      "label": "사용 방법",
+      "helpText": "SKU 생성 가이드를 통해 SKU를 생성하고 제품 재고를 더 효과적으로 관리하는 방법을 알아보세요."
+    }
+  }
+}

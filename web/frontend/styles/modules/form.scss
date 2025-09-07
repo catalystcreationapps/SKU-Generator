@@ -1,0 +1,32 @@
+.color-selector {
+  border-radius: 5px;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $c-grey-1;
+  }
+  &.selected {
+    background-color: $c-light-grey;
+
+    &::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 3px;
+      background-color: $c-primary;
+    }
+  }
+}
+
+.color-selector__color {
+  width: 28px;
+  height: 28px;
+  border-radius: 100%;
+  margin-right: 0.8em;
+  margin-left: 0.8em;
+}

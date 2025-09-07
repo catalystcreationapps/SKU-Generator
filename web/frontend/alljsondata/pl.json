@@ -1,0 +1,462 @@
+{
+  "Dashboard": {
+    "heading": "Pulpit nawigacyjny",
+    "askReviewBanner": {
+      "heading": "Witamy w F: SKU Code Generator 👋",
+      "content": {
+        "line1": "Zostaw recenzję i zainspiruj nas do osiągnięcia nowych wyżyn!",
+        "line2": "Jakie masz doświadczenia z F: SKU Code Generator?",
+        "line3": "✨ Twój głos ma znaczenie - pomóż nam wprowadzać innowacje i rozwijać się razem!",
+        "button": "Napisz recenzję"
+      },
+      "modal": {
+        "heading": "Oceń swoje doświadczenie",
+        "subHeading": "Jak oceniasz swoje wrażenia z naszej aplikacji?",
+        "content": {
+          "line1": "Twoja opinia jest dla nas cenna!",
+          "line2": "Dziękujemy za poświęcenie czasu na podzielenie się swoimi przemyśleniami. Twoja ocena pomaga nam ulepszać i świadczyć lepsze usługi."
+        },
+        "cancel": "Zamknij"
+      }
+    },
+    "blackFridayBanner": {
+      "heading": "Oferta specjalna na Czarny Piątek",
+      "subHeading": "Przez ograniczony czas otrzymaj swój pierwszy miesiąc planu miesięcznego Pro za jedyne 1 USD! Nie przegap okazji, aby doładować swoje zarządzanie SKU w bezkonkurencyjnej cenie",
+      "list": {
+        "first": "Nieograniczone generowanie SKU",
+        "second": "Zaawansowane opcje dostosowywania",
+        "third": "Wsparcie priorytetowe",
+        "fourth": "Pełne pakiety analityczne"
+      },
+      "offerTimer": {
+        "label": "Oferta kończy się w",
+        "offerEnds": "Czas się skończył",
+        "content": "Normalna cena: 39 USD/miesiąc",
+        "button": "Odbierz teraz swoją ofertę o wartości 1 USD",
+        "modal": {
+          "heading": "Chcesz zmienić obecny plan?",
+          "continue": "Kontynuować",
+          "cancel": "Anuluj"
+        }
+      }
+    },
+    "infoCards": {
+      "card1": {
+        "label": "Wygenerowane SKU",
+        "value": "SKU"
+      },
+      "card2": {
+        "label": "Dodano nowy produkt",
+        "value": "Produkty"
+      },
+      "card3": {
+        "label": "Pozostały kredyty",
+        "value": "Nieograniczony"
+      },
+      "card4": {
+        "label": "Aktualny plan"
+      }
+    },
+    "historyOrProgressCard": {
+      "heading": "Postęp generowania SKU/Historia",
+      "link": " Wyświetl pełną historię",
+      "table": {
+        "emptyData": {
+          "heading": "Brak dostępnych ofert pracy",
+          "content": "Wygląda na to, że w tej chwili nie ma zadań do wyświetlenia. Sprawdź później lub skontaktuj się z pomocą techniczną, jeśli uważasz, że jest to błąd.",
+          "contact": "Skontaktuj się z nami",
+          "generate": "Generowanie SKU"
+        },
+        "column1": "Identyfikator pracy",
+        "column2": "Data utworzenia",
+        "column3": "Liczba produktów",
+        "column4": "Status",
+        "column5": "Postęp",
+        "column6": "Pozostały czas"
+      }
+    },
+    "recommendedApps": {
+      "heading": "Zalecane aplikacje",
+      "subHeading": "Ulepsz swój sklep dzięki tym najwyżej ocenianym aplikacjom",
+      "button": "Zainstaluj",
+      "app1": {
+        "category": "Faktury i pokwitowania",
+        "content": "Z łatwością generuj niestandardowe faktury, listy pakowania i wydruki zamawiania. Wyślij e-mailem profesjonalne faktury i usprawnij przetwarzanie zamówień."
+      },
+      "app2": {
+        "category": "Wysyłka, SKU i kody kreskowe",
+        "content": "Łatwy generator kodów kreskowych w handlu detalicznym. Drukuj detaliczne etykiety kodów kreskowych dla produktów. Obsługiwane UPC i GTIN."
+      },
+      "app3": {
+        "category": "Podatki, ceny - Inne",
+        "content": "Aplikacja B2B do wspólnego wyświetlania cen z VAT i bez VAT. Potwierdź identyfikator VAT UE za pomocą VIES."
+      },
+      "app4": {
+        "category": "Pakiety produktów, Rabaty",
+        "content": "Ta aplikacja pozwala tworzyć atrakcyjne pakiety produktów, zwiększając AOV i przychody dzięki Mix and Match."
+      }
+    }
+  },
+  "SkuGenerate": {
+    "heading": "Wygeneruj SKU dla swoich produktów",
+    "helpUrl": {
+      "line1": "Masz problemy?",
+      "line2": "Prześlij bilet"
+    },
+    "basicRules": {
+      "heading": "Podstawowe zasady",
+      "column1": {
+        "label": "Prefiks",
+        "helpText": "Wartość początkowa SKU"
+      },
+      "column2": {
+        "label": "Ciało",
+        "helpText": "Początek generowanego numeru"
+      },
+      "column3": {
+        "label": "Przyrostek",
+        "helpText": "Wartość końcowa SKU"
+      },
+      "radioButtons": {
+        "option1": {
+          "label": "Kolejny numer",
+          "helpText": "Generuj SKU z liczbami sekwencyjnymi, takimi jak 1, 2, 3, 4 itp."
+        },
+        "option2": {
+          "label": "Kontynuuj od ostatniej generacji SKU",
+          "helpText": "Wznów numerację z ostatnio wygenerowanego SKU w poprzedniej partii.",
+          "tooltipContent": "Dostępny tylko dla użytkowników z płatnym planem"
+        },
+        "option3": {
+          "label": "Wyłącz numer ciała",
+          "helpText": "SKU nie będą zawierać komponentu numerycznego w ciele."
+        },
+        "option4": {
+          "label": "Użyj identyfikatora produktu jako numeru",
+          "helpText": "Włącz unikalny identyfikator produktu do SKU."
+        },
+        "option5": {
+          "label": "Użyj identyfikatora wariantu jako numeru",
+          "helpText": "Użyj unikalnego identyfikatora wariantu dla produktów z wieloma opcjami."
+        },
+        "option6": {
+          "label": "Użyj liczby losowej",
+          "helpText": "Wygeneruj losową liczbę dla każdego SKU.",
+          "numberField": "Długość liczb losowych"
+        }
+      },
+      "layout": {
+        "heading": "Ustaw układ SKU:",
+        "helpText": "Przeciągnij i upuść, aby zmienić kolejność komponentów według własnego uznania"
+      }
+    },
+    "separator": {
+      "heading": "Separator",
+      "label": "Wartość",
+      "helpText": "Wartość, która zostanie wstawiona między przedrostkiem, treścią i przyrostkiem",
+      "delimeters": {
+        "heading": "Użyj ograniczników:",
+        "radioButton": "Nie używana",
+        "checkBox": "Ogranicznik prefiksu"
+      },
+      "productVendor": {
+        "heading": "Sprzedawca produktu:",
+        "line1": "Nie używany",
+        "line2": "Pierwsza postać",
+        "line3": "Pierwsze 2 znaki",
+        "line4": "Pierwsze 3 znaki",
+        "line5": "Pierwsze 4 znaki"
+      },
+      "productType": {
+        "heading": "Rodzaj produktu:",
+        "line1": "Nie używany",
+        "line2": "Pierwsza postać",
+        "line3": "Pierwsze 2 znaki",
+        "line4": "Pierwsze 3 znaki",
+        "line5": "Pierwsze 4 znaki"
+      }
+    },
+    "conditionConfiguration": {
+      "heading": "Konfiguracja If-Then",
+      "content": "Ustaw warunki na podstawie atrybutów produktu i określ działania, które należy podjąć, gdy te warunki zostaną spełnione.",
+      "tooltipContent": "Np.: Jeśli chcesz dodać „NK” do SKU dla produktu zatytułowanego „Nike Hoodie”, wpisz „Nike Hoodie” w polu „Dopasuj z” i „NK” w polu „Wartość do dodania”. Spowoduje to automatyczne dołączenie „NK” do SKU, gdy tytuł produktu będzie pasował do „Nike Hoodie”.",
+      "column1": {
+        "label": "Pole produktu",
+        "option1": "Żaden",
+        "option2": "Tytuł produktu",
+        "option3": "Sprzedawca produktu",
+        "option4": "Rodzaj produktu",
+        "option5": "Tag produktu",
+        "helpText": "Wybierz pole, w którym ma zostać zastosowany warunek."
+      },
+      "column2": {
+        "label": "Dopasuj z",
+        "prefix": "Równe",
+        "helpText": "Wprowadź wartość, do której powinno odpowiadać wybrane pole."
+      },
+      "column3": {
+        "label": "Wartość do dodania",
+        "prefix": "Następnie",
+        "helpText": "Wprowadź wartość do dodania, gdy warunek zostanie spełniony."
+      },
+      "action": "Dodaj nowy warunek",
+      "modal": {
+        "heading": "Plan uaktualnienia",
+        "content": "Uaktualnij plan do „Pro Monthly”, aby uzyskać dostęp do tej funkcji.",
+        "upgrade": "Aktualizacja"
+      }
+    },
+    "products": {
+      "heading": "Produkty",
+      "subHeading": "Wszystkie produkty",
+      "freePlan": {
+        "line1": "Tylko 20 produktów za darmowy plan",
+        "line2": "Plan uaktualnienia do nieograniczonej generacji"
+      },
+      "radioButton1": "Wszystkie produkty",
+      "radioButton2": "Wybierz produkty",
+      "radioButton3": "Wybierz kolekcję",
+      "radioButton4": {
+        "heading": "Na podstawie tagu",
+        "line1": "Wybrane tagi",
+        "button": "Dodaj"
+      },
+      "label1": {
+        "heading": "W przypadku zduplikowanego SKU:",
+        "option1": "Zastąp za pomocą nowego SKU",
+        "option2": "Zachowaj istniejący SKU"
+      },
+      "label2": {
+        "heading": "Inne opcje:",
+        "option1": "Stosuj tylko do produktów z pustym SKU",
+        "option2": "Dołącz nazwę wariantu produktu",
+        "option3": "Usuń spacje",
+        "option4": "Dołącz tytuł produktu",
+        "option5": "Pisać wielką literą wszystkie litery",
+        "option6": "Indywidualna numeracja wariantów"
+      }
+    },
+    "buttons": {
+      "button1": "Resetuj",
+      "button2": "Zobacz podgląd",
+      "button3": "Generować",
+      "modal": {
+        "processing": {
+          "heading": "Dodawanie danych do kolejki...",
+          "content": "Dane produktu są obecnie dodawane do kolejki zadań w celu generowania SKU. Proszę poczekać, aż będziemy przetwarzać Twoje dane..."
+        },
+        "error": {
+          "heading": "Nie powiodło się!",
+          "content": "Błąd podczas generowania SKU, spróbuj ponownie"
+        },
+        "success": {
+          "heading": "Świetnie!",
+          "content": "Dane produktu zostały dodane do kolejki generowania SKU. Proces rozpocznie się wkrótce. Śledź postępy na stronie postępu."
+        },
+        "redirect": "Zobacz stronę postępu",
+        "closes": "Automatycznie zamyka się ",
+        "time": " sekundy",
+        "helpUrl": {
+          "line1": "Masz problemy?",
+          "line2": "Podnieś bilet",
+          "line3": "zgłaszać problemy. Nasz zespół wsparcia niezwłocznie Ci pomoże"
+        }
+      }
+    },
+    "skuPreview": {
+      "heading": "Podgląd SKU",
+      "label1": "Produkt",
+      "label2": "Tytuł",
+      "label3": "Typ",
+      "label4": "Sprzedawca",
+      "label5": "SKU",
+      "label6": "Podgląd SKU",
+      "helpUrl": {
+        "line1": "Masz problemy?",
+        "line2": "Prześlij bilet"
+      }
+    }
+  },
+  "AutomatedSku": {
+    "heading": "Konfiguracja generowania SKU opartego na interfejsie API",
+    "automatedSKU": {
+      "heading": "Zautomatyzowany SKU",
+      "subHeading": "Włącz automatyczne tworzenie SKU dla nowych produktów",
+      "content": "Po zasubskrybowaniu tej funkcji możesz utworzyć wiele preferencji SKU. Kiedy tworzysz nowy produkt, SKU będą automatycznie generowane i zapisywane w oparciu o Twoje preferencje.",
+      "label": "Aby rozpocząć",
+      "list": {
+        "first": "Utwórz preferencje SKU",
+        "second": "Włącz automatyczne SKU za pomocą powyższego przełącznika",
+        "third": "SKU będą tworzone bez wysiłku dla nowo dodanych produktów"
+      }
+    },
+    "preference": {
+      "heading": "Preferencje SKU",
+      "empty": {
+        "heading": "Nie można znaleźć preferencji? Bez obaw",
+        "line1": "Wykonaj ten krok: Kliknij",
+        "line2": "Dodaj nowe preferencje",
+        "line3": " → Ustaw wartości atrybutów zgodnie z życzeniem → Kliknij",
+        "line4": "Zapisz",
+        "button": "Dodaj nowe preferencje",
+        "modal": {
+          "heading": "Plan uaktualnienia",
+          "content": "Uaktualnij plan do „Pro Monthly”, aby uzyskać dostęp do tej funkcji.",
+          "upgrade": "Aktualizacja"
+        }
+      },
+      "accordion": {
+        "hideOrView": {
+          "content1": "Ukryj",
+          "content2": "Widok"
+        },
+        "apply": {
+          "content1": "Stosowany",
+          "content2": "Zastosuj",
+          "tooltipContent1": "Zastosowane preferencje",
+          "tooltipContent2": "Zastosuj tę preferencję"
+        },
+        "delete": {
+          "content1": "Zapisz",
+          "content2": "Usuń"
+        },
+        "modal": {
+          "heading": "Usuń tę preferencję SKU?",
+          "content": "Czy naprawdę chcesz usunąć ten rekord? Tego procesu nie można cofnąć.",
+          "delete": "Usuń",
+          "cancel": "Anuluj"
+        }
+      },
+      "createNewPreference": {
+        "heading": "Utwórz nowe preferencje",
+        "button1": "Anuluj",
+        "button2": "Zapisz"
+      }
+    }
+  },
+  "DuplicatedSku": {
+    "heading": "Kontroler duplikatów SKU",
+    "duplicateChecker": {
+      "heading": "Informacje o sprawdzaniu duplikatów",
+      "content1": " SKU Duplicate Checker skanuje cały ekwipunek w poszukiwaniu produktów z zduplikowanymi SKU. Ten proces może zająć kilka minut w zależności od wielkości ekwipunku.",
+      "content2": "Używaj tego narzędzia regularnie, aby zapewnić integralność systemu zarządzania zapasami.",
+      "button": {
+        "content1": "Sprawdzanie duplikatów...",
+        "content2": "Rozpocznij sprawdzanie duplikatów"
+      }
+    },
+    "empty": {
+      "heading": "Nie znaleziono duplikatu",
+      "content": "Nie martw się! W Twoich produktach nie ma duplikatów SKU. Wszystkie SKU są wyjątkowe. Jeśli masz jakieś pytania lub potrzebujesz pomocy, skontaktuj się z pomocą techniczną.",
+      "button": "Skontaktuj się z nami"
+    },
+    "duplicateData": {
+      "heading": "Znaleziono duplikaty SKU",
+      "button": {
+        "content1": "Ponowne sprawdzanie...",
+        "content2": "Sprawdź ponownie"
+      },
+      "infoCards": {
+        "label1": "Całkowite duplikaty",
+        "label2": "Produkty dotknięte chorobą",
+        "label3": "Najbardziej zduplikowane SKU",
+        "miniLabel": "razy"
+      },
+      "editedSku": {
+        "button1": "Anuluj",
+        "button2": "Zapisz wszystkie SKU"
+      },
+      "table": {
+        "column1": "Obraz produktu",
+        "column2": "Tytuł produktu",
+        "column3": "Tytuł wariantu",
+        "column4": "Aktualny SKU"
+      }
+    }
+  },
+  "ProgressOrHistory": {
+    "heading": "Postęp generowania SKU",
+    "subHeading": "Śledzenie aktualnego stanu zadań generowania SKU",
+    "content": "Poniżej znajduje się szczegółowy postęp trwających procesów generowania SKU:",
+    "button": "Odśwież",
+    "limitedBackupBanner": {
+      "heading": "Ograniczony czas na przywrócenie SKU",
+      "content": "Uwaga: Możesz powrócić tylko do najnowszych SKU. Po 5 dniach dane te zostaną trwale usunięte i nie będziesz już w stanie przywrócić poprzednich SKU."
+    },
+    "table": {
+      "column1": "Identyfikator pracy",
+      "column2": "Data utworzenia",
+      "column3": "Liczba produktów",
+      "column4": "Status",
+      "column5": "Postęp",
+      "column6": "Pozostały czas",
+      "column7": "Działania",
+      "empty": {
+        "heading": "Brak dostępnych ofert pracy",
+        "content": "Wygląda na to, że w tej chwili nie ma zadań do wyświetlenia. Sprawdź później lub skontaktuj się z pomocą techniczną, jeśli uważasz, że jest to błąd.",
+        "generate": "Generowanie SKU",
+        "contact": "Skontaktuj się z nami"
+      }
+    },
+    "oldVsNewSku": {
+      "heading": "Historia SKU: Stary kontra nowy",
+      "subHeading": "Porównaj poprzednie i zaktualizowane SKU dla wariantów produktu",
+      "button": "Powrót do starego SKU",
+      "empty": {
+        "heading": "Nie znaleziono historii",
+        "content": "Wygląda na to, że w tej chwili nie ma historii do wyświetlenia. Sprawdź później lub skontaktuj się z pomocą techniczną, jeśli uważasz, że jest to błąd.",
+        "contact": "Skontaktuj się z nami",
+        "generate": "Generowanie SKU"
+      },
+      "table": {
+        "column1": "Obraz produktu",
+        "column2": "Tytuł produktu",
+        "column3": "Tytuł wariantu",
+        "column4": "Stary SKU",
+        "column5": "Nowy SKU"
+      }
+    }
+  },
+  "PlansAndPricing": {
+    "heading": "Znajdź swój plan",
+    "getFreeCreditsBanner": {
+      "heading": "Zdobądź 50 darmowych kredytów",
+      "content": "Napisz recenzję i zdobądź 50 kredytów jako darmowy bonus! Cenimy Twoją opinię. Podziel się swoimi przemyśleniami i ciesz się 50 kredytami jako nasze podziękowania!",
+      "button": "Porozmawiaj z nami"
+    },
+    "tabs": {
+      "value1": "Subskrypcje",
+      "value2": "Kredyty"
+    },
+    "RemainingCreditsBanner": {
+      "usedCredits": "Używane kredyty",
+      "remainingCredits": "Pozostałe kredyty",
+      "totalCredits": "Łączna liczba kredytów"
+    },
+    "lowCreditBanner": {
+      "heading": "Ostrzeżenie o niskich kredytach",
+      "content": "Twoje pozostałe kredyty są niskie. Rozważ wkrótce uzupełnienie, aby uniknąć przerw w obsłudze."
+    }
+  },
+  "Settings": {
+    "heading": "Ustawienia ogólne",
+    "row1": {
+      "title": "Język aplikacji",
+      "subTitle": "Wybierz język, aby przetłumaczyć aplikację za pomocą lokalizacji",
+      "label": "Wybierz język aplikacji",
+      "helpText": "Skontaktuj się z pomocą techniczną, jeśli preferowany język nie jest dostępny."
+    },
+    "row2": {
+      "title": "Uruchom ponownie wdrażanie",
+      "subTitle": "W razie potrzeby uruchom ponownie proces wdrażania",
+      "label": "Uruchom ponownie wdrażanie",
+      "helpText": "Możesz ponownie uruchomić proces wdrażania w dowolnym momencie, jeśli chcesz zacząć od nowa lub wprowadzić zmiany w początkowej konfiguracji."
+    },
+    "row3": {
+      "title": "Przewodnik generowania SKU",
+      "subTitle": "Uzyskaj dostęp do artykułów związanych z generowaniem SKU dla lepszego zrozumienia",
+      "label": "Jak używać",
+      "helpText": "Dowiedz się, jak generować SKU i efektywniej zarządzać zapasami produktów dzięki naszemu przewodnikowi po generowaniu SKU."
+    }
+  }
+}

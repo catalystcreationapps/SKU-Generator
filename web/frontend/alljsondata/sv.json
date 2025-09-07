@@ -1,0 +1,462 @@
+{
+  "Dashboard": {
+    "heading": "Instrumentpanelen",
+    "askReviewBanner": {
+      "heading": "Hej, Välkommen till F: SKU Code Generator 👋",
+      "content": {
+        "line1": "Lämna en recension & Inspirera oss att nå nya höjder!",
+        "line2": "Hur har din erfarenhet varit med F: SKU Code Generator?",
+        "line3": "✨ Din röst spelar roll - Hjälp oss att innovera och växa tillsammans!",
+        "button": "Skriv recension"
+      },
+      "modal": {
+        "heading": "Betygsätt din upplevelse",
+        "subHeading": "Hur skulle du betygsätta din upplevelse med vår app?",
+        "content": {
+          "line1": "Din feedback är värdefull för oss!",
+          "line2": "Tack för att du tog dig tid att dela dina tankar. Ditt betyg hjälper oss att förbättra och tillhandahålla bättre tjänster."
+        },
+        "cancel": "Stäng"
+      }
+    },
+    "blackFridayBanner": {
+      "heading": "Black Friday Specialerbjudande",
+      "subHeading": "Under en begränsad tid får du din första månad av Pro Monthly -planen för bara $1! Missa inte denna möjlighet att förbättra din SKU-hantering till ett oslagbart pris",
+      "list": {
+        "first": "Obegränsad SKU-generering",
+        "second": "Avancerade anpassningsalternativ",
+        "third": "Prioriterat stöd",
+        "fourth": "Fullständiga analyssviter"
+      },
+      "offerTimer": {
+        "label": "Erbjudandet upphör i",
+        "offerEnds": "Tiden är slut",
+        "content": "Ordinarie pris: $39/månad",
+        "button": "Gör anspråk på ditt erbjudande på $1 nu",
+        "modal": {
+          "heading": "Vill du ändra den nuvarande planen?",
+          "continue": "Fortsätta",
+          "cancel": "Avbryt"
+        }
+      }
+    },
+    "infoCards": {
+      "card1": {
+        "label": "SKU:er genererade",
+        "value": "SKU:er"
+      },
+      "card2": {
+        "label": "Ny produkt tillagd",
+        "value": "Produkter"
+      },
+      "card3": {
+        "label": "Återstående krediter",
+        "value": "Obegränsad"
+      },
+      "card4": {
+        "label": "Nuvarande plan"
+      }
+    },
+    "historyOrProgressCard": {
+      "heading": "SKU Generationsförlopp/Historik",
+      "link": " Visa hela historiken",
+      "table": {
+        "emptyData": {
+          "heading": "Inga lediga jobb",
+          "content": "Det verkar som om det inte finns några jobb att visa just nu. Kom tillbaka senare eller kontakta support om du tror att detta är ett fel.",
+          "contact": "Kontakta oss",
+          "generate": "Generera SKU:er"
+        },
+        "column1": "Jobb-ID",
+        "column2": "Datum skapad",
+        "column3": "Antal produkter",
+        "column4": "Status",
+        "column5": "Framsteg",
+        "column6": "Återstående tid"
+      }
+    },
+    "recommendedApps": {
+      "heading": "Rekommenderade appar",
+      "subHeading": "Förbättra din butik med de här topprankade apparna",
+      "button": "Installera",
+      "app1": {
+        "category": "Fakturor och kvitton",
+        "content": "Skapa anpassade fakturor, följesedlar och beställningsutskrifter med lätthet. E-posta professionella fakturor och effektivisera orderhanteringen."
+      },
+      "app2": {
+        "category": "Frakt, SKU och streckkoder",
+        "content": "Enkel detaljhandelsstreckkodsgenerator. Skriv ut streckkodsetiketter för detaljhandeln för produkter. UPC och GTIN stöds."
+      },
+      "app3": {
+        "category": "Skatter, priser - Övrigt",
+        "content": "B2B-app för att visa moms inklusive och moms exklusive priser tillsammans. Validera EU-moms-ID med hjälp av VIES."
+      },
+      "app4": {
+        "category": "Produktpaket, Rabatter",
+        "content": "Med den här appen kan du skapa tilltalande produktpaket, öka AOV och intäkter med Mix and Match."
+      }
+    }
+  },
+  "SkuGenerate": {
+    "heading": "Skapa SKU för dina produkter",
+    "helpUrl": {
+      "line1": "Har du problem?",
+      "line2": "Skicka in en biljett"
+    },
+    "basicRules": {
+      "heading": "Grundläggande regler",
+      "column1": {
+        "label": "Prefix",
+        "helpText": "Startvärdet för SKU"
+      },
+      "column2": {
+        "label": "Kropp",
+        "helpText": "Början av numret som genereras"
+      },
+      "column3": {
+        "label": "Suffix",
+        "helpText": "Slutvärdet för SKU"
+      },
+      "radioButtons": {
+        "option1": {
+          "label": "Kontinuerligt nummer",
+          "helpText": "Generera SKU:er med sekventiella nummer som 1, 2, 3, 4, etc."
+        },
+        "option2": {
+          "label": "Fortsätt från senaste SKU-generationen",
+          "helpText": "Återuppta numreringen från den senast genererade SKU: n i föregående batch.",
+          "tooltipContent": "Endast tillgängligt för användare med betalabonnemang"
+        },
+        "option3": {
+          "label": "Inaktivera kroppsnummer",
+          "helpText": "SKU:er innehåller inte en numerisk komponent i kroppen."
+        },
+        "option4": {
+          "label": "Använd produkt-ID som nummer",
+          "helpText": "Inkludera produktens unika identifierare i SKU."
+        },
+        "option5": {
+          "label": "Använd variant-ID som nummer",
+          "helpText": "Använd variantens unika identifierare för produkter med flera alternativ."
+        },
+        "option6": {
+          "label": "Använd slumptal",
+          "helpText": "Generera ett slumptal för varje SKU.",
+          "numberField": "Slumpmässig tallängd"
+        }
+      },
+      "layout": {
+        "heading": "Ställ in SKU-layout:",
+        "helpText": "Dra och släpp för att ordna om komponenter som du vill"
+      }
+    },
+    "separator": {
+      "heading": "Separator",
+      "label": "Värde",
+      "helpText": "Värdet som infogas mellan prefix, body och suffix",
+      "delimeters": {
+        "heading": "Använd avgränsare:",
+        "radioButton": "Används inte",
+        "checkBox": "Prefixavgränsare"
+      },
+      "productVendor": {
+        "heading": "Produktleverantör:",
+        "line1": "Används inte",
+        "line2": "Första tecknet",
+        "line3": "Första 2 tecken",
+        "line4": "Första 3 tecken",
+        "line5": "Första 4 tecken"
+      },
+      "productType": {
+        "heading": "Produkttyp:",
+        "line1": "Används inte",
+        "line2": "Första tecknet",
+        "line3": "Första 2 tecken",
+        "line4": "Första 3 tecken",
+        "line5": "Första 4 tecken"
+      }
+    },
+    "conditionConfiguration": {
+      "heading": "If-Then konfiguration",
+      "content": "Ange villkor baserat på produktattribut och ange vilka åtgärder som ska vidtas när dessa villkor är uppfyllda.",
+      "tooltipContent": "Till exempel: Om du vill lägga till ”NK” i SKU för en produkt med titeln ”Nike Hoodie”, ange ”Nike Hoodie” i fältet ”Matcha med” och ”NK” i fältet ”Värde att lägga till”. Detta kommer automatiskt att lägga till ”NK” till SKU när produkttiteln matchar ”Nike Hoodie”.",
+      "column1": {
+        "label": "Produktområde",
+        "option1": "Ingen",
+        "option2": "Produkttitel",
+        "option3": "Produktleverantör",
+        "option4": "Produkttyp",
+        "option5": "Produkttagg",
+        "helpText": "Markera det fält som villkoret ska tillämpas på."
+      },
+      "column2": {
+        "label": "Matcha med",
+        "prefix": "Lika",
+        "helpText": "Ange det värde som det valda fältet ska matcha."
+      },
+      "column3": {
+        "label": "Värde att lägga till",
+        "prefix": "Sedan",
+        "helpText": "Ange värdet som ska läggas till när villkoret är uppfyllt."
+      },
+      "action": "Lägg till nytt villkor",
+      "modal": {
+        "heading": "Uppgraderingsplan",
+        "content": "Uppgradera planen till ”Pro Monthly” för att komma åt den här funktionen.",
+        "upgrade": "Uppgradera"
+      }
+    },
+    "products": {
+      "heading": "Produkter",
+      "subHeading": "Totalt antal produkter",
+      "freePlan": {
+        "line1": "Endast 20 produkter för gratis plan",
+        "line2": "Uppgraderingsplan till obegränsad generation"
+      },
+      "radioButton1": "Alla produkter",
+      "radioButton2": "Välj produkter",
+      "radioButton3": "Välj kollektion",
+      "radioButton4": {
+        "heading": "Baserat på tagg",
+        "line1": "Valda taggar",
+        "button": "Lägg till"
+      },
+      "label1": {
+        "heading": "Vid dubblett SKU:",
+        "option1": "Skriv över med ny SKU",
+        "option2": "Behåll befintlig SKU"
+      },
+      "label2": {
+        "heading": "Andra alternativ:",
+        "option1": "Gäller endast för produkter med tomma SKU:er",
+        "option2": "Inkludera produktvariantnamn",
+        "option3": "Ta bort mellanslag",
+        "option4": "Inkludera produktens titel",
+        "option5": "Kapitalisera alla bokstäver",
+        "option6": "Individuell variantnumrering"
+      }
+    },
+    "buttons": {
+      "button1": "Återställ",
+      "button2": "Se Förhandsgranskning",
+      "button3": "Generera",
+      "modal": {
+        "processing": {
+          "heading": "Lägger till data i kö...",
+          "content": "Produktdata läggs för närvarande till i jobbkön för SKU-generering. Vänta medan vi behandlar dina uppgifter..."
+        },
+        "error": {
+          "heading": "Misslyckades!",
+          "content": "Fel vid generering av SKU, försök igen"
+        },
+        "success": {
+          "heading": "Jättebra!",
+          "content": "Produktdata har lagts till i SKU-genereringskön. Processen kommer att starta inom kort. Spåra framstegen på förloppssidan."
+        },
+        "redirect": "Se framstegssidan",
+        "closes": "Stängs automatiskt ",
+        "time": " sekunder",
+        "helpUrl": {
+          "line1": "Har du problem?",
+          "line2": "Höj en biljett",
+          "line3": "för att rapportera problem. Vårt supportteam hjälper dig snabbt"
+        }
+      }
+    },
+    "skuPreview": {
+      "heading": "Förhandsgranskning av SKU",
+      "label1": "Produkt",
+      "label2": "Titel",
+      "label3": "Typ",
+      "label4": "Leverantör",
+      "label5": "SKU",
+      "label6": "Förhandsgranskning av SKU",
+      "helpUrl": {
+        "line1": "Har du problem?",
+        "line2": "Skicka in en biljett"
+      }
+    }
+  },
+  "AutomatedSku": {
+    "heading": "Konfiguration för API-baserad SKU-generering",
+    "automatedSKU": {
+      "heading": "Automatiserad SKU",
+      "subHeading": "Aktivera automatisk skapande av SKU för nya produkter",
+      "content": "När du prenumererar på den här funktionen kan du skapa flera SKU-inställningar. När du skapar en ny produkt genereras och sparas SKU:er automatiskt baserat på dina preferenser.",
+      "label": "För att komma igång",
+      "list": {
+        "first": "Skapa din SKU-preferens",
+        "second": "Aktivera Automated SKU med hjälp av växeln ovan",
+        "third": "SKU:er skapas enkelt för nyligen tillagda produkter"
+      }
+    },
+    "preference": {
+      "heading": "SKU preferens",
+      "empty": {
+        "heading": "Kan du inte hitta Preference? Inga bekymmer",
+        "line1": "Följ detta steg: Klicka på",
+        "line2": "Lägg till ny preferens",
+        "line3": " → Ange attributvärden som önskas → Klicka",
+        "line4": "Spara",
+        "button": "Lägg till ny preferens",
+        "modal": {
+          "heading": "Uppgraderingsplan",
+          "content": "Uppgradera planen till ”Pro Monthly” för att komma åt den här funktionen.",
+          "upgrade": "Uppgradera"
+        }
+      },
+      "accordion": {
+        "hideOrView": {
+          "content1": "Göm",
+          "content2": "Se"
+        },
+        "apply": {
+          "content1": "Tillämpad",
+          "content2": "Ansök",
+          "tooltipContent1": "Tillämpad preferens",
+          "tooltipContent2": "Använd den här inställningen"
+        },
+        "delete": {
+          "content1": "Spara",
+          "content2": "Ta bort"
+        },
+        "modal": {
+          "heading": "Ta bort den här SKU-inställningen?",
+          "content": "Vill du verkligen ta bort den här posten? Denna process kan inte ångras.",
+          "delete": "Ta bort",
+          "cancel": "Avbryt"
+        }
+      },
+      "createNewPreference": {
+        "heading": "Skapa ny preferens",
+        "button1": "Avbryt",
+        "button2": "Spara"
+      }
+    }
+  },
+  "DuplicatedSku": {
+    "heading": "SKU Duplicate Checker",
+    "duplicateChecker": {
+      "heading": "Om Duplicate Checker",
+      "content1": " SKU Duplicate Checker skannar hela ditt lager efter produkter med dubbla SKU:er. Denna process kan ta flera minuter beroende på storleken på ditt lager.",
+      "content2": "Använd det här verktyget regelbundet för att säkerställa integriteten i ditt lagerhanteringssystem.",
+      "button": {
+        "content1": "Söker efter dubbletter...",
+        "content2": "Starta dupliceringskontroll"
+      }
+    },
+    "empty": {
+      "heading": "Inga dubbletter hittades",
+      "content": "Oroa dig inte! Det finns inga dubbla SKU:er i dina produkter. Alla SKU:er är unika. Om du har några frågor eller behöver hjälp är du välkommen att kontakta support.",
+      "button": "Kontakta oss"
+    },
+    "duplicateData": {
+      "heading": "Duplicerade SKU:er hittades",
+      "button": {
+        "content1": "Kontrollerar igen...",
+        "content2": "Kontrollera igen"
+      },
+      "infoCards": {
+        "label1": "Totalt dubbletter",
+        "label2": "Berörda produkter",
+        "label3": "Mest duplicerade SKU",
+        "miniLabel": "gånger"
+      },
+      "editedSku": {
+        "button1": "Avbryt",
+        "button2": "Spara alla SKU:er"
+      },
+      "table": {
+        "column1": "Produktbild",
+        "column2": "Produkttitel",
+        "column3": "Varianttitel",
+        "column4": "Nuvarande SKU"
+      }
+    }
+  },
+  "ProgressOrHistory": {
+    "heading": "SKU-genereringsframsteg",
+    "subHeading": "Spåra aktuell status för dina SKU-genereringsjobb",
+    "content": "Nedan följer de detaljerade framstegen för de pågående SKU-genereringsprocesserna:",
+    "button": "Uppdatera",
+    "limitedBackupBanner": {
+      "heading": "Begränsad tid för att återställa SKU:er",
+      "content": "Observera: Du kan bara återgå till de senaste SKU:erna. Efter 5 dagar kommer dessa data att tas bort permanent och du kommer inte längre att kunna återställa tidigare SKU:er."
+    },
+    "table": {
+      "column1": "Jobb-ID",
+      "column2": "Datum skapad",
+      "column3": "Antal produkter",
+      "column4": "Status",
+      "column5": "Framsteg",
+      "column6": "Återstående tid",
+      "column7": "Åtgärder",
+      "empty": {
+        "heading": "Inga lediga jobb",
+        "content": "Det verkar som om det inte finns några jobb att visa just nu. Kom tillbaka senare eller kontakta support om du tror att detta är ett fel.",
+        "generate": "Generera SKU:er",
+        "contact": "Kontakta oss"
+      }
+    },
+    "oldVsNewSku": {
+      "heading": "SKU Historik: Gammalt vs Nytt",
+      "subHeading": "Jämför tidigare och uppdaterade SKU:er för produktvarianter",
+      "button": "Återgå till gammal SKU",
+      "empty": {
+        "heading": "Ingen historik hittades",
+        "content": "Det verkar som om det inte finns någon historik att visa just nu. Kom tillbaka senare eller kontakta support om du tror att detta är ett fel.",
+        "contact": "Kontakta oss",
+        "generate": "Generera SKU:er"
+      },
+      "table": {
+        "column1": "Produktbild",
+        "column2": "Produkttitel",
+        "column3": "Varianttitel",
+        "column4": "Gammal SKU",
+        "column5": "Ny SKU"
+      }
+    }
+  },
+  "PlansAndPricing": {
+    "heading": "Hitta din plan",
+    "getFreeCreditsBanner": {
+      "heading": "Tjäna 50 gratis krediter",
+      "content": "Skriv en recension och få 50 krediter som en gratis bonus! Vi värdesätter din feedback. Dela dina tankar och njut av 50 poäng som vårt tack!",
+      "button": "Chatta med oss"
+    },
+    "tabs": {
+      "value1": "Prenumerationer",
+      "value2": "Krediter"
+    },
+    "RemainingCreditsBanner": {
+      "usedCredits": "Använda krediter",
+      "remainingCredits": "Återstående krediter",
+      "totalCredits": "Totalt antal krediter"
+    },
+    "lowCreditBanner": {
+      "heading": "Varning om låga krediter",
+      "content": "Dina återstående krediter tar slut. Överväg att fylla på snart för att undvika serviceavbrott."
+    }
+  },
+  "Settings": {
+    "heading": "Allmänna inställningar",
+    "row1": {
+      "title": "Appspråk",
+      "subTitle": "Välj språk för att översätta appen med hjälp av lokalisering",
+      "label": "Välj appspråk",
+      "helpText": "Kontakta supporten om önskat språk inte är tillgängligt."
+    },
+    "row2": {
+      "title": "Starta om onboarding",
+      "subTitle": "Starta om onboarding-processen om det behövs",
+      "label": "Starta om onboarding",
+      "helpText": "Du kan starta om onboarding-processen när som helst om du behöver börja om eller göra ändringar i den ursprungliga inställningen."
+    },
+    "row3": {
+      "title": "SKU-genereringsguide",
+      "subTitle": "Få tillgång till artiklar relaterade till SKU-generering för bättre förståelse",
+      "label": "Hur man använder",
+      "helpText": "Lär dig hur du genererar SKU:er och hanterar ditt produktlager mer effektivt med vår SKU Generation Guide."
+    }
+  }
+}

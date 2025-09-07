@@ -1,0 +1,43 @@
+body {
+  @extend %secondary;
+
+  letter-spacing: 0.5px;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.text-base {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+.text-lg {
+  font-size: 1.125em;
+  line-height: 1.75em;
+}
+
+.text-xl {
+  font-size: 1.25em;
+  line-height: 1.75em;
+}

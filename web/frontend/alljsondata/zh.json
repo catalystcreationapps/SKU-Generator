@@ -1,0 +1,462 @@
+{
+  "Dashboard": {
+    "heading": "仪表板",
+    "askReviewBanner": {
+      "heading": "你好，欢迎来到 F: SKU 代码生成器 👋",
+      "content": {
+        "line1": "发表评论并激励我们达到新的高度！",
+        "line2": "你使用 F: SKU 代码生成器的体验如何？",
+        "line3": "✨ 你的声音很重要——帮助我们共同创新，共同成长！",
+        "button": "写评论"
+      },
+      "modal": {
+        "heading": "为您的体验打分",
+        "subHeading": "您如何评价您使用我们的应用程序的体验？",
+        "content": {
+          "line1": "您的反馈对我们非常宝贵！",
+          "line2": "感谢您抽出宝贵的时间分享您的想法。您的评分有助于我们改善和提供更好的服务。"
+        },
+        "cancel": "关闭"
+      }
+    },
+    "blackFridayBanner": {
+      "heading": "黑色星期五特别优惠",
+      "subHeading": "在限定时间内，只需 1 美元即可获得第一个月的专业月度套餐！千万不要错过这个以无与伦比的价格增强您的 SKU 管理的机会",
+      "list": {
+        "first": "无限量生成 SKU",
+        "second": "高级自定义选项",
+        "third": "优先支持",
+        "fourth": "全套分析套件"
+      },
+      "offerTimer": {
+        "label": "优惠结束于",
+        "offerEnds": "时间到了",
+        "content": "正常价格：39 美元/月",
+        "button": "立即申领您的 1 美元优惠",
+        "modal": {
+          "heading": "你想更改当前的计划吗？",
+          "continue": "继续",
+          "cancel": "取消"
+        }
+      }
+    },
+    "infoCards": {
+      "card1": {
+        "label": "SKU 已生成",
+        "value": "SKU"
+      },
+      "card2": {
+        "label": "新产品已添加",
+        "value": "产品"
+      },
+      "card3": {
+        "label": "剩余积分",
+        "value": "无限制"
+      },
+      "card4": {
+        "label": "目前的计划"
+      }
+    },
+    "historyOrProgressCard": {
+      "heading": "SKU 生成进度/历史记录",
+      "link": " 查看完整历史记录",
+      "table": {
+        "emptyData": {
+          "heading": "没有空缺职位",
+          "content": "目前看来没有任务可显示。如果您认为这是一个错误，请稍后再回来查看或联系支持部门。",
+          "contact": "联系我们",
+          "generate": "生成 SKU"
+        },
+        "column1": "职位编号",
+        "column2": "创建日期",
+        "column3": "产品数量",
+        "column4": "状态",
+        "column5": "进展",
+        "column6": "剩余时间"
+      }
+    },
+    "recommendedApps": {
+      "heading": "推荐的应用程序",
+      "subHeading": "使用这些最受好评的应用程序增强您的商店",
+      "button": "安装",
+      "app1": {
+        "category": "发票和收据",
+        "content": "轻松生成自定义发票、装箱单和订单打印件。通过电子邮件发送专业发票并简化订单处理。"
+      },
+      "app2": {
+        "category": "运费、SKU 和条形码",
+        "content": "简易零售条码生成器。打印产品的零售条形码标签。支持 UPC 和 GTIN。"
+      },
+      "app3": {
+        "category": "税费、定价-其他",
+        "content": "B2B 应用程序将同时显示含增值税和不含增值税的价格。使用 VIES 验证欧盟增值税税号。"
+      },
+      "app4": {
+        "category": "产品套装，折扣",
+        "content": "该应用程序可让您创建有吸引力的产品套装，通过混合搭配提高AOV和收入。"
+      }
+    }
+  },
+  "SkuGenerate": {
+    "heading": "为您的产品生成 SKU",
+    "helpUrl": {
+      "line1": "有问题吗？",
+      "line2": "提交票证"
+    },
+    "basicRules": {
+      "heading": "基本规则",
+      "column1": {
+        "label": "前缀",
+        "helpText": "SKU 的起始价值"
+      },
+      "column2": {
+        "label": "身体",
+        "helpText": "正在生成的数字的起始位置"
+      },
+      "column3": {
+        "label": "后缀",
+        "helpText": "SKU 的最终价值"
+      },
+      "radioButtons": {
+        "option1": {
+          "label": "连续数字",
+          "helpText": "使用序列号（如 1、2、3、4 等）生成 SKU。"
+        },
+        "option2": {
+          "label": "从上一代 SKU 开始继续",
+          "helpText": "从上一批中最后生成的 SKU 恢复编号。",
+          "tooltipContent": "仅适用于付费套餐的用户"
+        },
+        "option3": {
+          "label": "禁用身体号码",
+          "helpText": "SKU 的正文中不包含数字组件。"
+        },
+        "option4": {
+          "label": "使用产品 ID 作为数字",
+          "helpText": "将产品的唯一标识符整合到 SKU 中。"
+        },
+        "option5": {
+          "label": "使用变体 ID 作为数字",
+          "helpText": "对于具有多个选项的产品，使用变体的唯一标识符。"
+        },
+        "option6": {
+          "label": "使用随机数",
+          "helpText": "为每个 SKU 生成一个随机数。",
+          "numberField": "随机数长度"
+        }
+      },
+      "layout": {
+        "heading": "设置 SKU 布局：",
+        "helpText": "拖放即可根据需要重新排列组件"
+      }
+    },
+    "separator": {
+      "heading": "分隔符",
+      "label": "价值",
+      "helpText": "将在前缀、正文和后缀之间插入的值",
+      "delimeters": {
+        "heading": "使用分隔符：",
+        "radioButton": "未使用",
+        "checkBox": "前缀分隔符"
+      },
+      "productVendor": {
+        "heading": "产品供应商：",
+        "line1": "未使用",
+        "line2": "第一个字符",
+        "line3": "前 2 个字符",
+        "line4": "前 3 个字符",
+        "line5": "前 4 个字符"
+      },
+      "productType": {
+        "heading": "产品类型：",
+        "line1": "未使用",
+        "line2": "第一个字符",
+        "line3": "前 2 个字符",
+        "line4": "前 3 个字符",
+        "line5": "前 4 个字符"
+      }
+    },
+    "conditionConfiguration": {
+      "heading": "If-Then 配置",
+      "content": "根据产品属性设置条件，并指定满足这些条件时要采取的措施。",
+      "tooltipContent": "例如：如果您想在名为 “耐克连帽衫” 的商品的 SKU 中添加 “NK”，请在 “匹配对象” 字段中输入 “耐克连帽衫”，在 “待添加的价值” 字段中输入 “NK”。每当商品名称与 “耐克连帽衫” 相匹配时，这会自动将 “NK” 附加到 SKU。",
+      "column1": {
+        "label": "产品字段",
+        "option1": "无",
+        "option2": "商品标题",
+        "option3": "产品供应商",
+        "option4": "产品类型",
+        "option5": "产品标签",
+        "helpText": "选择要应用条件的字段。"
+      },
+      "column2": {
+        "label": "与",
+        "prefix": "等于",
+        "helpText": "输入所选字段应匹配的值。"
+      },
+      "column3": {
+        "label": "要增加的价值",
+        "prefix": "然后",
+        "helpText": "输入满足条件时要添加的值。"
+      },
+      "action": "添加新条件",
+      "modal": {
+        "heading": "升级计划",
+        "content": "将套餐升级到 “Pro Monthly” 即可使用此功能。",
+        "upgrade": "升级"
+      }
+    },
+    "products": {
+      "heading": "产品",
+      "subHeading": "产品总数",
+      "freePlan": {
+        "line1": "免费套餐只有 20 种产品",
+        "line2": "将计划升级到无限代"
+      },
+      "radioButton1": "所有产品",
+      "radioButton2": "选择产品",
+      "radioButton3": "选择收藏",
+      "radioButton4": {
+        "heading": "基于标签",
+        "line1": "选定的标签",
+        "button": "添加"
+      },
+      "label1": {
+        "heading": "如果是 SKU 重复：",
+        "option1": "用新 SKU 覆盖",
+        "option2": "保留现有 SKU"
+      },
+      "label2": {
+        "heading": "其他选项：",
+        "option1": "仅适用于 SKU 为空的商品",
+        "option2": "包括产品变体名称",
+        "option3": "移除空格",
+        "option4": "包括商品标题",
+        "option5": "将所有字母大写",
+        "option6": "单个变体编号"
+      }
+    },
+    "buttons": {
+      "button1": "重置",
+      "button2": "参见预览",
+      "button3": "生成",
+      "modal": {
+        "processing": {
+          "heading": "正在向队列中添加数据...",
+          "content": "产品数据目前正在添加到任务队列中，以生成 SKU。我们正在处理您的数据，请稍候..."
+        },
+        "error": {
+          "heading": "失败了！",
+          "content": "生成 SKU 时出错，请重试"
+        },
+        "success": {
+          "heading": "太棒了！",
+          "content": "商品数据已添加到 SKU 生成队列中。该过程将很快开始。在进度页面上跟踪进度。"
+        },
+        "redirect": "查看进度页面",
+        "closes": "自动关闭 ",
+        "time": " 秒",
+        "helpUrl": {
+          "line1": "有问题吗？",
+          "line2": "筹集一张票",
+          "line3": "报告问题。我们的支持团队将及时为您提供帮助"
+        }
+      }
+    },
+    "skuPreview": {
+      "heading": "SKU 预览",
+      "label1": "产品",
+      "label2": "标题",
+      "label3": "类型",
+      "label4": "供应商",
+      "label5": "SKU",
+      "label6": "SKU 预览",
+      "helpUrl": {
+        "line1": "有问题吗？",
+        "line2": "提交票证"
+      }
+    }
+  },
+  "AutomatedSku": {
+    "heading": "基于 API 生成的 SKU 的配置",
+    "automatedSKU": {
+      "heading": "自动化 SKU",
+      "subHeading": "为新产品启用自动创建 SKU",
+      "content": "订阅此功能后，您可以创建多个 SKU 首选项。当您创建新产品时，SKU 将根据您的偏好自动生成和保存。",
+      "label": "要开始",
+      "list": {
+        "first": "创建您的 SKU 首选项",
+        "second": "使用上面的开关启用自动 SKU",
+        "third": "将毫不费力地为新添加的产品创建 SKU"
+      }
+    },
+    "preference": {
+      "heading": "SKU 首选项",
+      "empty": {
+        "heading": "找不到首选项？不用担心",
+        "line1": "按照此步骤操作：单击",
+        "line2": "添加新首选项",
+        "line3": " → 随心所欲设置属性值 → 点击",
+        "line4": "保存",
+        "button": "添加新首选项",
+        "modal": {
+          "heading": "升级计划",
+          "content": "将套餐升级到 “Pro Monthly” 即可使用此功能。",
+          "upgrade": "升级"
+        }
+      },
+      "accordion": {
+        "hideOrView": {
+          "content1": "隐藏",
+          "content2": "查看"
+        },
+        "apply": {
+          "content1": "已应用",
+          "content2": "申请",
+          "tooltipContent1": "应用的偏好",
+          "tooltipContent2": "应用此首选项"
+        },
+        "delete": {
+          "content1": "保存",
+          "content2": "删除"
+        },
+        "modal": {
+          "heading": "删除此 SKU 首选项？",
+          "content": "你真的想删除这条记录吗？此过程无法撤消。",
+          "delete": "删除",
+          "cancel": "取消"
+        }
+      },
+      "createNewPreference": {
+        "heading": "创建新首选项",
+        "button1": "取消",
+        "button2": "保存"
+      }
+    }
+  },
+  "DuplicatedSku": {
+    "heading": "SKU 重复检查器",
+    "duplicateChecker": {
+      "heading": "关于重复检查器",
+      "content1": " SKU 重复检查器会扫描您的全部库存，查找具有重复 SKU 的商品。此过程可能需要几分钟，具体取决于您的库存规模。",
+      "content2": "定期使用此工具来确保库存管理系统的完整性。",
+      "button": {
+        "content1": "正在检查重复项...",
+        "content2": "开始重复检查"
+      }
+    },
+    "empty": {
+      "heading": "未找到重复项",
+      "content": "别担心！您的商品中没有重复的 SKU。所有 SKU 都是独一无二的。如果您有任何问题或需要帮助，请随时联系客服。",
+      "button": "联系我们"
+    },
+    "duplicateData": {
+      "heading": "已找到重复的 SKU",
+      "button": {
+        "content1": "正在重新检查...",
+        "content2": "再检查一遍"
+      },
+      "infoCards": {
+        "label1": "重复项总数",
+        "label2": "受影响的产品",
+        "label3": "重复次数最多的 SKU",
+        "miniLabel": "倍"
+      },
+      "editedSku": {
+        "button1": "取消",
+        "button2": "保存所有 SKU"
+      },
+      "table": {
+        "column1": "产品图片",
+        "column2": "商品标题",
+        "column3": "变体标题",
+        "column4": "当前 SKU"
+      }
+    }
+  },
+  "ProgressOrHistory": {
+    "heading": "SKU 生成进度",
+    "subHeading": "追踪您的 SKU 生成任务的当前状态",
+    "content": "以下是正在进行的 SKU 生成过程的详细进展：",
+    "button": "刷新",
+    "limitedBackupBanner": {
+      "heading": "恢复 SKU 的时间有限",
+      "content": "请注意：您只能恢复到最新的 SKU。5 天后，这些数据将被永久删除，您将无法再恢复以前的 SKU。"
+    },
+    "table": {
+      "column1": "职位编号",
+      "column2": "创建日期",
+      "column3": "产品数量",
+      "column4": "状态",
+      "column5": "进展",
+      "column6": "剩余时间",
+      "column7": "行动",
+      "empty": {
+        "heading": "没有空缺职位",
+        "content": "目前看来没有任务可显示。如果您认为这是一个错误，请稍后再回来查看或联系支持部门。",
+        "generate": "生成 SKU",
+        "contact": "联系我们"
+      }
+    },
+    "oldVsNewSku": {
+      "heading": "SKU 历史记录：旧版对比新版",
+      "subHeading": "比较产品变体的先前和更新的 SKU",
+      "button": "恢复为旧 SKU",
+      "empty": {
+        "heading": "未找到历史记录",
+        "content": "目前看来没有历史可以显示。如果您认为这是一个错误，请稍后再回来查看或联系支持部门。",
+        "contact": "联系我们",
+        "generate": "生成 SKU"
+      },
+      "table": {
+        "column1": "产品图片",
+        "column2": "商品标题",
+        "column3": "变体标题",
+        "column4": "旧 SKU",
+        "column5": "新 SKU"
+      }
+    }
+  },
+  "PlansAndPricing": {
+    "heading": "查找您的套餐",
+    "getFreeCreditsBanner": {
+      "heading": "赚取 50 个免费积分",
+      "content": "撰写评论并获得 50 个积分作为免费奖励！我们重视您的反馈。分享您的想法并享受 50 个积分作为我们的感谢！",
+      "button": "和我们聊天"
+    },
+    "tabs": {
+      "value1": "订阅",
+      "value2": "积分"
+    },
+    "RemainingCreditsBanner": {
+      "usedCredits": "已用积分",
+      "remainingCredits": "剩余积分",
+      "totalCredits": "总积分"
+    },
+    "lowCreditBanner": {
+      "heading": "低积分警告",
+      "content": "您的剩余积分即将用完。考虑尽快充值以避免服务中断。"
+    }
+  },
+  "Settings": {
+    "heading": "常规设置",
+    "row1": {
+      "title": "应用程序语言",
+      "subTitle": "选择您的语言以使用本地化来翻译应用程序",
+      "label": "选择应用程序语言",
+      "helpText": "如果您的首选语言不可用，请联系客服。"
+    },
+    "row2": {
+      "title": "重启入门",
+      "subTitle": "如果需要，重新启动入职流程",
+      "label": "重启入门",
+      "helpText": "如果您需要重新开始或更改初始设置，可以随时重新启动入门流程。"
+    },
+    "row3": {
+      "title": "SKU 生成指南",
+      "subTitle": "访问与 SKU 生成相关的文章以更好地理解",
+      "label": "如何使用",
+      "helpText": "阅读我们的 SKU 生成指南，了解如何生成 SKU 和更有效地管理您的产品库存。"
+    }
+  }
+}

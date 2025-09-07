@@ -1,0 +1,462 @@
+{
+  "Dashboard": {
+    "heading": "Dashboard",
+    "askReviewBanner": {
+      "heading": "Hallo, welkom bij F: SKU Code Generator 👋",
+      "content": {
+        "line1": "Laat een recensie achter en inspireer ons om nieuwe hoogten te bereiken!",
+        "line2": "Hoe was uw ervaring met F: SKU Code Generator?",
+        "line3": "✨ Uw stem is belangrijk — help ons samen te innoveren en te groeien!",
+        "button": "Schrijf een recensie"
+      },
+      "modal": {
+        "heading": "Beoordeel uw ervaring",
+        "subHeading": "Hoe zou u uw ervaring met onze app beoordelen?",
+        "content": {
+          "line1": "Uw feedback is waardevol voor ons!",
+          "line2": "Bedankt dat u de tijd hebt genomen om uw gedachten te delen. Uw beoordeling helpt ons om betere diensten te leveren en te verbeteren."
+        },
+        "cancel": "Sluiten"
+      }
+    },
+    "blackFridayBanner": {
+      "heading": "Speciale Black Friday-aanbieding",
+      "subHeading": "Neem voor een beperkte tijd uw eerste maand van het Pro Monthly-abonnement voor slechts $1! Mis deze kans niet om uw SKU-beheer een boost te geven voor een onverslaanbare prijs",
+      "list": {
+        "first": "Onbeperkte SKU-generatie",
+        "second": "Geavanceerde aanpassingsopties",
+        "third": "Prioritaire ondersteuning",
+        "fourth": "Volledige analysesuites"
+      },
+      "offerTimer": {
+        "label": "Het aanbod eindigt op",
+        "offerEnds": "De tijd is om",
+        "content": "Normale prijs: $39 per maand",
+        "button": "Vraag nu uw aanbod van $1 aan",
+        "modal": {
+          "heading": "Wilt u het huidige abonnement wijzigen?",
+          "continue": "Ga verder",
+          "cancel": "Annuleren"
+        }
+      }
+    },
+    "infoCards": {
+      "card1": {
+        "label": "SKU's gegenereerd",
+        "value": "SKU's"
+      },
+      "card2": {
+        "label": "Nieuw product toegevoegd",
+        "value": "Producten"
+      },
+      "card3": {
+        "label": "Resterende credits",
+        "value": "Onbeperkt"
+      },
+      "card4": {
+        "label": "Huidig abonnement"
+      }
+    },
+    "historyOrProgressCard": {
+      "heading": "SKU Generation Progress/Geschiedenis",
+      "link": " Bekijk de volledige geschiedenis",
+      "table": {
+        "emptyData": {
+          "heading": "Geen vacatures beschikbaar",
+          "content": "Het lijkt erop dat er op dit moment geen vacatures zijn om weer te geven. Kom later nog eens terug of neem contact op met de klantenservice als u denkt dat dit een fout is.",
+          "contact": "Neem contact met ons op",
+          "generate": "SKU's genereren"
+        },
+        "column1": "Taak-ID",
+        "column2": "Aanmaakdatum",
+        "column3": "Aantal producten",
+        "column4": "Status",
+        "column5": "Vooruitgang",
+        "column6": "Resterende tijd"
+      }
+    },
+    "recommendedApps": {
+      "heading": "Aanbevolen apps",
+      "subHeading": "Verbeter uw winkel met deze best beoordeelde apps",
+      "button": "Installeren",
+      "app1": {
+        "category": "Facturen en kwitanties",
+        "content": "Genereer eenvoudig aangepaste facturen, pakbonnen en afdrukken van bestellingen. Professionele facturen per e-mail verzenden en de verwerking van bestellingen stroomlijnen."
+      },
+      "app2": {
+        "category": "Verzending, SKU en barcodes",
+        "content": "Eenvoudige barcodegenerator voor de detailhandel. Barcodelabels voor de detailhandel afdrukken voor producten. UPC en GTIN worden ondersteund."
+      },
+      "app3": {
+        "category": "Belastingen, prijzen - Andere",
+        "content": "B2B-app om prijzen inclusief en exclusief btw samen weer te geven. Valideer het btw-nummer van de EU met VIES."
+      },
+      "app4": {
+        "category": "Productbundels, kortingen",
+        "content": "Met deze app kunt u aantrekkelijke productbundels samenstellen, waarmee u de AOV en inkomsten kunt verhogen met Mix and Match."
+      }
+    }
+  },
+  "SkuGenerate": {
+    "heading": "Genereer een SKU voor uw producten",
+    "helpUrl": {
+      "line1": "Ondervindt u problemen?",
+      "line2": "Een ticket indienen"
+    },
+    "basicRules": {
+      "heading": "Basisregels",
+      "column1": {
+        "label": "Voorvoegsel",
+        "helpText": "De startwaarde van SKU"
+      },
+      "column2": {
+        "label": "Lichaam",
+        "helpText": "Begin van het nummer dat wordt gegenereerd"
+      },
+      "column3": {
+        "label": "Achtervoegsel",
+        "helpText": "De eindwaarde van SKU"
+      },
+      "radioButtons": {
+        "option1": {
+          "label": "Opeenvolgend nummer",
+          "helpText": "Genereer SKU's met opeenvolgende getallen zoals 1, 2, 3, 4, enz."
+        },
+        "option2": {
+          "label": "Doorgaan met de laatste SKU-generatie",
+          "helpText": "De nummering hervatten vanaf de laatst gegenereerde SKU in de vorige batch.",
+          "tooltipContent": "Alleen toegankelijk voor gebruikers met een betaald abonnement"
+        },
+        "option3": {
+          "label": "Lichaamsnummer uitschakelen",
+          "helpText": "SKU's zullen geen numerieke component in de hoofdtekst bevatten."
+        },
+        "option4": {
+          "label": "Gebruik de product-ID als nummer",
+          "helpText": "Verwerk de unieke identificatiecode van het product in de SKU."
+        },
+        "option5": {
+          "label": "Variant-ID als nummer gebruiken",
+          "helpText": "Gebruik de unieke identificatiecode van de variant voor producten met meerdere opties."
+        },
+        "option6": {
+          "label": "Gebruik een willekeurig getal",
+          "helpText": "Genereer een willekeurig getal voor elke SKU.",
+          "numberField": "Lengte van willekeurige getallen"
+        }
+      },
+      "layout": {
+        "heading": "SKU-indeling instellen:",
+        "helpText": "Slepen en neerzetten om componenten naar wens te herschikken"
+      }
+    },
+    "separator": {
+      "heading": "Separator",
+      "label": "Waarde",
+      "helpText": "De waarde die tussen voorvoegsel, hoofdtekst en achtervoegsel wordt ingevoegd",
+      "delimeters": {
+        "heading": "Gebruik scheidingstekens:",
+        "radioButton": "Niet gebruikt",
+        "checkBox": "Scheidingsteken voor het voorvoegsel"
+      },
+      "productVendor": {
+        "heading": "Verkoper van het product:",
+        "line1": "Niet gebruikt",
+        "line2": "Eerste personage",
+        "line3": "Eerste twee tekens",
+        "line4": "Eerste 3 tekens",
+        "line5": "Eerste 4 tekens"
+      },
+      "productType": {
+        "heading": "Soort product:",
+        "line1": "Niet gebruikt",
+        "line2": "Eerste personage",
+        "line3": "Eerste twee tekens",
+        "line4": "Eerste 3 tekens",
+        "line5": "Eerste 4 tekens"
+      }
+    },
+    "conditionConfiguration": {
+      "heading": "Als-dan-configuratie",
+      "content": "Stel voorwaarden op basis van productkenmerken en specificeer de acties die moeten worden ondernomen als aan deze voorwaarden is voldaan.",
+      "tooltipContent": "Bijvoorbeeld: Als u „NK” wilt toevoegen aan de SKU voor een product met de titel „Nike Hoodie”, voert u „Nike Hoodie” in het veld „Match with” in en „NK” in het veld „Waarde om toe te voegen”. Hierdoor wordt automatisch „NK” aan het SKU toegevoegd wanneer de producttitel overeenkomt met „Nike Hoodie”.",
+      "column1": {
+        "label": "Productveld",
+        "option1": "Geen",
+        "option2": "Titel van het product",
+        "option3": "Verkoper van het product",
+        "option4": "Soort product",
+        "option5": "Label van het product",
+        "helpText": "Selecteer het veld waarop u de voorwaarde wilt toepassen."
+      },
+      "column2": {
+        "label": "Match met",
+        "prefix": "Is gelijk aan",
+        "helpText": "Voer de waarde in waaraan het geselecteerde veld moet voldoen."
+      },
+      "column3": {
+        "label": "Waarde om toe te voegen",
+        "prefix": "Dan",
+        "helpText": "Voer de waarde in die moet worden toegevoegd als aan de voorwaarde is voldaan."
+      },
+      "action": "Nieuwe voorwaarde toevoegen",
+      "modal": {
+        "heading": "Upgradeplan",
+        "content": "Upgrade het abonnement naar 'Pro Monthly' om toegang te krijgen tot deze functie.",
+        "upgrade": "Upgrade"
+      }
+    },
+    "products": {
+      "heading": "Producten",
+      "subHeading": "Totaal aantal producten",
+      "freePlan": {
+        "line1": "Slechts 20 producten voor een gratis abonnement",
+        "line2": "Upgradeplan naar onbeperkte generatie"
+      },
+      "radioButton1": "Alle producten",
+      "radioButton2": "Kies producten",
+      "radioButton3": "Kies collectie",
+      "radioButton4": {
+        "heading": "Gebaseerd op de tag",
+        "line1": "Geselecteerde tags",
+        "button": "Voeg toe"
+      },
+      "label1": {
+        "heading": "In geval van een duplicaat van een SKU:",
+        "option1": "Overschrijven met een nieuw SKU",
+        "option2": "Behoud het bestaande SKU"
+      },
+      "label2": {
+        "heading": "Andere opties:",
+        "option1": "Alleen van toepassing op producten met lege SKU's",
+        "option2": "Voeg de naam van de productvariant toe",
+        "option3": "Spaties verwijderen",
+        "option4": "De titel van het product toevoegen",
+        "option5": "Alle letters met een hoofdletter schrijven",
+        "option6": "Nummering van individuele varianten"
+      }
+    },
+    "buttons": {
+      "button1": "Opnieuw instellen",
+      "button2": "Zie voorvertoning",
+      "button3": "Genereer",
+      "modal": {
+        "processing": {
+          "heading": "Gegevens aan de wachtrij toevoegen...",
+          "content": "Productgegevens worden momenteel toegevoegd aan de taakwachtrij voor het genereren van SKU's. Even geduld, we verwerken uw gegevens..."
+        },
+        "error": {
+          "heading": "Mislukt!",
+          "content": "Fout bij het genereren van SKU. Probeer het opnieuw"
+        },
+        "success": {
+          "heading": "Geweldig!",
+          "content": "Productgegevens zijn toegevoegd aan de wachtrij voor het genereren van SKU's. Het proces zal binnenkort beginnen. Volg de voortgang op de voortgangspagina."
+        },
+        "redirect": "Zie de voortgangspagina",
+        "closes": "Wordt automatisch gesloten ",
+        "time": " seconden",
+        "helpUrl": {
+          "line1": "Ondervindt u problemen?",
+          "line2": "Een ticket inzamelen",
+          "line3": "om problemen te melden. Ons ondersteuningsteam zal u zo snel mogelijk helpen"
+        }
+      }
+    },
+    "skuPreview": {
+      "heading": "Voorvertoning van het SKU",
+      "label1": "Product",
+      "label2": "Titel",
+      "label3": "Typ",
+      "label4": "Verkoper",
+      "label5": "SKI",
+      "label6": "Voorvertoning van het SKU",
+      "helpUrl": {
+        "line1": "Ondervindt u problemen?",
+        "line2": "Een ticket indienen"
+      }
+    }
+  },
+  "AutomatedSku": {
+    "heading": "Configuratie voor het genereren van SKU's op basis van API's",
+    "automatedSKU": {
+      "heading": "Geautomatiseerde SKU",
+      "subHeading": "Automatische aanmaak van SKU's inschakelen voor nieuwe producten",
+      "content": "Zodra u zich op deze functie hebt geabonneerd, kunt u meerdere SKU-voorkeuren aanmaken. Wanneer u een nieuw product maakt, worden SKU's automatisch gegenereerd en opgeslagen op basis van uw voorkeuren.",
+      "label": "Om te beginnen",
+      "list": {
+        "first": "Creëer uw SKU-voorkeur",
+        "second": "Geautomatiseerde SKU inschakelen met de schakelaar hierboven",
+        "third": "SKU's worden moeiteloos gemaakt voor nieuw toegevoegde producten"
+      }
+    },
+    "preference": {
+      "heading": "SKU-voorkeur",
+      "empty": {
+        "heading": "Kunt u Preference niet vinden? Geen zorgen",
+        "line1": "Volg deze stap: Klik",
+        "line2": "Nieuwe voorkeur toevoegen",
+        "line3": " → Stel de waarden van de kenmerken naar wens in → Klik",
+        "line4": "Opslaan",
+        "button": "Nieuwe voorkeur toevoegen",
+        "modal": {
+          "heading": "Upgradeplan",
+          "content": "Upgrade het abonnement naar 'Pro Monthly' om toegang te krijgen tot deze functie.",
+          "upgrade": "Upgrade"
+        }
+      },
+      "accordion": {
+        "hideOrView": {
+          "content1": "Verstop je",
+          "content2": "Bekijken"
+        },
+        "apply": {
+          "content1": "Toegepast",
+          "content2": "Solliciteer",
+          "tooltipContent1": "Toegepaste voorkeur",
+          "tooltipContent2": "Pas deze voorkeur toe"
+        },
+        "delete": {
+          "content1": "Opslaan",
+          "content2": "Verwijderen"
+        },
+        "modal": {
+          "heading": "Deze SKU-voorkeur verwijderen?",
+          "content": "Wilt u dit record echt verwijderen? Dit proces kan niet ongedaan worden gemaakt.",
+          "delete": "Verwijderen",
+          "cancel": "Annuleren"
+        }
+      },
+      "createNewPreference": {
+        "heading": "Nieuwe voorkeur aanmaken",
+        "button1": "Annuleren",
+        "button2": "Opslaan"
+      }
+    }
+  },
+  "DuplicatedSku": {
+    "heading": "SKU Duplicate Checker",
+    "duplicateChecker": {
+      "heading": "Over de Duplicate Checker",
+      "content1": " De SKU Duplicate Checker scant uw volledige inventaris op producten met dubbele SKU's. Dit proces kan enkele minuten duren, afhankelijk van de grootte van uw voorraad.",
+      "content2": "Gebruik deze tool regelmatig om de integriteit van uw voorraadbeheersysteem te waarborgen.",
+      "button": {
+        "content1": "Controleren op duplicaten...",
+        "content2": "Dubbele controle starten"
+      }
+    },
+    "empty": {
+      "heading": "Geen duplicaat gevonden",
+      "content": "Maakt u zich geen zorgen! Uw producten bevatten geen dubbele SKU's. Alle SKU's zijn uniek. Als u vragen hebt of hulp nodig hebt, neem dan gerust contact op met de klantenservice.",
+      "button": "Neem contact met ons op"
+    },
+    "duplicateData": {
+      "heading": "Dubbele SKU's gevonden",
+      "button": {
+        "content1": "Ik controleer het opnieuw...",
+        "content2": "Controleer het nog eens"
+      },
+      "infoCards": {
+        "label1": "Totaal aantal duplicaten",
+        "label2": "Betrokken producten",
+        "label3": "Meest gedupliceerde SKU",
+        "miniLabel": "keer"
+      },
+      "editedSku": {
+        "button1": "Annuleren",
+        "button2": "Alle SKU's opslaan"
+      },
+      "table": {
+        "column1": "Afbeelding van het product",
+        "column2": "Titel van het product",
+        "column3": "Titelvariant",
+        "column4": "Huidig SKU"
+      }
+    }
+  },
+  "ProgressOrHistory": {
+    "heading": "Vooruitgang bij het genereren van SKU",
+    "subHeading": "De huidige status van uw SKU-generatieopdrachten volgen",
+    "content": "Hieronder ziet u de gedetailleerde voortgang van de lopende processen voor het genereren van SKU's:",
+    "button": "Vernieuwen",
+    "limitedBackupBanner": {
+      "heading": "Beperkte tijd om SKU's terug te draaien",
+      "content": "Let op: u kunt alleen teruggaan naar de meest recente SKU's. Na 5 dagen worden deze gegevens definitief verwijderd en kunt u eerdere SKU's niet meer herstellen."
+    },
+    "table": {
+      "column1": "Taak-ID",
+      "column2": "Aanmaakdatum",
+      "column3": "Aantal producten",
+      "column4": "Status",
+      "column5": "Vooruitgang",
+      "column6": "Resterende tijd",
+      "column7": "Acties",
+      "empty": {
+        "heading": "Geen vacatures beschikbaar",
+        "content": "Het lijkt erop dat er op dit moment geen vacatures zijn om weer te geven. Kom later nog eens terug of neem contact op met de klantenservice als u denkt dat dit een fout is.",
+        "generate": "SKU's genereren",
+        "contact": "Neem contact met ons op"
+      }
+    },
+    "oldVsNewSku": {
+      "heading": "SKU-geschiedenis: oud versus nieuw",
+      "subHeading": "Vergelijk vorige en bijgewerkte SKU's voor productvarianten",
+      "button": "Keer terug naar het oude SKU",
+      "empty": {
+        "heading": "Geen geschiedenis gevonden",
+        "content": "Het lijkt erop dat er op dit moment geen geschiedenis is om weer te geven. Kom later nog eens terug of neem contact op met de klantenservice als u denkt dat dit een fout is.",
+        "contact": "Neem contact met ons op",
+        "generate": "SKU's genereren"
+      },
+      "table": {
+        "column1": "Afbeelding van het product",
+        "column2": "Titel van het product",
+        "column3": "Titelvariant",
+        "column4": "Oude SKU",
+        "column5": "Nieuw SKU"
+      }
+    }
+  },
+  "PlansAndPricing": {
+    "heading": "Vind uw abonnement",
+    "getFreeCreditsBanner": {
+      "heading": "Verdien 50 gratis credits",
+      "content": "Schrijf een recensie en ontvang 50 credits als gratis bonus! We waarderen uw feedback. Deel uw mening en geniet van 50 credits als bedankje!",
+      "button": "Chat met ons"
+    },
+    "tabs": {
+      "value1": "Abonnementen",
+      "value2": "Kredieten"
+    },
+    "RemainingCreditsBanner": {
+      "usedCredits": "Gebruikte kredieten",
+      "remainingCredits": "Resterende kredieten",
+      "totalCredits": "Totaal aantal credits"
+    },
+    "lowCreditBanner": {
+      "heading": "Waarschuwing voor een laag kredietniveau",
+      "content": "Uw resterende krediet is bijna op. Overweeg om snel te herladen om onderbreking van de service te voorkomen."
+    }
+  },
+  "Settings": {
+    "heading": "Algemene instellingen",
+    "row1": {
+      "title": "Taal van de app",
+      "subTitle": "Kies uw taal om de app te vertalen met behulp van lokalisatie",
+      "label": "Selecteer de taal van de app",
+      "helpText": "Neem contact op met de klantenservice als uw voorkeurstaal niet beschikbaar is."
+    },
+    "row2": {
+      "title": "Onboarding opnieuw starten",
+      "subTitle": "Start het onboardingproces opnieuw, indien nodig",
+      "label": "Onboarding opnieuw starten",
+      "helpText": "U kunt het onboardingproces op elk gewenst moment opnieuw starten als u opnieuw moet beginnen of wijzigingen wilt aanbrengen in uw oorspronkelijke configuratie."
+    },
+    "row3": {
+      "title": "Gids voor het genereren van SKU's",
+      "subTitle": "Bekijk artikelen met betrekking tot het genereren van SKU's voor een beter begrip",
+      "label": "Hoe te gebruiken",
+      "helpText": "Leer hoe u SKU's kunt genereren en uw productvoorraad effectiever kunt beheren met onze SKU Generation Guide."
+    }
+  }
+}

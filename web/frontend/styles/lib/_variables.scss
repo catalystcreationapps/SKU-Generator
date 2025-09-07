@@ -1,0 +1,41 @@
+/* Typography */
+$line-height-base: 1.3;
+
+/* Breakpoints */
+$xxs: 375px;
+$xs: 414px;
+$s: 768px;
+$m: 1023px;
+$md: 1200px;
+$l: 1440px;
+
+$mq-xxs: '(min-width: #{$xxs + 1})';
+$mq-xs: '(min-width: #{$xs + 1})';
+$mq-s: '(min-width: #{$s + 1})';
+$mq-m: '(min-width: #{$m + 1})';
+$mq-md: '(min-width: #{$md + 1})';
+$mq-l: '(min-width: #{$l + 1})';
+
+/* Brand Colors */
+$c-primary: var(--p-text-primary);
+
+/* Link Colors */
+$c-link: $c-primary;
+
+/* Placeholder Colors */
+$c-grey: #cdcdcd;
+$c-grey-1: #f2f2f2;
+$c-grey-2: #e0e0e0;
+$c-grey-3: #bdbdbd;
+$c-grey-4: #828282;
+$c-grey-5: #333;
+$c-grey-6: #3e3d3e;
+$c-dark-grey: #77777a;
+$c-light-grey: #f1f1f1;
+
+/* Transitions */
+$duration: 0.25s;
+$speed: 0.2s;
+$ease: ease-in-out;
+$ease-out-quart: cubic-bezier(0.165, 0.84, 0.44, 1);
+$transition-default: var($duration) var($ease);

@@ -1,0 +1,462 @@
+{
+  "Dashboard": {
+    "heading": "Hallintapaneeli",
+    "askReviewBanner": {
+      "heading": "Hei, Tervetuloa F: SKU-koodigeneraattoriin 👋",
+      "content": {
+        "line1": "Jätä arvostelu ja inspiroi meitä saavuttamaan uusia korkeuksia!",
+        "line2": "Millainen kokemuksesi on ollut F: SKU Code Generator -ohjelmasta?",
+        "line3": "✨ Äänelläsi on merkitystä - auta meitä innovoimaan ja kasvamaan yhdessä!",
+        "button": "Kirjoita arvostelu"
+      },
+      "modal": {
+        "heading": "Arvioi kokemuksesi",
+        "subHeading": "Kuinka arvioisit kokemuksesi sovelluksestamme?",
+        "content": {
+          "line1": "Palautteesi on meille arvokasta!",
+          "line2": "Kiitos, että käytit aikaa jakaa ajatuksiasi. Arviosi auttaa meitä parantamaan ja tarjoamaan parempia palveluja."
+        },
+        "cancel": "Sulje"
+      }
+    },
+    "blackFridayBanner": {
+      "heading": "Black Friday -erikoistarjous",
+      "subHeading": "Hanki Pro Monthly -tilauksen ensimmäinen kuukausi rajoitetuksi ajaksi vain 1 dollarilla! Älä missaa tätä tilaisuutta tehostaa SKU-hallintaasi lyömättömällä hinnalla",
+      "list": {
+        "first": "Rajoittamaton SKU-generointi",
+        "second": "Edistyneet mukautusvaihtoehdot",
+        "third": "Ensisijainen tuki",
+        "fourth": "Täydelliset analytiikkasetit"
+      },
+      "offerTimer": {
+        "label": "Tarjous päättyy",
+        "offerEnds": "Aika on loppunut",
+        "content": "Normaali hinta: $39/kuukausi",
+        "button": "Lunasta 1 dollarin tarjouksesi nyt",
+        "modal": {
+          "heading": "Haluatko muuttaa nykyistä suunnitelmaa?",
+          "continue": "Jatka",
+          "cancel": "Peruuta"
+        }
+      }
+    },
+    "infoCards": {
+      "card1": {
+        "label": "Tuotetut SKU:t",
+        "value": "SKU:t"
+      },
+      "card2": {
+        "label": "Uusi tuote lisätty",
+        "value": "Tuotteet"
+      },
+      "card3": {
+        "label": "Jäljellä olevat hyvitykset",
+        "value": "Rajoittamaton"
+      },
+      "card4": {
+        "label": "Nykyinen suunnitelma"
+      }
+    },
+    "historyOrProgressCard": {
+      "heading": "SKU Generation Edistyminen/Historia",
+      "link": " Näytä koko historia",
+      "table": {
+        "emptyData": {
+          "heading": "Työpaikkoja ei ole tarjolla",
+          "content": "Näyttää siltä, että tällä hetkellä ei ole näytettäviä työpaikkoja. Tarkista myöhemmin uudelleen tai ota yhteyttä tukeen, jos luulet tämän olevan virhe.",
+          "contact": "Ota yhteyttä",
+          "generate": "Luo SKU:t"
+        },
+        "column1": "Työn tunnus",
+        "column2": "Luontipäivämäärä",
+        "column3": "Tuotteiden lukumäärä",
+        "column4": "Tila",
+        "column5": "Edistyminen",
+        "column6": "Jäljellä oleva aika"
+      }
+    },
+    "recommendedApps": {
+      "heading": "Suositellut sovellukset",
+      "subHeading": "Paranna kauppaasi näillä parhaiten arvioiduilla sovelluksilla",
+      "button": "Asenna",
+      "app1": {
+        "category": "Laskut ja kuitit",
+        "content": "Luo mukautettuja laskuja, pakkausluetteloita ja tilaustulosteita helposti. Lähetä ammattimaiset laskut sähköpostitse ja tehosta tilausten käsittelyä."
+      },
+      "app2": {
+        "category": "Toimitus, SKU ja viivakoodit",
+        "content": "Helppo jälleenmyynnin viivakoodigeneraattori. Tulosta tuotteiden vähittäiskaupan viivakooditarrat. UPC ja GTIN tuetaan."
+      },
+      "app3": {
+        "category": "Verot, hinnoittelu - Muut",
+        "content": "B2B-sovellus näyttää arvonlisäveron ja ALV:n sisältämät hinnat yhdessä. Vahvista EU:n ALV-tunnus VIES-sovelluksella."
+      },
+      "app4": {
+        "category": "Tuotepaketit, Alennukset",
+        "content": "Tämän sovelluksen avulla voit luoda houkuttelevia tuotepaketteja, mikä lisää AOV: ta ja tuloja Mix and Match -sovelluksella."
+      }
+    }
+  },
+  "SkuGenerate": {
+    "heading": "Luo SKU tuotteillesi",
+    "helpUrl": {
+      "line1": "Onko sinulla ongelmia?",
+      "line2": "Lähetä lippu"
+    },
+    "basicRules": {
+      "heading": "Perussäännöt",
+      "column1": {
+        "label": "Etuliite",
+        "helpText": "SKU: n aloitusarvo"
+      },
+      "column2": {
+        "label": "Ruumis",
+        "helpText": "Luodun numeron alku"
+      },
+      "column3": {
+        "label": "Suffiks",
+        "helpText": "SKU: n loppuarvo"
+      },
+      "radioButtons": {
+        "option1": {
+          "label": "Peräkkäinen numero",
+          "helpText": "Luo SKU:t järjestysnumeroilla, kuten 1, 2, 3, 4 jne."
+        },
+        "option2": {
+          "label": "Jatka viimeisestä SKU-sukupolvesta",
+          "helpText": "Jatka numerointia edellisen erän viimeksi luodusta SKU:sta.",
+          "tooltipContent": "Käytettävissä vain käyttäjille, joilla on ?$#@$ sopimus"
+        },
+        "option3": {
+          "label": "Poista kehon numero käytöstä",
+          "helpText": "SKU: t eivät sisällä numeerista komponenttia rungossa."
+        },
+        "option4": {
+          "label": "Käytä tuotetunnusta numerona",
+          "helpText": "Sisällytä tuotteen yksilöllinen tunniste SKU: hen."
+        },
+        "option5": {
+          "label": "Käytä variantin tunnusta numerona",
+          "helpText": "Käytä variantin yksilöllistä tunnistetta tuotteille, joissa on useita vaihtoehtoja."
+        },
+        "option6": {
+          "label": "Käytä satunnaislukua",
+          "helpText": "Luo satunnaisluku kullekin SKU: lle.",
+          "numberField": "Satunnaisluvun pituus"
+        }
+      },
+      "layout": {
+        "heading": "Aseta SKU-asettelu:",
+        "helpText": "Järjestä komponentit uudelleen haluamallasi tavalla vetämällä ja pudottamalla"
+      }
+    },
+    "separator": {
+      "heading": "Erotin",
+      "label": "Arvo",
+      "helpText": "Arvo, joka lisätään etuliitteen, rungon ja jälkiliitteen väliin",
+      "delimeters": {
+        "heading": "Käytä erottimia:",
+        "radioButton": "Ei käytetä",
+        "checkBox": "Etuliitteen erottelija"
+      },
+      "productVendor": {
+        "heading": "Tuotteen myyjä:",
+        "line1": "Ei käytetty",
+        "line2": "Ensimmäinen merkki",
+        "line3": "Ensimmäiset 2 merkkiä",
+        "line4": "Ensimmäiset 3 merkkiä",
+        "line5": "Ensimmäiset 4 merkkiä"
+      },
+      "productType": {
+        "heading": "Tuotetyyppi:",
+        "line1": "Ei käytetty",
+        "line2": "Ensimmäinen merkki",
+        "line3": "Ensimmäiset 2 merkkiä",
+        "line4": "Ensimmäiset 3 merkkiä",
+        "line5": "Ensimmäiset 4 merkkiä"
+      }
+    },
+    "conditionConfiguration": {
+      "heading": "Jf-Then kokoonpano",
+      "content": "Aseta ehdot tuotteen määritteiden perusteella ja määritä toimenpiteet, jotka on suoritettava, kun nämä ehdot täyttyvät.",
+      "tooltipContent": "Esimerkiksi: Jos haluat lisätä ”NK” tuotteen SKU: lle nimeltä ”Nike Hoodie”, kirjoita ”Nike Hoodie” ”Match with” -kenttään ja ”NK” ”Lisättävä arvo” -kenttään. Tämä lisää automaattisesti ”NK” SKU: hen aina, kun tuotteen nimi vastaa ”Nike Hoodie”.",
+      "column1": {
+        "label": "Tuotekenttä",
+        "option1": "Ei mitään",
+        "option2": "Tuotteen nimi",
+        "option3": "Tuotteen myyjä",
+        "option4": "Tuotetyyppi",
+        "option5": "Tuotetunniste",
+        "helpText": "Valitse kenttä, johon ehtoa sovelletaan."
+      },
+      "column2": {
+        "label": "Yhdistä",
+        "prefix": "Tasa-arvoinen",
+        "helpText": "Anna arvo, jota valitun kentän tulisi vastata."
+      },
+      "column3": {
+        "label": "Lisäarvoa",
+        "prefix": "Sitten",
+        "helpText": "Anna lisättävä arvo, kun ehto täyttyy."
+      },
+      "action": "Lisää uusi ehto",
+      "modal": {
+        "heading": "Päivityssuunnitelma",
+        "content": "Päivitä suunnitelma ”Pro Monthly” -versioon käyttääksesi tätä ominaisuutta.",
+        "upgrade": "Päivitä"
+      }
+    },
+    "products": {
+      "heading": "Tuotteet",
+      "subHeading": "Tuotteet yhteensä",
+      "freePlan": {
+        "line1": "Vain 20 tuotetta ilmaisella tilauksella",
+        "line2": "Päivitä suunnitelma rajoittamattomaan sukupolveen"
+      },
+      "radioButton1": "Kaikki tuotteet",
+      "radioButton2": "Valitse tuotteet",
+      "radioButton3": "Valitse kokoelma",
+      "radioButton4": {
+        "heading": "Perustuu tunnisteeseen",
+        "line1": "Valitut tunnisteet",
+        "button": "Lisää"
+      },
+      "label1": {
+        "heading": "Jos kyseessä on päällekkäinen SKU:",
+        "option1": "Korvaa uudella SKU: lla",
+        "option2": "Säilytä olemassa oleva SKU"
+      },
+      "label2": {
+        "heading": "Muut vaihtoehdot:",
+        "option1": "Koskee vain tuotteita, joissa on tyhjät SKU:t",
+        "option2": "Sisällytä tuoteversion nimi",
+        "option3": "Poista välilyönnit",
+        "option4": "Sisällytä tuotteen nimi",
+        "option5": "Kirjoita kaikki kirjaimet isoilla kirjaimilla",
+        "option6": "Yksittäisten varianttien numerointi"
+      }
+    },
+    "buttons": {
+      "button1": "Nollaa",
+      "button2": "Katso esikatselu",
+      "button3": "Luo",
+      "modal": {
+        "processing": {
+          "heading": "Tietojen lisääminen jonoon...",
+          "content": "Tuotetietoja lisätään parhaillaan työnjonoon SKU: n luomista varten. Odota, kun käsittelemme tietojasi..."
+        },
+        "error": {
+          "heading": "Epäonnistui!",
+          "content": "Virhe SKU: n luomisessa. Yritä uudelleen"
+        },
+        "success": {
+          "heading": "Hienoa!",
+          "content": "Tuotetiedot on lisätty SKU-generointijonoon. Prosessi alkaa pian. Seuraa edistymistä edistymissivulla."
+        },
+        "redirect": "Katso edistymissivu",
+        "closes": "Sulkeutuu automaattisesti ",
+        "time": " sekuntia",
+        "helpUrl": {
+          "line1": "Onko sinulla ongelmia?",
+          "line2": "Nosta lippu",
+          "line3": "raportoida ongelmista. Tukitiimimme auttaa sinua nopeasti"
+        }
+      }
+    },
+    "skuPreview": {
+      "heading": "SKU esikatselu",
+      "label1": "Tuote",
+      "label2": "Otsikko",
+      "label3": "Tyyppi",
+      "label4": "Myyjä",
+      "label5": "SKU",
+      "label6": "SKU esikatselu",
+      "helpUrl": {
+        "line1": "Onko sinulla ongelmia?",
+        "line2": "Lähetä lippu"
+      }
+    }
+  },
+  "AutomatedSku": {
+    "heading": "Sovellusliittymäpohjaisen SKU-generoinnin kokoonpano",
+    "automatedSKU": {
+      "heading": "Automatisoitu SKU",
+      "subHeading": "Ota käyttöön automaattinen SKU: n luominen uusille tuotteille",
+      "content": "Kun olet tilannut tämän ominaisuuden, voit luoda useita SKU-asetuksia. Kun luot uuden tuotteen, SKU-koodit luodaan ja tallennetaan automaattisesti mieltymystesi perusteella.",
+      "label": "Aloittaminen",
+      "list": {
+        "first": "Luo SKU-asetuksesi",
+        "second": "Ota automaattinen SKU käyttöön käyttämällä yllä olevaa kytkintä",
+        "third": "SKU:t luodaan vaivattomasti uusille tuotteille"
+      }
+    },
+    "preference": {
+      "heading": "SKU: etusija",
+      "empty": {
+        "heading": "Etkö löydä Preferencea? Ei huolia",
+        "line1": "Seuraa tätä vaihetta: Klikkaa",
+        "line2": "Lisää uusi asetus",
+        "line3": " → Määritä määritteiden arvot haluamallasi tavalla → Klikkaa",
+        "line4": "Tallentaa",
+        "button": "Lisää uusi asetus",
+        "modal": {
+          "heading": "Päivityssuunnitelma",
+          "content": "Päivitä suunnitelma ”Pro Monthly” -versioon käyttääksesi tätä ominaisuutta.",
+          "upgrade": "Päivitä"
+        }
+      },
+      "accordion": {
+        "hideOrView": {
+          "content1": "Piilota",
+          "content2": "Näkymä"
+        },
+        "apply": {
+          "content1": "Sovellettu",
+          "content2": "Käytä",
+          "tooltipContent1": "Sovellettu etusija",
+          "tooltipContent2": "Käytä tätä asetusta"
+        },
+        "delete": {
+          "content1": "Tallentaa",
+          "content2": "Poistaa"
+        },
+        "modal": {
+          "heading": "Poistetaanko tämä SKU-asetus?",
+          "content": "Haluatko todella poistaa tämän tietueen? Tätä prosessia ei voi peruuttaa.",
+          "delete": "Poistaa",
+          "cancel": "Peruuta"
+        }
+      },
+      "createNewPreference": {
+        "heading": "Luo uusi asetus",
+        "button1": "Peruuta",
+        "button2": "Tallentaa"
+      }
+    }
+  },
+  "DuplicatedSku": {
+    "heading": "SKU Duplicate Checker",
+    "duplicateChecker": {
+      "heading": "Tietoja Duplicate Checkerista",
+      "content1": " SKU Duplicate Checker tarkistaa koko varastostasi tuotteita, joissa on päällekkäisiä SKU:ita. Tämä prosessi voi kestää useita minuutteja varastosi koosta riippuen.",
+      "content2": "Käytä tätä työkalua säännöllisesti varmistaaksesi varastonhallintajärjestelmän eheyden.",
+      "button": {
+        "content1": "Tarkistetaan kaksoiskappaleita...",
+        "content2": "Aloita kaksoiskappaleen tarkistus"
+      }
+    },
+    "empty": {
+      "heading": "Kaksoiskappaletta ei löytynyt",
+      "content": "Älä huoli! Tuotteissasi ei ole päällekkäisiä SKU:ita. Kaikki SKU:t ovat ainutlaatuisia. Jos sinulla on kysyttävää tai tarvitset apua, ota rohkeasti yhteyttä tukeen.",
+      "button": "Ota yhteyttä"
+    },
+    "duplicateData": {
+      "heading": "Löydetty kaksoiskappaleita",
+      "button": {
+        "content1": "Tarkistetaan uudelleen...",
+        "content2": "Tarkista uudelleen"
+      },
+      "infoCards": {
+        "label1": "Kaksoiskappaleita yhteensä",
+        "label2": "Vaikuttavat tuotteet",
+        "label3": "Eniten päällekkäisiä SKU",
+        "miniLabel": "kertaa"
+      },
+      "editedSku": {
+        "button1": "Peruuta",
+        "button2": "Tallenna kaikki SKU:t"
+      },
+      "table": {
+        "column1": "Tuotteen kuva",
+        "column2": "Tuotteen nimi",
+        "column3": "Variantin otsikko",
+        "column4": "Nykyinen SKU"
+      }
+    }
+  },
+  "ProgressOrHistory": {
+    "heading": "SKU Generation Edistyminen",
+    "subHeading": "SKU: n generointitöiden nykyisen tilan seuranta",
+    "content": "Alla on meneillään olevien SKU-valmistusprosessien yksityiskohtainen edistyminen:",
+    "button": "Päivitä",
+    "limitedBackupBanner": {
+      "heading": "Rajoitettu aika SKU: n palauttamiseen",
+      "content": "Huomaa: Voit palata vain uusimpiin SKU:ihin. Viiden päivän kuluttua nämä tiedot poistetaan pysyvästi, etkä voi enää palauttaa aikaisempia SKU:ita."
+    },
+    "table": {
+      "column1": "Työn tunnus",
+      "column2": "Luontipäivämäärä",
+      "column3": "Tuotteiden lukumäärä",
+      "column4": "Tila",
+      "column5": "Edistyminen",
+      "column6": "Jäljellä oleva aika",
+      "column7": "Toimet",
+      "empty": {
+        "heading": "Työpaikkoja ei ole tarjolla",
+        "content": "Näyttää siltä, että tällä hetkellä ei ole näytettäviä työpaikkoja. Tarkista myöhemmin uudelleen tai ota yhteyttä tukeen, jos luulet tämän olevan virhe.",
+        "generate": "Luo SKU:t",
+        "contact": "Ota yhteyttä"
+      }
+    },
+    "oldVsNewSku": {
+      "heading": "SKU Historia: Vanha vs uusi",
+      "subHeading": "Vertaa tuoteversioiden aiempia ja päivitettyjä SKU:ita",
+      "button": "Palaa vanhaan SKU: hen",
+      "empty": {
+        "heading": "Historiaa ei löytynyt",
+        "content": "Näyttää siltä, että tällä hetkellä ei ole näytettävää historiaa. Tarkista myöhemmin uudelleen tai ota yhteyttä tukeen, jos luulet tämän olevan virhe.",
+        "contact": "Ota yhteyttä",
+        "generate": "Luo SKU:t"
+      },
+      "table": {
+        "column1": "Tuotteen kuva",
+        "column2": "Tuotteen nimi",
+        "column3": "Variantin otsikko",
+        "column4": "Vanha SKU",
+        "column5": "Uusi SKU"
+      }
+    }
+  },
+  "PlansAndPricing": {
+    "heading": "Löydä suunnitelmasi",
+    "getFreeCreditsBanner": {
+      "heading": "Ansaitse 50 ilmaista krediittiä",
+      "content": "Kirjoita arvostelu ja saat 50 krediittiä ilmaisena bonuksena! Arvostamme palautettasi. Jaa ajatuksesi ja nauti 50 krediitistä kiitoksena!",
+      "button": "Keskustele kanssamme"
+    },
+    "tabs": {
+      "value1": "Tilaukset",
+      "value2": "Krediitit"
+    },
+    "RemainingCreditsBanner": {
+      "usedCredits": "Käytetyt krediitit",
+      "remainingCredits": "Jäljellä olevat hyvitykset",
+      "totalCredits": "Krediitit yhteensä"
+    },
+    "lowCreditBanner": {
+      "heading": "Matalien hyvitysten varoitus",
+      "content": "Jäljellä olevat krediitit ovat vähissä. Harkitse lisäämistä pian palvelun keskeytymisen välttämiseksi."
+    }
+  },
+  "Settings": {
+    "heading": "Yleiset asetukset",
+    "row1": {
+      "title": "Sovelluksen kieli",
+      "subTitle": "Valitse kieli sovelluksen kääntämiseksi lokalisoinnin avulla",
+      "label": "Valitse sovelluksen kieli",
+      "helpText": "Ota yhteyttä tukeen, jos haluamasi kieli ei ole käytettävissä."
+    },
+    "row2": {
+      "title": "Käynnistä perehdytys uudelleen",
+      "subTitle": "Käynnistä perehdytysprosessi uudelleen tarvittaessa",
+      "label": "Käynnistä perehdytys uudelleen",
+      "helpText": "Voit käynnistää perehdytysprosessin uudelleen milloin tahansa, jos sinun on aloitettava alusta tai tehtävä muutoksia alkuperäisiin asetuksiin."
+    },
+    "row3": {
+      "title": "SKU: n generointiopas",
+      "subTitle": "Käytä SKU: n luomiseen liittyviä artikkeleita ymmärtääksesi paremmin",
+      "label": "Kuinka käyttää",
+      "helpText": "Opi luomaan SKU:ita ja hallitsemaan tuotevarastoasi tehokkaammin SKU Generation Guide -oppaamme avulla."
+    }
+  }
+}

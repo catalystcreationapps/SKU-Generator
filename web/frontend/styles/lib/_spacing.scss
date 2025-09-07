@@ -1,0 +1,65 @@
+// Generate Margin and Padding helpers similar to Tailwind CSS
+// https://tailwindcss.com/docs/margin/
+// https://tailwindcss.com/docs/padding/
+
+// Source: https://gist.github.com/geongeorge/c7ce3980cf31c547014d38972580809e
+// Generated Output: https://gist.github.com/geongeorge/bfa32854bfe370577335bd9ff4899f14
+
+$spaceamounts: (
+  (0, 0),
+  (1, 0.25),
+  (2, 0.5),
+  (3, 0.75),
+  (4, 1),
+  (5, 1.25),
+  (6, 1.5),
+  (8, 2),
+  (10, 2.5),
+  (12, 3),
+  (16, 4),
+  (20, 5),
+  (24, 6),
+  (32, 8),
+  (40, 10),
+  (48, 12),
+  (56, 14),
+  (64, 16)
+);
+$sides: (top, bottom, left, right);
+
+@each $i, $space in $spaceamounts {
+  @each $side in $sides {
+    $currentSide: str-slice($side, 0, 1);
+
+    $xory: y;
+    @if ($side == left) or ($side == right) {
+      $xory: x;
+    }
+
+    .m#{$currentSide}-#{$i},
+    .m#{$xory}-#{$i},
+    .m-#{$i} {
+      margin-#{$side}: #{$space}rem;
+    }
+    .p#{$currentSide}-#{$i},
+    .p#{$xory}-#{$i},
+    .p-#{$i} {
+      padding-#{$side}: #{$space}rem;
+    }
+  }
+}
+
+@each $side in $sides {
+  .m#{str-slice($side, 0, 1)}-auto {
+    margin-#{$side}: auto;
+  }
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}

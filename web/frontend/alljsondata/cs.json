@@ -1,0 +1,462 @@
+{
+  "Dashboard": {
+    "heading": "Řídicí panel",
+    "askReviewBanner": {
+      "heading": "Ahoj, Vítejte v F: SKU Code Generator 👋",
+      "content": {
+        "line1": "Zanechte recenzi a inspirujte nás k dosažení nových výšin!",
+        "line2": "Jaké byly vaše zkušenosti s generátorem kódu F: SKU?",
+        "line3": "✨ Na vašem hlasu záleží - pomozte nám inovovat a růst společně!",
+        "button": "Napsat recenzi"
+      },
+      "modal": {
+        "heading": "Ohodnoťte své zkušenosti",
+        "subHeading": "Jak byste ohodnotili své zkušenosti s naší aplikací?",
+        "content": {
+          "line1": "Vaše zpětná vazba je pro nás cenná!",
+          "line2": "Děkujeme, že jste si našli čas a podělili se o své myšlenky. Vaše hodnocení nám pomáhá zlepšovat a poskytovat lepší služby."
+        },
+        "cancel": "Zavřít"
+      }
+    },
+    "blackFridayBanner": {
+      "heading": "Speciální nabídka Černý pátek",
+      "subHeading": "Po omezenou dobu získáte první měsíc plánu Pro Monthly za pouhých 1$! Nenechte si ujít tuto příležitost vylepšit správu SKU za bezkonkurenční cenu",
+      "list": {
+        "first": "Neomezené generování SKU",
+        "second": "Pokročilé možnosti přizpůsobení",
+        "third": "Prioritní podpora",
+        "fourth": "Kompletní analytické sady"
+      },
+      "offerTimer": {
+        "label": "Nabídka končí v",
+        "offerEnds": "Čas vypršel",
+        "content": "Běžná cena: $39/měsíc",
+        "button": "Vyžádejte si nabídku 1$ hned teď",
+        "modal": {
+          "heading": "Chcete změnit současný plán?",
+          "continue": "Pokračovat",
+          "cancel": "Zrušit"
+        }
+      }
+    },
+    "infoCards": {
+      "card1": {
+        "label": "Vygenerované SKU",
+        "value": "SKU"
+      },
+      "card2": {
+        "label": "Nový produkt přidán",
+        "value": "Výrobky"
+      },
+      "card3": {
+        "label": "Zbývající kredity",
+        "value": "Neomezený"
+      },
+      "card4": {
+        "label": "Aktuální plán"
+      }
+    },
+    "historyOrProgressCard": {
+      "heading": "Průběh generování SKU/Historie",
+      "link": " Zobrazit celou historii",
+      "table": {
+        "emptyData": {
+          "heading": "Nejsou k dispozici žádné pracovní pozice",
+          "content": "Vypadá to, že v tuto chvíli nejsou k dispozici žádné úlohy k zobrazení. Pokud si myslíte, že se jedná o chybu, vraťte se zpět později nebo kontaktujte podporu.",
+          "contact": "Kontaktujte nás",
+          "generate": "Generovat SKU"
+        },
+        "column1": "ID úlohy",
+        "column2": "Datum vytvoření",
+        "column3": "Počet produktů",
+        "column4": "Stav",
+        "column5": "Postup",
+        "column6": "Zbývající čas"
+      }
+    },
+    "recommendedApps": {
+      "heading": "Doporučené aplikace",
+      "subHeading": "Vylepšete svůj obchod pomocí těchto nejlépe hodnocených aplikací",
+      "button": "Nainstalovat",
+      "app1": {
+        "category": "Faktury a účtenky",
+        "content": "Snadno generujte vlastní faktury, dodací listy a objednávejte výtisky. Posílejte e-mailem profesionální faktury a zefektivněte zpracování objednávek."
+      },
+      "app2": {
+        "category": "Doprava, SKU a čárové kódy",
+        "content": "Snadný maloobchodní generátor čárových kódů. Tiskněte maloobchodní štítky s čárovými kódy pro produkty. Podporováno UPC a GTIN."
+      },
+      "app3": {
+        "category": "Daně, ceny - ostatní",
+        "content": "Aplikace B2B pro zobrazení cen včetně DPH a bez DPH společně. Ověřte ID DPH EU pomocí VIES."
+      },
+      "app4": {
+        "category": "Balíčky produktů, Slevy",
+        "content": "Tato aplikace vám umožní vytvářet atraktivní balíčky produktů, zvyšovat AOV a příjmy pomocí Mix and Match."
+      }
+    }
+  },
+  "SkuGenerate": {
+    "heading": "Generovat SKU pro své produkty",
+    "helpUrl": {
+      "line1": "Máte problémy?",
+      "line2": "Odeslat lístek"
+    },
+    "basicRules": {
+      "heading": "Základní pravidla",
+      "column1": {
+        "label": "Předpona",
+        "helpText": "Počáteční hodnota SKU"
+      },
+      "column2": {
+        "label": "Tělo",
+        "helpText": "Začátek generovaného čísla"
+      },
+      "column3": {
+        "label": "Přípona",
+        "helpText": "Koncová hodnota SKU"
+      },
+      "radioButtons": {
+        "option1": {
+          "label": "Po sobě jdoucí číslo",
+          "helpText": "Generujte SKU s pořadovými čísly jako 1,2,3,4 atd."
+        },
+        "option2": {
+          "label": "Pokračovat z poslední generace SKU",
+          "helpText": "Pokračujte v číslování z poslední vygenerované SKU v předchozí dávce.",
+          "tooltipContent": "Přístupné pouze pro uživatele s placeným plánem"
+        },
+        "option3": {
+          "label": "Zakázat číslo těla",
+          "helpText": "SKU nebudou obsahovat číselnou komponentu v těle."
+        },
+        "option4": {
+          "label": "Jako číslo použijte ID produktu",
+          "helpText": "Zahrňte jedinečný identifikátor produktu do SKU."
+        },
+        "option5": {
+          "label": "Jako číslo použijte ID varianty",
+          "helpText": "Pro produkty s více možnostmi použijte jedinečný identifikátor varianty."
+        },
+        "option6": {
+          "label": "Použijte náhodné číslo",
+          "helpText": "Vygenerujte náhodné číslo pro každou SKU.",
+          "numberField": "Délka náhodného čísla"
+        }
+      },
+      "layout": {
+        "heading": "Nastavit rozvržení SKU:",
+        "helpText": "Přetažením upravte komponenty podle potřeby"
+      }
+    },
+    "separator": {
+      "heading": "Separátor",
+      "label": "Hodnota",
+      "helpText": "Hodnota, která bude vložena mezi předponu, tělo a příponu",
+      "delimeters": {
+        "heading": "Použít oddělovače:",
+        "radioButton": "Nepoužívá se",
+        "checkBox": "Oddělovač předpon"
+      },
+      "productVendor": {
+        "heading": "Dodavatel produktu:",
+        "line1": "Nepoužíváno",
+        "line2": "První znak",
+        "line3": "První 2 znak",
+        "line4": "První 3 znaky",
+        "line5": "První 4 znak"
+      },
+      "productType": {
+        "heading": "Typ produktu:",
+        "line1": "Nepoužíváno",
+        "line2": "První znak",
+        "line3": "První 2 znak",
+        "line4": "První 3 znaky",
+        "line5": "První 4 znak"
+      }
+    },
+    "conditionConfiguration": {
+      "heading": "Konfigurace If-Then",
+      "content": "Nastavte podmínky na základě atributů produktu a určete akce, které mají být provedeny, pokud jsou tyto podmínky splněny.",
+      "tooltipContent": "Např.: Pokud chcete přidat „NK“ do SKU pro produkt s názvem „Nike Hoodie“, zadejte „Nike Hoodie“ do pole „Match with“ a „NK“ do pole „Hodnota k přidání“. Tím se automaticky přidá „NK“ k SKU, kdykoli se název produktu shoduje s „Nike Hoodie“.",
+      "column1": {
+        "label": "Produktové pole",
+        "option1": "Žádný",
+        "option2": "Název produktu",
+        "option3": "Prodejce produktů",
+        "option4": "Typ produktu",
+        "option5": "Značka produktu",
+        "helpText": "Vyberte pole, na které se má podmínka použít."
+      },
+      "column2": {
+        "label": "Zápas s",
+        "prefix": "Rovná se",
+        "helpText": "Zadejte hodnotu, které má vybrané pole odpovídat."
+      },
+      "column3": {
+        "label": "Hodnota k přidání",
+        "prefix": "Pak",
+        "helpText": "Zadejte hodnotu, kterou chcete přidat, když je podmínka splněna."
+      },
+      "action": "Přidat novou podmínku",
+      "modal": {
+        "heading": "Plán upgradu",
+        "content": "Chcete-li získat přístup k této funkci, upgradujte plán na „Pro Monthly“.",
+        "upgrade": "Upgradovat"
+      }
+    },
+    "products": {
+      "heading": "Výrobky",
+      "subHeading": "Celkem produktů",
+      "freePlan": {
+        "line1": "Pouze 20 produktů pro bezplatný plán",
+        "line2": "Upgradujte plán na neomezenou generaci"
+      },
+      "radioButton1": "Všechny produkty",
+      "radioButton2": "Vyberte produkty",
+      "radioButton3": "Vyberte kolekci",
+      "radioButton4": {
+        "heading": "Na základě značky",
+        "line1": "Vybrané značky",
+        "button": "Přidat"
+      },
+      "label1": {
+        "heading": "V případě duplicitního SKU:",
+        "option1": "Přepsat novou SKU",
+        "option2": "Zachovat stávající SKU"
+      },
+      "label2": {
+        "heading": "Další možnosti:",
+        "option1": "Platí pouze pro produkty s prázdnými SKU",
+        "option2": "Zahrnout název varianty produktu",
+        "option3": "Odstranit mezery",
+        "option4": "Zahrnout název produktu",
+        "option5": "Velká písmena",
+        "option6": "Individuální číslování variant"
+      }
+    },
+    "buttons": {
+      "button1": "Obnovit",
+      "button2": "Viz Náhled",
+      "button3": "Generovat",
+      "modal": {
+        "processing": {
+          "heading": "Přidávání dat do fronty...",
+          "content": "Data produktu jsou aktuálně přidávána do fronty úloh pro generování SKU. Počkejte prosím, než budeme zpracovávat vaše údaje..."
+        },
+        "error": {
+          "heading": "Neuspěl!",
+          "content": "Chyba při generování SKU, zkuste to prosím znovu"
+        },
+        "success": {
+          "heading": "Skvělé!",
+          "content": "Data produktu byla přidána do fronty generování SKU. Proces začne brzy. Sledujte průběh na stránce pokroku."
+        },
+        "redirect": "Podívejte se na stránku postupu",
+        "closes": "Automaticky se zavře ",
+        "time": " sekund",
+        "helpUrl": {
+          "line1": "Máte problémy?",
+          "line2": "Zvedněte lístek",
+          "line3": "hlásit problémy. Náš tým podpory vám okamžitě pomůže"
+        }
+      }
+    },
+    "skuPreview": {
+      "heading": "Náhled SKU",
+      "label1": "Výrobek",
+      "label2": "Název",
+      "label3": "Typ",
+      "label4": "Prodejce",
+      "label5": "SKU",
+      "label6": "Náhled SKU",
+      "helpUrl": {
+        "line1": "Máte problémy?",
+        "line2": "Odeslat lístek"
+      }
+    }
+  },
+  "AutomatedSku": {
+    "heading": "Konfigurace pro generování SKU na základě API",
+    "automatedSKU": {
+      "heading": "Automatizované SKU",
+      "subHeading": "Povolit automatické vytváření SKU pro nové produkty",
+      "content": "Jakmile se přihlásíte k odběru této funkce, můžete vytvořit více předvoleb SKU. Když vytvoříte nový produkt, budou SKU automaticky vygenerovány a uloženy na základě vašich preferencí.",
+      "label": "Začínáme",
+      "list": {
+        "first": "Vytvořte si předvolbu SKU",
+        "second": "Povolit automatické SKU pomocí přepínače výše",
+        "third": "SKU budou bez námahy vytvořeny pro nově přidané produkty"
+      }
+    },
+    "preference": {
+      "heading": "Předvolby SKU",
+      "empty": {
+        "heading": "Nelze najít Preference? Žádné starosti",
+        "line1": "Postupujte podle tohoto kroku: Klikněte",
+        "line2": "Přidat novou předvolbu",
+        "line3": " → Nastavit hodnoty atributů podle přání → Klikněte",
+        "line4": "Uložit",
+        "button": "Přidat novou předvolbu",
+        "modal": {
+          "heading": "Plán upgradu",
+          "content": "Chcete-li získat přístup k této funkci, upgradujte plán na „Pro Monthly“.",
+          "upgrade": "Upgradovat"
+        }
+      },
+      "accordion": {
+        "hideOrView": {
+          "content1": "Skrýt",
+          "content2": "Pohled"
+        },
+        "apply": {
+          "content1": "Aplikováno",
+          "content2": "Aplikujte",
+          "tooltipContent1": "Použitá preference",
+          "tooltipContent2": "Použít tuto předvolbu"
+        },
+        "delete": {
+          "content1": "Uložit",
+          "content2": "Odstranit"
+        },
+        "modal": {
+          "heading": "Odstranit tuto předvolbu SKU?",
+          "content": "Opravdu chcete tento záznam smazat? Tento proces nelze vrátit zpět.",
+          "delete": "Odstranit",
+          "cancel": "Zrušit"
+        }
+      },
+      "createNewPreference": {
+        "heading": "Vytvořit novou předvolbu",
+        "button1": "Zrušit",
+        "button2": "Uložit"
+      }
+    }
+  },
+  "DuplicatedSku": {
+    "heading": "Kontrola duplikátů SKU",
+    "duplicateChecker": {
+      "heading": "O nástroji Duplicate Checker",
+      "content1": " Kontrola duplikátů SKU prohledá celý inventář pro produkty s duplicitními SKU. Tento proces může trvat několik minut v závislosti na velikosti vašeho inventáře.",
+      "content2": "Tento nástroj používejte pravidelně, abyste zajistili integritu vašeho systému správy zásob.",
+      "button": {
+        "content1": "Kontrola duplikátů...",
+        "content2": "Spusťte duplicitní kontrolu"
+      }
+    },
+    "empty": {
+      "heading": "Nebyl nalezen žádný duplikát",
+      "content": "Nebojte se! Ve vašich produktech nejsou žádné duplicitní SKU. Všechny SKU jsou jedinečné. Máte-li jakékoli dotazy nebo potřebujete pomoc, neváhejte kontaktovat podporu.",
+      "button": "Kontaktujte nás"
+    },
+    "duplicateData": {
+      "heading": "Nalezeny duplicitní SKU",
+      "button": {
+        "content1": "Znovu kontrolujeme...",
+        "content2": "Zkontrolujte znovu"
+      },
+      "infoCards": {
+        "label1": "Duplikáty celkem",
+        "label2": "Dotčené produkty",
+        "label3": "Nejvíce duplikované SKU",
+        "miniLabel": "časy"
+      },
+      "editedSku": {
+        "button1": "Zrušit",
+        "button2": "Uložit všechny skladové položky"
+      },
+      "table": {
+        "column1": "Obrázek produktu",
+        "column2": "Název produktu",
+        "column3": "Název varianty",
+        "column4": "Aktuální SKU"
+      }
+    }
+  },
+  "ProgressOrHistory": {
+    "heading": "Průběh generování SKU",
+    "subHeading": "Sledování aktuálního stavu úloh generování SKU",
+    "content": "Níže je uveden podrobný postup probíhajících procesů generování SKU:",
+    "button": "Obnovit",
+    "limitedBackupBanner": {
+      "heading": "Omezený čas na vrácení SKU",
+      "content": "Poznámka: Můžete se vrátit pouze k nejnovějším SKU. Po 5 dnech budou tato data trvale odstraněna a již nebudete moci obnovit předchozí SKU."
+    },
+    "table": {
+      "column1": "ID úlohy",
+      "column2": "Datum vytvoření",
+      "column3": "Počet produktů",
+      "column4": "Stav",
+      "column5": "Postup",
+      "column6": "Zbývající čas",
+      "column7": "Akce",
+      "empty": {
+        "heading": "Nejsou k dispozici žádné pracovní pozice",
+        "content": "Vypadá to, že v tuto chvíli nejsou k dispozici žádné úlohy k zobrazení. Pokud si myslíte, že se jedná o chybu, vraťte se zpět později nebo kontaktujte podporu.",
+        "generate": "Generovat SKU",
+        "contact": "Kontaktujte nás"
+      }
+    },
+    "oldVsNewSku": {
+      "heading": "Historie SKU: Starý vs nový",
+      "subHeading": "Porovnání předchozích a aktualizovaných SKU pro varianty produktu",
+      "button": "Vrátit se na staré SKU",
+      "empty": {
+        "heading": "Nebyla nalezena žádná historie",
+        "content": "Vypadá to, že v tuto chvíli neexistuje žádná historie k zobrazení. Pokud si myslíte, že se jedná o chybu, vraťte se zpět později nebo kontaktujte podporu.",
+        "contact": "Kontaktujte nás",
+        "generate": "Generovat SKU"
+      },
+      "table": {
+        "column1": "Obrázek produktu",
+        "column2": "Název produktu",
+        "column3": "Název varianty",
+        "column4": "Staré SKU",
+        "column5": "Nové SKU"
+      }
+    }
+  },
+  "PlansAndPricing": {
+    "heading": "Najděte svůj plán",
+    "getFreeCreditsBanner": {
+      "heading": "Získejte 50 kreditů zdarma",
+      "content": "Napište recenzi a získejte 50 kreditů jako bonus zdarma! Vážíme si vaší zpětné vazby. Podělte se o své myšlenky a užijte si 50 kreditů jako naše poděkování!",
+      "button": "Chatujte s námi"
+    },
+    "tabs": {
+      "value1": "Předplatné",
+      "value2": "Kredity"
+    },
+    "RemainingCreditsBanner": {
+      "usedCredits": "Použité kredity",
+      "remainingCredits": "Zbývající kredity",
+      "totalCredits": "Celkem kreditů"
+    },
+    "lowCreditBanner": {
+      "heading": "Upozornění na nízké kredity",
+      "content": "Zbývající kredity vám docházejí. Zvažte brzké doplnění, abyste zabránili přerušení služby."
+    }
+  },
+  "Settings": {
+    "heading": "Obecná nastavení",
+    "row1": {
+      "title": "Jazyk aplikace",
+      "subTitle": "Vyberte jazyk pro překlad aplikace pomocí lokalizace",
+      "label": "Vyberte jazyk aplikace",
+      "helpText": "Pokud preferovaný jazyk není k dispozici, obraťte se na podporu."
+    },
+    "row2": {
+      "title": "Restartujte onboarding",
+      "subTitle": "V případě potřeby restartujte proces nástupu",
+      "label": "Restartujte onboarding",
+      "helpText": "Pokud potřebujete začít znovu nebo provést změny v počátečním nastavení, můžete proces přihlášení kdykoli restartovat."
+    },
+    "row3": {
+      "title": "Průvodce generováním SKU",
+      "subTitle": "Získejte přístup k článkům souvisejícím s generováním SKU pro lepší pochopení",
+      "label": "Jak používat",
+      "helpText": "Naučte se, jak generovat SKU a efektivněji spravovat inventář produktů pomocí našeho Průvodce generováním SKU."
+    }
+  }
+}

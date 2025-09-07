@@ -1,0 +1,155 @@
+/* Accordian.css */
+
+@media screen and (max-width: 500px) {
+  p {
+    font-size: 16px;
+  }
+}
+
+/* Styles for the container div */
+.accordion-container {
+  /* margin-top: 15px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding-bottom: 20px; */
+  padding: 15px;
+}
+
+.bordered-div {
+  border: 1px solid #cac7c7;
+  border-radius: 3px;
+  overflow: hidden;
+  padding: 10px 10px 0;
+  width: 750px;
+}
+
+/* Styles for each accordion item */
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Styles for the buttons (optional) */
+.accordion-button {
+  width: 730px;
+  padding: 10px 20px;
+  color: black;
+  border: none;
+  cursor: pointer;
+  background-color: #f8f5f2;
+  height: 4em;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.action-button {
+  padding: 5px 8px; /* Adjust padding as needed */
+  color: #5057a1; /* Example text color, change to your desired color */
+  font-weight: 600;
+  border: 1px solid #5057a1;
+  border-radius: 3px;
+  cursor: pointer;
+  background: none;
+}
+
+.action-button:hover {
+  background-color: #5057a1;
+  color: white;
+}
+
+/* Styles for the button hover and active states (optional) */
+.accordion-button:hover {
+  /* background-color: #cccccc; */
+  background-color: #e4e1de;
+}
+
+/* .accordion-button:active {
+  transform: scale(0.95);
+} */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    max-height: 0;
+  }
+  to {
+    opacity: 1;
+    max-height: fit-content; /* Adjust the height to a value that accommodates your content */
+  }
+}
+
+.item-content {
+  animation: fadeIn 0.6s ease; /* You can adjust the duration and timing function as needed */
+  margin-bottom: 1em;
+}
+
+.item button:focus {
+  outline: none;
+}
+
+.blurred-div {
+  filter: blur(5px);
+  transition: filter 0.3s ease-in-out;
+  pointer-events: none;
+  user-select: none;
+  position: relative;
+}
+
+.lock-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  filter: none;
+}
+
+.blurred-div-background {
+  position: relative;
+}
+
+.upgrade-text {
+  margin-top: 10px; /* Adjust as needed */
+  font-size: 16px; /* Adjust as needed */
+  font-weight: bold;
+}
+
+/* Styles for the entire modal container */
+.modal-container {
+  font-family: Arial, sans-serif;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Styles for the modal box */
+.modal-box {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+/* Styles for the modal title */
+.modal-title {
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+/* Styles for the modal section */
+.modal-section {
+  padding: 20px;
+}
+
+/* Styles for the modal paragraph */
+.modal-paragraph {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333;
+}

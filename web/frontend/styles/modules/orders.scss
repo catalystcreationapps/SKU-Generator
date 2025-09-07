@@ -1,0 +1,35 @@
+.resource-list__wrapper {
+  overflow-x: auto;
+
+  .Polaris-ResourceItem__Container {
+    padding: 0 !important;
+  }
+
+  .Polaris-ResourceItem__Owned {
+    margin: 1.2rem 0rem 1.2rem 2rem;
+  }
+}
+
+.resource-list__item {
+  flex: 1 1 0%;
+}
+
+.resource-list__fulfillment,
+.resource-list__paid,
+.resource-list__date,
+.Polaris-ResourceList__HeaderOuterWrapper,
+.resource-list__more--mobile,
+.resource-list__more--desktop {
+  display: none;
+
+  @media #{$mq-m} {
+    display: block;
+  }
+}
+
+.resource-list__order-name,
+.resource-list__date {
+  flex: initial;
+  width: 90px;
+  margin: 0 auto 0 10px;
+}

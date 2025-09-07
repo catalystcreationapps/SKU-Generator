@@ -1,0 +1,29 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "10b2163024e1ba2878e56a9c181f4bef"
+name = "final-purchase-new"
+handle = "final-purchase-new"
+application_url = "https://luxembourg-screensavers-war-negative.trycloudflare.com"
+embedded = true
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "boring-drops.myshopify.com"
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "read_products,write_products"
+use_legacy_install_flow = true
+
+[auth]
+redirect_urls = [
+  "https://luxembourg-screensavers-war-negative.trycloudflare.com/auth/callback",
+  "https://luxembourg-screensavers-war-negative.trycloudflare.com/auth/shopify/callback",
+  "https://luxembourg-screensavers-war-negative.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2023-01"
+
+[pos]
+embedded = false

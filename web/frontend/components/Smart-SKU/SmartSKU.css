@@ -1,0 +1,26 @@
+.blurred-div {
+  filter: blur(5px);
+  transition: filter 0.3s ease-in-out;
+  pointer-events: none;
+  user-select: none;
+  position: relative;
+}
+
+.lock-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  filter: none;
+}
+
+.blurred-div-background {
+  position: relative;
+}
+
+.upgrade-text {
+  margin-top: 10px; /* Adjust as needed */
+  font-size: 16px; /* Adjust as needed */
+  font-weight: bold;
+}

@@ -1,0 +1,462 @@
+{
+  "Dashboard": {
+    "heading": "Gösterge paneli",
+    "askReviewBanner": {
+      "heading": "Merhaba, F'ye Hoş Geldiniz: SKU Kod Oluşturucu 👋",
+      "content": {
+        "line1": "Bir Yorum Bırakın ve Yeni Zirvelere Ulaşmamız İçin Bize İlham Verin!",
+        "line2": "F: SKU Kod Oluşturucu ile deneyiminiz nasıldı?",
+        "line3": "✨ Sesiniz Önemlidir - Birlikte Yenilik Yapmamıza ve Büyümemize Yardımcı Olun!",
+        "button": "Yorum Yazın"
+      },
+      "modal": {
+        "heading": "Deneyiminizi Değerlendirin",
+        "subHeading": "Uygulamamızla deneyiminizi nasıl değerlendirirsiniz?",
+        "content": {
+          "line1": "Geri bildiriminiz bizim için değerlidir!",
+          "line2": "Düşüncelerinizi paylaşmak için zaman ayırdığınız için teşekkür ederiz. Derecelendirmeniz, iyileştirmemize ve daha iyi hizmetler sunmamıza yardımcı olur."
+        },
+        "cancel": "Kapat"
+      }
+    },
+    "blackFridayBanner": {
+      "heading": "Kara Cuma Özel Teklifi",
+      "subHeading": "Sınırlı bir süre için Pro Aylık planınızın ilk ayını sadece 1$ karşılığında alın! SKU yönetiminizi rakipsiz bir fiyata güçlendirmek için bu fırsatı kaçırmayın",
+      "list": {
+        "first": "Sınırsız SKU üretimi",
+        "second": "Gelişmiş özelleştirme seçenekleri",
+        "third": "Öncelikli destek",
+        "fourth": "Tam analiz paketleri"
+      },
+      "offerTimer": {
+        "label": "Teklif şu tarihte sona eriyor",
+        "offerEnds": "Zaman doldu",
+        "content": "Normal fiyat: $39/ay",
+        "button": "1$ Teklifinizi Hemen Talep Edin",
+        "modal": {
+          "heading": "Mevcut planı değiştirmek ister misiniz?",
+          "continue": "Devamı",
+          "cancel": "İptal"
+        }
+      }
+    },
+    "infoCards": {
+      "card1": {
+        "label": "Oluşturulan SKU'lar",
+        "value": "SKU'lar"
+      },
+      "card2": {
+        "label": "Yeni Ürün Eklendi",
+        "value": "Ürünlerimiz"
+      },
+      "card3": {
+        "label": "Kalan Krediler",
+        "value": "Sınırsız"
+      },
+      "card4": {
+        "label": "Mevcut Plan"
+      }
+    },
+    "historyOrProgressCard": {
+      "heading": "SKU Oluşturma İlerlemesi/Geçmişi",
+      "link": " Tam Geçmişi Görüntüle",
+      "table": {
+        "emptyData": {
+          "heading": "Mevcut İş Yok",
+          "content": "Görünüşe göre şu anda görüntülenecek iş yok. Bunun bir hata olduğunu düşünüyorsanız lütfen daha sonra tekrar kontrol edin veya destek ile iletişime geçin.",
+          "contact": "Bize Ulaşın",
+          "generate": "SKU'lar oluştur"
+        },
+        "column1": "İş Kimliği",
+        "column2": "Oluşturulma Tarihi",
+        "column3": "Ürün sayısı",
+        "column4": "Durum",
+        "column5": "İlerleme",
+        "column6": "Kalan Süre"
+      }
+    },
+    "recommendedApps": {
+      "heading": "Önerilen Uygulamalar",
+      "subHeading": "Bu en yüksek puanlı uygulamalarla mağazanızı geliştirin",
+      "button": "Yüklemek",
+      "app1": {
+        "category": "Faturalar ve makbuzlar",
+        "content": "Kolaylıkla özel faturalar, sevkiyat irsaliyeleri ve sipariş çıktıları oluşturun. Profesyonel faturaları e-posta ile gönderin ve sipariş işlemeyi kolaylaştırın."
+      },
+      "app2": {
+        "category": "Nakliye, SKU ve barkodlar",
+        "content": "Kolay Perakende Barkod Jeneratörü. Ürünler için perakende barkod etiketleri yazdırın. UPC ve GTIN desteklenir."
+      },
+      "app3": {
+        "category": "Vergiler, Fiyatlandırma - Diğer",
+        "content": "KDV dahil ve KDV hariç fiyatları birlikte göstermek için B2B Uygulaması. VIES kullanarak AB KDV Kimliğini doğrulayın."
+      },
+      "app4": {
+        "category": "Ürün paketleri, İndirimler",
+        "content": "Bu uygulama, Mix and Match ile AOV ve geliri artırarak çekici ürün paketleri oluşturmanıza olanak tanır."
+      }
+    }
+  },
+  "SkuGenerate": {
+    "heading": "Ürünleriniz için SKU Oluşturun",
+    "helpUrl": {
+      "line1": "Sorun mu yaşıyorsunuz?",
+      "line2": "Bilet gönder"
+    },
+    "basicRules": {
+      "heading": "Temel Kurallar",
+      "column1": {
+        "label": "Önek",
+        "helpText": "SKU'nun başlangıç değeri"
+      },
+      "column2": {
+        "label": "Vücut",
+        "helpText": "Oluşturulan sayının başlangıcı"
+      },
+      "column3": {
+        "label": "Sonek",
+        "helpText": "SKU'nun bitiş değeri"
+      },
+      "radioButtons": {
+        "option1": {
+          "label": "Ardışık sayı",
+          "helpText": "1, 2, 3, 4 vb. Gibi sıralı sayılarla SKU'lar oluşturun."
+        },
+        "option2": {
+          "label": "Son SKU neslinden devam et",
+          "helpText": "Önceki grupta en son oluşturulan SKU'dan numaralandırmaya devam edin.",
+          "tooltipContent": "Yalnızca ücretli planı olan kullanıcılar tarafından erişilebilir"
+        },
+        "option3": {
+          "label": "Vücut numarasını devre dışı bırak",
+          "helpText": "SKU'lar gövdede sayısal bir bileşen içermez."
+        },
+        "option4": {
+          "label": "Ürün kimliğini numara olarak kullan",
+          "helpText": "Ürünün benzersiz tanımlayıcısını SKU'ya dahil edin."
+        },
+        "option5": {
+          "label": "Varyant kimliğini numara olarak kullan",
+          "helpText": "Birden fazla seçeneğe sahip ürünler için varyasyonun benzersiz tanımlayıcısını kullanın."
+        },
+        "option6": {
+          "label": "Rastgele sayı kullan",
+          "helpText": "Her SKU için rastgele bir sayı oluşturun.",
+          "numberField": "Rastgele sayı uzunluğu"
+        }
+      },
+      "layout": {
+        "heading": "SKU Düzeni Ayarla:",
+        "helpText": "Bileşenleri istediğiniz gibi yeniden düzenlemek için sürükleyip bırakın"
+      }
+    },
+    "separator": {
+      "heading": "Ayırıcı",
+      "label": "Değer",
+      "helpText": "Önek, gövde ve son ek arasına eklenecek değer",
+      "delimeters": {
+        "heading": "Sınırlayıcıları Kullan:",
+        "radioButton": "Kullanılmamış",
+        "checkBox": "Önek Sınırlayıcı"
+      },
+      "productVendor": {
+        "heading": "Ürün Satıcısı:",
+        "line1": "Kullanılmamış",
+        "line2": "İlk karakter",
+        "line3": "İlk 2 karakter",
+        "line4": "İlk 3 karakter",
+        "line5": "İlk 4 karakter"
+      },
+      "productType": {
+        "heading": "Ürün tipi:",
+        "line1": "Kullanılmamış",
+        "line2": "İlk karakter",
+        "line3": "İlk 2 karakter",
+        "line4": "İlk 3 karakter",
+        "line5": "İlk 4 karakter"
+      }
+    },
+    "conditionConfiguration": {
+      "heading": "Eğer Sonra Yapılandırma",
+      "content": "Koşulları ürün özelliklerine göre ayarlayın ve bu koşullar yerine getirildiğinde yapılacak işlemleri belirtin.",
+      "tooltipContent": "Örneğin: “Nike Hoodie” adlı bir ürün için SKU'ya “NK” eklemek istiyorsanız, “Eşleştir” alanına “Nike Hoodie” ve “Eklenecek Değer” alanına “NK” girin. Bu, ürün başlığı “Nike Hoodie” ile eşleştiğinde SKU'ya otomatik olarak “NK” ekleyecektir.",
+      "column1": {
+        "label": "Ürün Alanı",
+        "option1": "Yok",
+        "option2": "Ürün Başlığı",
+        "option3": "Ürün Satıcısı",
+        "option4": "Ürün Türü",
+        "option5": "Ürün Etiketi",
+        "helpText": "Koşulun uygulanacağı alanı seçin."
+      },
+      "column2": {
+        "label": "İle eşleştir",
+        "prefix": "Eşittir",
+        "helpText": "Seçilen alanın eşleşmesi gereken değeri girin."
+      },
+      "column3": {
+        "label": "Eklenecek değer",
+        "prefix": "Sonra",
+        "helpText": "Koşul yerine getirildiğinde eklenecek değeri girin."
+      },
+      "action": "Yeni koşul ekle",
+      "modal": {
+        "heading": "Yükseltme Planı",
+        "content": "Bu özelliğe erişmek için planı 'Pro Monthly' olarak yükseltin.",
+        "upgrade": "Yükselt"
+      }
+    },
+    "products": {
+      "heading": "Ürünlerimiz",
+      "subHeading": "Toplam Ürünler",
+      "freePlan": {
+        "line1": "Ücretsiz plan için sadece 20 ürün",
+        "line2": "Planı sınırsız nesle yükseltin"
+      },
+      "radioButton1": "Tüm Ürünler",
+      "radioButton2": "Ürünleri Seçin",
+      "radioButton3": "Koleksiyon Seçin",
+      "radioButton4": {
+        "heading": "Etikete göre",
+        "line1": "Seçilen etiketler",
+        "button": "Ekle"
+      },
+      "label1": {
+        "heading": "Yinelenen SKU durumunda:",
+        "option1": "Yeni SKU ile üzerine yaz",
+        "option2": "Mevcut SKU'yu koruyun"
+      },
+      "label2": {
+        "heading": "Diğer seçenekler:",
+        "option1": "Yalnızca boş SKU'ları olan ürünlere uygulanır",
+        "option2": "Ürün varyant adını ekleyin",
+        "option3": "Boşlukları kaldır",
+        "option4": "Ürün başlığını ekle",
+        "option5": "Tüm harfleri büyük harfle",
+        "option6": "Bireysel varyant numaralandırma"
+      }
+    },
+    "buttons": {
+      "button1": "Sıfırla",
+      "button2": "Önizlemeye bakın",
+      "button3": "Oluştur",
+      "modal": {
+        "processing": {
+          "heading": "Kuyruğa veri ekleniyor...",
+          "content": "Ürün verileri şu anda SKU oluşturma için iş kuyruğuna ekleniyor. Lütfen verilerinizi işlerken bekleyin..."
+        },
+        "error": {
+          "heading": "Başarısız oldu!",
+          "content": "SKU oluşturulurken hata oluştu, Lütfen tekrar deneyin"
+        },
+        "success": {
+          "heading": "Harika!",
+          "content": "SKU oluşturma kuyruğuna ürün verileri eklendi. İşlem kısa süre içinde başlayacak. İlerleme sayfasındaki ilerlemeyi takip edin."
+        },
+        "redirect": "İlerleme sayfasına bakın",
+        "closes": "Otomatik olarak kapanır ",
+        "time": " saniyeler",
+        "helpUrl": {
+          "line1": "Sorun mu yaşıyorsunuz?",
+          "line2": "Bir bilet yükselt",
+          "line3": "Sorunları bildirmek için. Destek ekibimiz size derhal yardımcı olacaktır"
+        }
+      }
+    },
+    "skuPreview": {
+      "heading": "SKU Önizleme",
+      "label1": "Ürün",
+      "label2": "Başlık",
+      "label3": "Tür",
+      "label4": "Satıcı",
+      "label5": "STB",
+      "label6": "SKU Önizleme",
+      "helpUrl": {
+        "line1": "Sorun mu yaşıyorsunuz?",
+        "line2": "Bilet gönder"
+      }
+    }
+  },
+  "AutomatedSku": {
+    "heading": "API tabanlı SKU oluşturma için yapılandırma",
+    "automatedSKU": {
+      "heading": "Otomatik SKU",
+      "subHeading": "Yeni ürünler için otomatik SKU oluşturmayı etkinleştir",
+      "content": "Bu özelliğe abone olduktan sonra, birden fazla SKU tercihi oluşturabilirsiniz. Yeni bir ürün oluşturduğunuzda, SKU'lar tercihlerinize göre otomatik olarak oluşturulur ve kaydedilir.",
+      "label": "Başlamak için",
+      "list": {
+        "first": "SKU tercihinizi oluşturun",
+        "second": "Yukarıdaki anahtarı kullanarak Otomatik SKU'yu etkinleştirin",
+        "third": "SKU'lar yeni eklenen ürünler için zahmetsizce oluşturulacak"
+      }
+    },
+    "preference": {
+      "heading": "SKU Tercihi",
+      "empty": {
+        "heading": "Tercih'i bulamıyor musunuz? Endişelenme",
+        "line1": "Bu adımı izleyin: Tıklayın",
+        "line2": "Yeni Tercih Ekle",
+        "line3": " → Öznitelik değerlerini dilediğiniz gibi ayarlayın → Tıklayın",
+        "line4": "Kaydet",
+        "button": "Yeni Tercih Ekle",
+        "modal": {
+          "heading": "Yükseltme Planı",
+          "content": "Bu özelliğe erişmek için planı 'Pro Monthly' olarak yükseltin.",
+          "upgrade": "Yükselt"
+        }
+      },
+      "accordion": {
+        "hideOrView": {
+          "content1": "Gizle",
+          "content2": "Görünüm"
+        },
+        "apply": {
+          "content1": "Uygulanan",
+          "content2": "Uygula",
+          "tooltipContent1": "Uygulamalı Tercih",
+          "tooltipContent2": "Bu Tercihi Uygula"
+        },
+        "delete": {
+          "content1": "Kaydet",
+          "content2": "Sil"
+        },
+        "modal": {
+          "heading": "Bu SKU tercihini silin mi?",
+          "content": "Bu kaydı gerçekten silmek istiyor musunuz? Bu işlem geri alınamaz.",
+          "delete": "Sil",
+          "cancel": "İptal"
+        }
+      },
+      "createNewPreference": {
+        "heading": "Yeni Tercih Oluştur",
+        "button1": "İptal",
+        "button2": "Kaydet"
+      }
+    }
+  },
+  "DuplicatedSku": {
+    "heading": "SKU Yinelenen Denetleyici",
+    "duplicateChecker": {
+      "heading": "Yinelenen Denetleyici Hakkında",
+      "content1": " SKU Yinelenen Denetleyicisi, yinelenen SKU'lara sahip ürünler için tüm envanterinizi tarar. Bu işlem, envanterinizin boyutuna bağlı olarak birkaç dakika sürebilir.",
+      "content2": "Envanter yönetim sisteminizin bütünlüğünü sağlamak için bu aracı düzenli olarak kullanın.",
+      "button": {
+        "content1": "Yinelenenleri Kontrol Ediyor...",
+        "content2": "Yinelenen Denetimi Başlat"
+      }
+    },
+    "empty": {
+      "heading": "Yinelenen Bulunamadı",
+      "content": "Endişelenme! Ürünlerinizde yinelenen SKU'lar yoktur. Tüm SKU'lar benzersizdir. Herhangi bir sorunuz varsa veya yardıma ihtiyacınız varsa, destek ile iletişime geçmekten çekinmeyin.",
+      "button": "Bize Ulaşın"
+    },
+    "duplicateData": {
+      "heading": "Yinelenen SKU'lar bulundu",
+      "button": {
+        "content1": "Tekrar kontrol ediliyor...",
+        "content2": "Tekrar Kontrol Et"
+      },
+      "infoCards": {
+        "label1": "Toplam Kopyalar",
+        "label2": "Etkilenen Ürünler",
+        "label3": "En Çok Çoğaltılan SKU",
+        "miniLabel": "defa"
+      },
+      "editedSku": {
+        "button1": "İptal",
+        "button2": "Tüm SKU'ları Kaydet"
+      },
+      "table": {
+        "column1": "Ürün Resmi",
+        "column2": "Ürün Başlığı",
+        "column3": "Varyant Başlığı",
+        "column4": "Mevcut SKU"
+      }
+    }
+  },
+  "ProgressOrHistory": {
+    "heading": "SKU Oluşturma İlerlemesi",
+    "subHeading": "SKU oluşturma işlerinizin mevcut durumunu izleme",
+    "content": "Aşağıda, devam eden SKU oluşturma süreçlerinin ayrıntılı ilerlemesi verilmiştir:",
+    "button": "Yenile",
+    "limitedBackupBanner": {
+      "heading": "SKU'ları Geri Almak İçin Sınırlı Süre",
+      "content": "Lütfen dikkat: Yalnızca en son SKU'lara geri dönebilirsiniz. 5 gün sonra, bu veriler kalıcı olarak kaldırılacak ve artık önceki SKU'ları geri yükleyemezsiniz."
+    },
+    "table": {
+      "column1": "İş Kimliği",
+      "column2": "Oluşturulma Tarihi",
+      "column3": "Ürün sayısı",
+      "column4": "Durum",
+      "column5": "İlerleme",
+      "column6": "Kalan Süre",
+      "column7": "Eylemler",
+      "empty": {
+        "heading": "Mevcut İş Yok",
+        "content": "Görünüşe göre şu anda görüntülenecek iş yok. Bunun bir hata olduğunu düşünüyorsanız lütfen daha sonra tekrar kontrol edin veya destek ile iletişime geçin.",
+        "generate": "SKU'lar oluştur",
+        "contact": "Bize Ulaşın"
+      }
+    },
+    "oldVsNewSku": {
+      "heading": "SKU Geçmişi: Eski vs Yeni",
+      "subHeading": "Ürün varyasyonları için önceki ve güncellenmiş SKU'ları karşılaştırın",
+      "button": "Eski SKU'ya geri dön",
+      "empty": {
+        "heading": "Geçmiş Bulunamadı",
+        "content": "Görünüşe göre şu anda görüntülenecek bir geçmiş yok. Bunun bir hata olduğunu düşünüyorsanız lütfen daha sonra tekrar kontrol edin veya destek ile iletişime geçin.",
+        "contact": "Bize Ulaşın",
+        "generate": "SKU'lar oluştur"
+      },
+      "table": {
+        "column1": "Ürün Resmi",
+        "column2": "Ürün Başlığı",
+        "column3": "Varyant Başlığı",
+        "column4": "Eski SKU",
+        "column5": "Yeni SKU"
+      }
+    }
+  },
+  "PlansAndPricing": {
+    "heading": "Planınızı Bulun",
+    "getFreeCreditsBanner": {
+      "heading": "50 Ücretsiz Kredi Kazanın",
+      "content": "Bir inceleme yazın ve ücretsiz bonus olarak 50 kredi kazanın! Geri bildiriminize değer veriyoruz. Düşüncelerinizi paylaşın ve teşekkür ederiz olarak 50 kredinin keyfini çıkarın!",
+      "button": "Bizimle Sohbet Edin"
+    },
+    "tabs": {
+      "value1": "Abonelikler",
+      "value2": "Krediler"
+    },
+    "RemainingCreditsBanner": {
+      "usedCredits": "Kullanılmış Krediler",
+      "remainingCredits": "Kalan Krediler",
+      "totalCredits": "Toplam Kredi"
+    },
+    "lowCreditBanner": {
+      "heading": "Düşük Kredi Uyarısı",
+      "content": "Kalan kredileriniz azalıyor. Servis kesintisini önlemek için yakında doldurmayı düşünün."
+    }
+  },
+  "Settings": {
+    "heading": "Genel Ayarlar",
+    "row1": {
+      "title": "Uygulama dili",
+      "subTitle": "Yerelleştirmeyi kullanarak uygulamayı çevirmek için dilinizi seçin",
+      "label": "Uygulama dilini seçin",
+      "helpText": "Tercih ettiğiniz dil mevcut değilse destek ekibiyle iletişime geçin."
+    },
+    "row2": {
+      "title": "İşe Almayı Yeniden Başlat",
+      "subTitle": "Gerekirse işe alım sürecini yeniden başlatın",
+      "label": "İşe Almayı Yeniden Başlat",
+      "helpText": "Baştan başlamanız veya ilk kurulumunuzda değişiklik yapmanız gerekiyorsa, işe alım sürecini istediğiniz zaman yeniden başlatabilirsiniz."
+    },
+    "row3": {
+      "title": "SKU Oluşturma Kılavuzu",
+      "subTitle": "Daha iyi anlamak için SKU oluşturma ile ilgili makalelere erişin",
+      "label": "Nasıl Kullanılır",
+      "helpText": "SKU Oluşturma Kılavuzumuzla SKU'ları nasıl oluşturacağınızı ve ürün envanterinizi nasıl daha etkili bir şekilde yöneteceğinizi öğrenin."
+    }
+  }
+}

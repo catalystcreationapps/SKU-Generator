@@ -1,0 +1,462 @@
+{
+  "Dashboard": {
+    "heading": "Dashboard",
+    "askReviewBanner": {
+      "heading": "Hei, Velkommen til F: SKU Code Generator 👋",
+      "content": {
+        "line1": "Legg igjen en anmeldelse og inspirer oss til å nå nye høyder!",
+        "line2": "Hvordan har din erfaring vært med F: SKU Code Generator?",
+        "line3": "✨ Stemmen din betyr noe - Hjelp oss med å innovere og vokse sammen!",
+        "button": "Skriv omtale"
+      },
+      "modal": {
+        "heading": "Vurder din opplevelse",
+        "subHeading": "Hvordan vil du rangere opplevelsen din med appen vår?",
+        "content": {
+          "line1": "Din tilbakemelding er verdifull for oss!",
+          "line2": "Takk for at du tok deg tid til å dele tankene dine. Din vurdering hjelper oss med å forbedre og tilby bedre tjenester."
+        },
+        "cancel": "Lukk"
+      }
+    },
+    "blackFridayBanner": {
+      "heading": "Black Friday Spesialtilbud",
+      "subHeading": "I en begrenset periode kan du få din første måned av Pro Monthly -planen for bare $1! Ikke gå glipp av denne muligheten til å øke din SKU-administrasjon til en uslåelig pris",
+      "list": {
+        "first": "Ubegrenset SKU-generering",
+        "second": "Avanserte tilpasningsalternativer",
+        "third": "Prioritert støtte",
+        "fourth": "Fullstendige analysesuiter"
+      },
+      "offerTimer": {
+        "label": "Tilbudet slutter i",
+        "offerEnds": "Tiden er ute",
+        "content": "Vanlig pris: $39/måned",
+        "button": "Gjør krav på ditt $1 tilbud nå",
+        "modal": {
+          "heading": "Ønsker du å endre dagens plan?",
+          "continue": "Fortsette",
+          "cancel": "Avbryt"
+        }
+      }
+    },
+    "infoCards": {
+      "card1": {
+        "label": "SKU-er generert",
+        "value": "SKU-er"
+      },
+      "card2": {
+        "label": "Nytt produkt lagt til",
+        "value": "Produkter"
+      },
+      "card3": {
+        "label": "Gjenstående studiepoeng",
+        "value": "Ubegrenset"
+      },
+      "card4": {
+        "label": "Nåværende plan"
+      }
+    },
+    "historyOrProgressCard": {
+      "heading": "SKU Generasjonsfremgang/Historikk",
+      "link": " Se hele historikken",
+      "table": {
+        "emptyData": {
+          "heading": "Ingen ledige stillinger",
+          "content": "Det ser ut til at det ikke er noen jobber å vise for øyeblikket. Vennligst sjekk tilbake senere eller kontakt support hvis du tror dette er en feil.",
+          "contact": "Kontakt oss",
+          "generate": "Generer SKU-er"
+        },
+        "column1": "Jobb-ID",
+        "column2": "Dato opprettet",
+        "column3": "Antall produkter",
+        "column4": "Status",
+        "column5": "Fremgang",
+        "column6": "Gjenværende tid"
+      }
+    },
+    "recommendedApps": {
+      "heading": "Anbefalte apper",
+      "subHeading": "Forbedre butikken din med disse topprangerte appene",
+      "button": "Installere",
+      "app1": {
+        "category": "Fakturaer og kvitteringer",
+        "content": "Generer tilpassede fakturaer, følgesedler og bestillingsutskrifter med letthet. Send profesjonelle fakturaer via e-post og effektiviser ordrebehandlingen."
+      },
+      "app2": {
+        "category": "Frakt, SKU og strekkoder",
+        "content": "Enkel detaljhandelstrekkogenerator. Skriv ut strekkodeetiketter for detaljhandel for produkter. UPC og GTIN støttes."
+      },
+      "app3": {
+        "category": "Skatter, priser - Annet",
+        "content": "B2B-app for å vise priser inkludert moms og eksklusive moms sammen. Valider EU-MVA-ID ved hjelp av VIES."
+      },
+      "app4": {
+        "category": "Produktpakker, Rabatter",
+        "content": "Denne appen lar deg lage tiltalende produktpakker, øke AOV og inntekter med Mix and Match."
+      }
+    }
+  },
+  "SkuGenerate": {
+    "heading": "Generer SKU for dine produkter",
+    "helpUrl": {
+      "line1": "Har du problemer?",
+      "line2": "Send inn en billett"
+    },
+    "basicRules": {
+      "heading": "Grunnleggende regler",
+      "column1": {
+        "label": "Prefiks",
+        "helpText": "Startverdien til SKU"
+      },
+      "column2": {
+        "label": "Kropp",
+        "helpText": "Begynnelsen av nummeret som genereres"
+      },
+      "column3": {
+        "label": "Suffiks",
+        "helpText": "Sluttverdien av SKU"
+      },
+      "radioButtons": {
+        "option1": {
+          "label": "Påfølgende nummer",
+          "helpText": "Generer SKU-er med sekvensielle tall som 1, 2, 3, 4, etc."
+        },
+        "option2": {
+          "label": "Fortsett fra siste SKU-generasjon",
+          "helpText": "Fortsett nummereringen fra sist genererte SKU i forrige batch.",
+          "tooltipContent": "Kun tilgjengelig for brukere med betalt abonnement"
+        },
+        "option3": {
+          "label": "Deaktiver kroppsnummer",
+          "helpText": "SKU-er vil ikke inkludere en numerisk komponent i kroppen."
+        },
+        "option4": {
+          "label": "Bruk produkt-ID som nummer",
+          "helpText": "Inkluder produktets unike identifikator i SKU."
+        },
+        "option5": {
+          "label": "Bruk variant-ID som nummer",
+          "helpText": "Bruk variantens unike identifikator for produkter med flere alternativer."
+        },
+        "option6": {
+          "label": "Bruk tilfeldig tall",
+          "helpText": "Generer et tilfeldig tall for hver SKU.",
+          "numberField": "Tilfeldig talllengde"
+        }
+      },
+      "layout": {
+        "heading": "Angi SKU-oppsett:",
+        "helpText": "Dra og slipp for å omorganisere komponenter som du ønsker"
+      }
+    },
+    "separator": {
+      "heading": "Separator",
+      "label": "Verdi",
+      "helpText": "Verdien som settes inn mellom prefiks, kropp og suffiks",
+      "delimeters": {
+        "heading": "Bruk avgrensere:",
+        "radioButton": "Ikke brukt",
+        "checkBox": "Prefiksskilletegn"
+      },
+      "productVendor": {
+        "heading": "Produktleverandør:",
+        "line1": "Ikke brukt",
+        "line2": "Første tegn",
+        "line3": "Første 2 tegn",
+        "line4": "Første 3 tegn",
+        "line5": "Første 4 tegn"
+      },
+      "productType": {
+        "heading": "Produkttype:",
+        "line1": "Ikke brukt",
+        "line2": "Første tegn",
+        "line3": "Første 2 tegn",
+        "line4": "Første 3 tegn",
+        "line5": "Første 4 tegn"
+      }
+    },
+    "conditionConfiguration": {
+      "heading": "Hvis-Then konfigurasjon",
+      "content": "Angi betingelser basert på produktattributter, og spesifiser handlingene som skal utføres når disse betingelsene er oppfylt.",
+      "tooltipContent": "For eksempel: Hvis du vil legge til «NK» i SKU for et produkt med tittelen «Nike Hoodie», skriver du inn «Nike Hoodie» i «Match with» -feltet og «NK» i «Verdi å legge til» -feltet. Dette vil automatisk legge til «NK» til SKU når produkttittelen samsvarer med «Nike Hoodie.»",
+      "column1": {
+        "label": "Produktfelt",
+        "option1": "Ingen",
+        "option2": "Produkttittel",
+        "option3": "Produktleverandør",
+        "option4": "Produkttype",
+        "option5": "Produktmerke",
+        "helpText": "Velg feltet du vil bruke betingelsen på."
+      },
+      "column2": {
+        "label": "Match med",
+        "prefix": "Liker",
+        "helpText": "Skriv inn verdien som det valgte feltet skal samsvare med."
+      },
+      "column3": {
+        "label": "Verdi å legge til",
+        "prefix": "Deretter",
+        "helpText": "Angi verdien som skal legges til når betingelsen er oppfylt."
+      },
+      "action": "Legg til ny betingelse",
+      "modal": {
+        "heading": "Oppgraderingsplan",
+        "content": "Oppgrader planen til 'Pro Monthly' for å få tilgang til denne funksjonen.",
+        "upgrade": "Oppgradere"
+      }
+    },
+    "products": {
+      "heading": "Produkter",
+      "subHeading": "Totalt antall produkter",
+      "freePlan": {
+        "line1": "Bare 20 produkter for gratis plan",
+        "line2": "Oppgraderingsplan til ubegrenset generasjon"
+      },
+      "radioButton1": "Alle produkter",
+      "radioButton2": "Velg produkter",
+      "radioButton3": "Velg kolleksjon",
+      "radioButton4": {
+        "heading": "Basert på tag",
+        "line1": "Valgte tagger",
+        "button": "Legg til"
+      },
+      "label1": {
+        "heading": "Ved duplikat SKU:",
+        "option1": "Overskriv med ny SKU",
+        "option2": "Behold eksisterende SKU"
+      },
+      "label2": {
+        "heading": "Andre alternativer:",
+        "option1": "Gjelder bare produkter med tomme SKU-er",
+        "option2": "Inkluder produktvariantnavn",
+        "option3": "Fjern mellomrom",
+        "option4": "Inkluder produkttittel",
+        "option5": "Bruk store bokstaver",
+        "option6": "Individuell variantnummerering"
+      }
+    },
+    "buttons": {
+      "button1": "Tilbakestill",
+      "button2": "Se forhåndsvisning",
+      "button3": "Generere",
+      "modal": {
+        "processing": {
+          "heading": "Legger til data i kø...",
+          "content": "Produktdata legges for øyeblikket til i jobbkøen for SKU-generering. Vennligst vent mens vi behandler dataene dine..."
+        },
+        "error": {
+          "heading": "Mislyktes!",
+          "content": "Feil ved generering av SKU, prøv igjen"
+        },
+        "success": {
+          "heading": "Flott!",
+          "content": "Produktdata er lagt til i SKU-genereringskøen. Prosessen starter snart. Spor fremdriften på fremdriftssiden."
+        },
+        "redirect": "Se fremdriftssiden",
+        "closes": "Lukkes automatisk inn ",
+        "time": " sekunder",
+        "helpUrl": {
+          "line1": "Har du problemer?",
+          "line2": "Hev en billett",
+          "line3": "for å rapportere problemer. Vårt supportteam vil raskt hjelpe deg"
+        }
+      }
+    },
+    "skuPreview": {
+      "heading": "Forhåndsvisning av SKU",
+      "label1": "Produkt",
+      "label2": "Tittel",
+      "label3": "Type",
+      "label4": "Leverandør",
+      "label5": "SKU",
+      "label6": "Forhåndsvisning av SKU",
+      "helpUrl": {
+        "line1": "Har du problemer?",
+        "line2": "Send inn en billett"
+      }
+    }
+  },
+  "AutomatedSku": {
+    "heading": "Konfigurasjon for API-basert SKU-generering",
+    "automatedSKU": {
+      "heading": "Automatisert SKU",
+      "subHeading": "Aktiver automatisk oppretting av SKU for nye produkter",
+      "content": "Når du abonnerer på denne funksjonen, kan du opprette flere SKU-preferanser. Når du oppretter et nytt produkt, blir SKU-er automatisk generert og lagret basert på dine preferanser.",
+      "label": "For å komme i gang",
+      "list": {
+        "first": "Opprett din SKU-preferanse",
+        "second": "Aktiver automatisert SKU ved å bruke bryteren ovenfor",
+        "third": "SKU-er vil enkelt bli opprettet for nylig tilføyde produkter"
+      }
+    },
+    "preference": {
+      "heading": "SKU Preferanse",
+      "empty": {
+        "heading": "Finner du ikke preferanse? Ingen bekymringer",
+        "line1": "Følg dette trinnet: Klikk",
+        "line2": "Legg til ny preferanse",
+        "line3": " → Angi attributtverdier som ønsker → Klikk",
+        "line4": "Lagre",
+        "button": "Legg til ny preferanse",
+        "modal": {
+          "heading": "Oppgraderingsplan",
+          "content": "Oppgrader planen til 'Pro Monthly' for å få tilgang til denne funksjonen.",
+          "upgrade": "Oppgradere"
+        }
+      },
+      "accordion": {
+        "hideOrView": {
+          "content1": "Skjul",
+          "content2": "Utsikt"
+        },
+        "apply": {
+          "content1": "Anvendt",
+          "content2": "Søke",
+          "tooltipContent1": "Anvendt preferanse",
+          "tooltipContent2": "Bruk denne preferansen"
+        },
+        "delete": {
+          "content1": "Lagre",
+          "content2": "Slett"
+        },
+        "modal": {
+          "heading": "Slett denne SKU-preferansen?",
+          "content": "Vil du virkelig slette denne posten? Denne prosessen kan ikke angres.",
+          "delete": "Slett",
+          "cancel": "Avbryt"
+        }
+      },
+      "createNewPreference": {
+        "heading": "Opprett ny preferanse",
+        "button1": "Avbryt",
+        "button2": "Lagre"
+      }
+    }
+  },
+  "DuplicatedSku": {
+    "heading": "SKU Duplicate Checker",
+    "duplicateChecker": {
+      "heading": "Om Duplicate Checker",
+      "content1": " SKU Duplicate Checker skanner hele lagerbeholdningen etter produkter med dupliserte SKU-er. Denne prosessen kan ta flere minutter, avhengig av størrelsen på beholdningen din.",
+      "content2": "Bruk dette verktøyet regelmessig for å sikre integriteten til lagerstyringssystemet ditt.",
+      "button": {
+        "content1": "Søker etter duplikater...",
+        "content2": "Start duplikatkontroll"
+      }
+    },
+    "empty": {
+      "heading": "Ingen duplikat funnet",
+      "content": "Ikke bekymre deg! Det er ingen dupliserte SKU-er i produktene dine. Alle SKU-er er unike. Hvis du har spørsmål eller trenger hjelp, er du velkommen til å kontakte support.",
+      "button": "Kontakt oss"
+    },
+    "duplicateData": {
+      "heading": "Dupliserte SKU-er funnet",
+      "button": {
+        "content1": "Kontrollerer på nytt...",
+        "content2": "Sjekk igjen"
+      },
+      "infoCards": {
+        "label1": "Totalt antall duplikater",
+        "label2": "Berørte produkter",
+        "label3": "Mest dupliserte SKU",
+        "miniLabel": "ganger"
+      },
+      "editedSku": {
+        "button1": "Avbryt",
+        "button2": "Lagre alle SKUer"
+      },
+      "table": {
+        "column1": "Produktbilde",
+        "column2": "Produkttittel",
+        "column3": "Varianttittel",
+        "column4": "Nåværende SKU"
+      }
+    }
+  },
+  "ProgressOrHistory": {
+    "heading": "SKU-genereringsfremgang",
+    "subHeading": "Spore gjeldende status for SKU-genereringsjobber",
+    "content": "Nedenfor er den detaljerte fremdriften for de pågående SKU-genereringsprosessene:",
+    "button": "Oppdater",
+    "limitedBackupBanner": {
+      "heading": "Begrenset tid for å tilbakestille SKU-er",
+      "content": "Merk: Du kan bare gå tilbake til de nyeste SKUene. Etter 5 dager fjernes disse dataene permanent, og du vil ikke lenger kunne gjenopprette tidligere SKU-er."
+    },
+    "table": {
+      "column1": "Jobb-ID",
+      "column2": "Dato opprettet",
+      "column3": "Antall produkter",
+      "column4": "Status",
+      "column5": "Fremgang",
+      "column6": "Gjenværende tid",
+      "column7": "Handlinger",
+      "empty": {
+        "heading": "Ingen ledige stillinger",
+        "content": "Det ser ut til at det ikke er noen jobber å vise for øyeblikket. Vennligst sjekk tilbake senere eller kontakt support hvis du tror dette er en feil.",
+        "generate": "Generer SKU-er",
+        "contact": "Kontakt oss"
+      }
+    },
+    "oldVsNewSku": {
+      "heading": "SKU Historie: Gammel vs ny",
+      "subHeading": "Sammenlign tidligere og oppdaterte SKU-er for produktvarianter",
+      "button": "Tilbake til gammel SKU",
+      "empty": {
+        "heading": "Ingen historie funnet",
+        "content": "Det ser ut til at det ikke er noen historie å vise for øyeblikket. Vennligst sjekk tilbake senere eller kontakt support hvis du tror dette er en feil.",
+        "contact": "Kontakt oss",
+        "generate": "Generer SKU-er"
+      },
+      "table": {
+        "column1": "Produktbilde",
+        "column2": "Produkttittel",
+        "column3": "Varianttittel",
+        "column4": "Gammel SKU",
+        "column5": "Ny SKU"
+      }
+    }
+  },
+  "PlansAndPricing": {
+    "heading": "Finn din plan",
+    "getFreeCreditsBanner": {
+      "heading": "Tjen 50 gratis kreditter",
+      "content": "Skriv en anmeldelse og få 50 kreditter som en gratis bonus! Vi verdsetter tilbakemeldingene dine. Del tankene dine og nyt 50 studiepoeng som vår takk!",
+      "button": "Chat med oss"
+    },
+    "tabs": {
+      "value1": "Abonnementer",
+      "value2": "Studiepoeng"
+    },
+    "RemainingCreditsBanner": {
+      "usedCredits": "Brukte kreditter",
+      "remainingCredits": "Gjenværende kreditter",
+      "totalCredits": "Totalt antall studiepoeng"
+    },
+    "lowCreditBanner": {
+      "heading": "Advarsel om lave kreditter",
+      "content": "De gjenværende kredittene dine går tom. Vurder å fylle på snart for å unngå serviceavbrudd."
+    }
+  },
+  "Settings": {
+    "heading": "Generelle innstillinger",
+    "row1": {
+      "title": "Appspråk",
+      "subTitle": "Velg språk for å oversette appen ved hjelp av lokalisering",
+      "label": "Velg appspråk",
+      "helpText": "Kontakt kundestøtte hvis ønsket språk ikke er tilgjengelig."
+    },
+    "row2": {
+      "title": "Start Onboarding på nytt",
+      "subTitle": "Start ombordstigningsprosessen på nytt om nødvendig",
+      "label": "Start Onboarding på nytt",
+      "helpText": "Du kan starte ombordstigningsprosessen på nytt når som helst hvis du trenger å starte på nytt eller gjøre endringer i det opprinnelige oppsettet."
+    },
+    "row3": {
+      "title": "SKU genereringsveiledning",
+      "subTitle": "Få tilgang til artikler relatert til SKU-generering for bedre forståelse",
+      "label": "Hvordan bruke",
+      "helpText": "Lær hvordan du genererer SKU-er og administrerer produktbeholdningen din mer effektivt med vår SKU Generation Guide."
+    }
+  }
+}
